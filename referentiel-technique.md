@@ -20,7 +20,7 @@
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.2](#crit-1-2) [A] Chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) possède-t-il une alternative [accessible aux technologies d’assistance](glossaire.md#accessible-aux-technologies-d-assistance)&nbsp;? {id="crit-1-2"}
 
@@ -38,7 +38,7 @@
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.3](#crit-1-3) [A] Pour chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information), l’alternative [accessible aux technologies d’assistance](glossaire.md#accessible-aux-technologies-d-assistance) est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-1-3"}
 
@@ -62,7 +62,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.4](#crit-1-4) [A] Pour chaque [élément graphique](glossaire.md#element-graphique) utilisé comme [CAPTCHA](glossaire.md#captcha) ou comme [élément graphique de test](glossaire.md#element-graphique-de-test), l’alternative restituée par les technologies d’assistance permet-elle d’identifier la nature et la fonction de l’élément graphique&nbsp;? {id="crit-1-4"}
 
@@ -78,7 +78,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.5](#crit-1-5) [A] Chaque [élément graphique](glossaire.md#element-graphique) utilisé comme [CAPTCHA](glossaire.md#captcha) possède-t-il une alternative&nbsp;? {id="crit-1-5"}
 
@@ -99,7 +99,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.6](#crit-1-6) [A] Chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) a-t-il, si nécessaire, une [description détaillée](glossaire.md#description-detaillee)&nbsp;? {id="crit-1-6"}
 
@@ -125,7 +125,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.7](#crit-1-7) [A] Pour chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), celle-ci est-elle pertinente&nbsp;? {id="crit-1-7"}
 
@@ -140,7 +140,7 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 1.8](#crit-1-8) [AA] Chaque [élément graphique texte](glossaire.md#element-graphique-texte) porteur d’information, en l’absence d’un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement), doit, si possible être remplacé par du [texte stylé](glossaire.md#texte-style). Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-1-8"}
 
@@ -165,7 +165,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.5 Texte sous forme d’image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.5.1 Images of text*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.5.1 Images of text*{lang=en}.
 
 #### [Critère 1.9](#crit-1-9) [AA] Chaque [élément graphique légendé](glossaire.md#element-graphique-legende) est-il correctement restitué par les technologies d’assistance&nbsp;? {id="crit-1-9"}
 
@@ -181,7 +181,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 ### [Thématique 2](#topic-2)&nbsp;: Couleurs {id="topic-2"}
 
@@ -213,7 +213,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.1.4.1 Use of colour*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.1.4.1 Use of colour*{lang=en}.
 
 #### [Critère 2.2](#crit-2-2) [AA] Dans chaque écran, le [contraste](glossaire.md#contraste) entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers)&nbsp;? {id="crit-2-2"}
 
@@ -262,7 +262,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.7 User preferences*{lang=en} 
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.7 User preferences*{lang=en}.
 
 #### [Critère 2.3](#crit-2-3) [AA] Dans chaque écran, les couleurs utilisées dans les [composants d’interface](glossaire.md#composant-d-interface) et les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers)&nbsp;? {id="crit-2-3"}
 
@@ -323,7 +323,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.11 Non-text Contrast*{lang=en}, *11.7 User preference*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.11 Non-text Contrast*{lang=en}, *11.7 User preference*{lang=en}.
 
 #### [Critère 2.4](#crit-2-4) [AA] Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-de-l-application-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé&nbsp;? {id="crit-2-4"}
 
@@ -365,7 +365,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum), [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}, *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.1.4.11 Non-text Contrast*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}, *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.1.4.11 Non-text Contrast*{lang=en}.
 
 ### [Thématique 3](#topic-3)&nbsp;: Multimédia {id="topic-3"}
 
@@ -394,7 +394,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.2](#crit-3-2) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement audio ayant une [transcription textuelle](glossaire.md#transcription-textuelle-media-temporel), celle-ci est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-3-2"}
 
@@ -413,7 +413,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.3](#crit-3-3) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement vidéo a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-3"}
 
@@ -444,7 +444,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.4](#crit-3-4) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement vidéo ayant une alternative, celle-ci est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-3-4"}
 
@@ -474,7 +474,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.5](#crit-3-5) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-5}
 
@@ -529,7 +529,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7}
 
@@ -550,7 +550,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.2 Captions (Prerecorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.2 Captions (Prerecorded)*{lang=en}.
 
 #### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents&nbsp;? {id="crit-3-8}
 
@@ -571,7 +571,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.2 Captioning synchronization*{lang=en}, *11.1.2.2 Captions (Prerecorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.2 Captioning synchronization*{lang=en}, *11.1.2.2 Captions (Prerecorded)*{lang=en}.
 
 #### [Critère 3.9](#crit-3-9) [AA] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré (seulement vidéo ou synchronisé) a-t-il, si nécessaire, une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel) (hors cas particuliers)&nbsp;? {id="crit-3-9"}
 
@@ -592,7 +592,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.5 Audio-description (pré-enregistrée) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.10](#crit-3-10) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré (seulement vidéo ou synchronisé) ayant une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), celle-ci est-elle pertinente&nbsp;? {id="crit-3-10"}
 
@@ -615,7 +615,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.5 Audio-description (pré-enregistrée) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
 
 #### [Critère 3.11](#crit-3-11) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, le contenu textuel adjacent permet-il d’identifier clairement le média temporel (hors cas particuliers)&nbsp;?  {id="crit-3-11"}
 
@@ -636,7 +636,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
 
 #### [Critère 3.12](#crit-3-12) [A] Chaque séquence sonore déclenchée automatiquement est-elle [contrôlable](glossaire.md#controle-son-declenche-automatiquement) par l’utilisateur&nbsp;? {id="crit-3-12"}
 
@@ -658,7 +658,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.2 Contrôle du son (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.2 Audio Control*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.2 Audio Control*{lang=en}.
 
 #### [Critère 3.13](#crit-3-13) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) a-t-il, si nécessaire, les [fonctionnalités de contrôle de sa consultation](glossaire.md#controle-de-la-consultation-d-un-media-temporel)&nbsp;?  {id="crit-3-13"}
 
@@ -680,7 +680,7 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}.
 
 #### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise), les fonctionnalités de contrôle des alternatives sont-elles présentées au même niveau que les autres fonctionnalités de [contrôle primaires](glossaire.md#controle-primaire-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
 
@@ -702,7 +702,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}.
 
 #### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de sous-titres, à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
 
@@ -728,7 +728,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.1.3 Preservation of captioning*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.1.3 Preservation of captioning*{lang=en}.
 
 #### [Critère 3.16](#crit-3-16) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée&nbsp;? {id="crit-3-16"}
 
@@ -754,7 +754,7 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.2.3 Preservation of audio description*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.2.3 Preservation of audio description*{lang=en}.
 
 #### [Critère 3.17](#crit-3-17) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des sous-titres est-elle contrôlable par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-3-17"}
 
@@ -790,7 +790,7 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.4 Captions characteristics, 11.7 User preferences*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.4 Captions characteristics, 11.7 User preferences*{lang=en}.
 
 #### [Critère 3.18](#crit-3-18) [AA] Pour chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci peuvent-ils être, si nécessaire, vocalisés (hors cas particuliers)&nbsp;? {id="crit-3-18"}
 
@@ -833,7 +833,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.5 Spoken subtitles*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.5 Spoken subtitles*{lang=en}.
 
 ### [Thématique 4](#topic-4)&nbsp;: Tableaux {id="topic-4"}
 
@@ -853,7 +853,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
 
 #### [Critère 4.2](#crit-4-2) [A] Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant un [résumé](glossaire.md#resume-de-tableau), celui-ci est-il pertinent&nbsp;? {id="crit-4-2"}
 
@@ -867,7 +867,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
 
 #### [Critère 4.3](#crit-4-3) [A] Chaque [tableau de données](glossaire.md#tableau-de-donnees) a-t-il un [titre](glossaire.md#titre-d-un-tableau-de-donnees)&nbsp;? {id="crit-4-3"}
 
@@ -883,7 +883,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
 
 #### [Critère 4.4](#crit-4-4) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees) ayant un [titre](glossaire.md#titre-d-un-tableau-de-donnees), celui-ci est-il pertinent&nbsp;? {id="crit-4-4"}
 
@@ -897,7 +897,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
 
 #### [Critère 4.5](#crit-4-5) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), les entêtes de lignes et de colonnes sont-ils correctement reliés aux cellules de données&nbsp;? {id="crit-4-5"}
 
@@ -913,7 +913,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.6 Row, column, and headers*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.6 Row, column, and headers*{lang=en}.
 
 ### [Thématique 5](#topic-5)&nbsp;: Composants interactifs {id="topic-5"}
 
@@ -1026,7 +1026,7 @@ Procédure&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status*{lang=en}, *11.2.4.4 Link Purpose (in context)*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.4.1.2.1 Name, role, value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.8 Label relationships*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}, *11.5.2.11 List of available actions*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.16 Modifications of states and properties*{lang=en}, *11.6.2 No disruption of accessibility features*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status*{lang=en}, *11.2.4.4 Link Purpose (in context)*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.4.1.2.1 Name, role, value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.8 Label relationships*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}, *11.5.2.11 List of available actions*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.16 Modifications of states and properties*{lang=en}, *11.6.2 No disruption of accessibility features*{lang=en}.
 
 #### [Critère 5.2](#crit-5-2) [A] Chaque [composant d’interface](glossaire.md#composant-d-interface) est-il [contrôlable par le clavier et tout dispositif de pointage](glossaire.md#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers)&nbsp;? {id="crit-5-2"}
 
@@ -1090,7 +1090,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.2.1 Au focus (A)](https://www.w3.org/Translations/WCAG21-fr/#on-focus), [3.2.2 À la saisie (A)](https://www.w3.org/Translations/WCAG21-fr/#on-input)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.2.1 On Focus*{lang=en}, *11.3.2.2 On Input*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.2.1 On Focus*{lang=en}, *11.3.2.2 On Input*{lang=en}.
 
 #### [Critère 5.4](#crit-5-4) [AA] Dans chaque écran, les [messages de statut](glossaire.md#message-de-statut) sont-ils correctement restitués par les technologies d’assistance&nbsp;? {id="crit-5-4"}
 
@@ -1109,7 +1109,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [4.1.3 Messages d’état (AA)](https://www.w3.org/Translations/WCAG21-fr/#status-messages)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.4.1.3.1 Status Messages*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.15 Change notification*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.4.1.3.1 Status Messages*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.15 Change notification*{lang=en}.
 
 #### [Critère 5.5](#crit-5-5) [A] Chaque état d’un [contrôle à bascule](glossaire.md#controle-a-bascule) présenté à l’utilisateur est-il perceptible&nbsp;? {id="crit-5-5"}
 
@@ -1130,7 +1130,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status, 5.6.2 Visual status*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status, 5.6.2 Visual status*{lang=en}.
 
 ### [Thématique 6](#topic-6)&nbsp;: Éléments obligatoires {id="topic-6"}
 
@@ -1159,7 +1159,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.1.1 Langue de la page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.1.1.1 Language of software*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.1.1.1 Language of software*{lang=en}.
 
 #### [Critère 6.2](#crit-6-2) [A] Dans chaque écran, les éléments de l’interface ne doivent pas être utilisés [uniquement à des fins de présentation](glossaire.md#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée&nbsp;? {id="crit-6-2"}
 
@@ -1191,7 +1191,7 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}.
 
 ### [Thématique 7](#topic-7)&nbsp;: Structuration de l’information {id="topic-7"}
 
@@ -1243,7 +1243,7 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *2.4.6 Headings and Labels*{lang=en}, *4.1.2 Name, Role, Value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.4.6 Headings and Labels*{lang=en}, *11.4.1.2 Name, Role, Value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
 
 #### [Critère 7.2](#crit-7-2) [A] Dans chaque écran, chaque liste est-elle correctement structurée&nbsp;? {id="crit-7-2"}
 
@@ -1259,7 +1259,7 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
 
 ### [Thématique 8](#topic-8)&nbsp;: Présentation de l’information {id="topic-8"}
 
@@ -1279,7 +1279,7 @@ Note&nbsp;: Dans les applications, il est possible de réaliser des regroupement
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}, *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.10 Text*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}, *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.10 Text*{lang=en}.
 
 #### [Critère 8.2](#crit-8-2) [AA] Dans chaque écran, l’utilisateur peut-il augmenter la taille des caractères de 200% au moins (hors cas particuliers)&nbsp;? {id="crit-8-2"}
 
@@ -1299,7 +1299,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
-1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu'à atteindre un agrandissement de 200% (le maximum de la jauge permet d'atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l'avant-dernière position du potentiomètre).
+1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (le maximum de la jauge permet d’atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l’avant-dernière position du potentiomètre).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1311,7 +1311,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### Android
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Paramètres > Accessibilité > Taille de la police* (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;; 
-1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu'à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d'atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
+1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
@@ -1323,7 +1323,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.4 Redimensionnement du texte (AA)](https://www.w3.org/Translations/WCAG21-fr/#resize-text)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.4.1 Resize Text (AA)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.7 User preferences*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.4.1 Resize Text (AA)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.7 User preferences*{lang=en}.
 
 #### [Critère 8.3](#crit-8-3) [A] Dans chaque écran, chaque [composant en environnement de texte dont la nature n’est pas évidente](glossaire.md#composant-dont-la-nature-n-est-pas-evidente) a-t-il un rapport de contraste supérieur ou égal à 3:1 par rapport au texte environnant&nbsp;? {id="crit-8-3"}
 
@@ -1353,7 +1353,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en} 
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
 
 #### [Critère 8.4](#crit-8-4) [A] Dans chaque écran, pour chaque [composant en environnement de texte dont la nature n’est pas évidente](glossaire.md#composant-dont-la-nature-n-est-pas-evidente), une indication autre que la couleur permet-elle de signaler la prise de focus et le survol à la souris&nbsp;? {id="crit-8-4"}
 
@@ -1371,7 +1371,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en} 
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
 
 #### [Critère 8.5](#crit-8-5) [A] Dans chaque écran, pour chaque élément recevant le focus, la [prise de focus](glossaire.md#prise-de-focus) est-elle visible&nbsp;? {id="crit-8-5"}
 
@@ -1393,7 +1393,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibilité du focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.7 User preferences*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.7 User preferences*{lang=en}.
 
 #### [Critère 8.6](#crit-8-6) [A] Dans chaque écran, l’information ne doit pas être donnée uniquement par [la forme, taille ou position](glossaire.md#indication-donnee-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;? {id="crit-8-6"}
 
@@ -1411,7 +1411,7 @@ Sont concernés les mots ou ensemble de mots, les textes, les éléments graphiq
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.3 Caractéristiques sensorielles (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics), [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.3 Sensory Characteristics*{lang=en}, *11.1.4.1 Use of Colour*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.3 Sensory Characteristics*{lang=en}, *11.1.4.1 Use of Colour*{lang=en}.
 
 #### [Critère 8.7](#crit-8-7) [AA] Dans chaque écran, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](glossaire.md#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-8-7"}
 
@@ -1470,7 +1470,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.13 Contenu au survol ou au focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.13 Content on Hover or Focus*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.13 Content on Hover or Focus*{lang=en}.
 
 ### [Thématique 9](#topic-9)&nbsp;: Formulaires {id="topic-9"}
 
@@ -1489,7 +1489,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}.
 
 #### [Critère 9.2](#crit-9-2) [A] Chaque champ de formulaire a-t-il une étiquette accessible aux technologies d’assistance&nbsp;? {id="crit-9-2"}
 
@@ -1519,7 +1519,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships (A)*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships (A)*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
 
 #### [Critère 9.3](#crit-9-3) [A] Chaque étiquette associée à un champ de formulaire est-elle pertinente&nbsp;? {id="crit-9-3"}
 
@@ -1559,7 +1559,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels),  [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}.
 
 #### [Critère 9.4](#crit-9-4) [A] Chaque étiquette de champ et son champ associé sont-ils [accolés](glossaire.md#accoles-etiquette-et-champ-accoles)&nbsp;? {id="crit-9-4"}
 
@@ -1574,7 +1574,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
 
 #### [Critère 9.5](#crit-9-5) [A] Dans chaque formulaire, l’intitulé de chaque bouton est-il pertinent&nbsp;? {id="crit-9-5"}
 
@@ -1616,7 +1616,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.3.1 Label in Name (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.3.1 Label in Name (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
 
 #### [Critère 9.6](#crit-9-6) [A] Dans chaque formulaire, les [champs de même nature](glossaire.md#champs-de-meme-nature) sont-ils identifiés, si nécessaire&nbsp;? {id="crit-9-6"}
 
@@ -1638,7 +1638,7 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*{lang=en}.
 
 #### [Critère 9.7](#crit-9-7) [A] Les champs de formulaire obligatoires sont-ils correctement identifiés (hors cas particuliers)&nbsp;? {id="crit-9-7"}
 
@@ -1714,7 +1714,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.1.1 Error Identification (A)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.1.1 Error Identification (A)*{lang=en}.
 
 #### [Critère 9.10](#crit-9-10) [AA] Dans chaque formulaire, le [contrôle de saisie](glossaire.md#controle-de-saisie-formulaire) est-il accompagné, si nécessaire, de suggestions des types, formats de données ou valeurs attendus&nbsp;? {id="crit-9-10"}
 
@@ -1790,7 +1790,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.5 Identifier la finalité de la saisie (AA)](https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.5.1 Identify Input Purpose (AA)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.5.1 Identify Input Purpose (AA)*{lang=en}.
 
 ### [Thématique 10](#topic-10)&nbsp;: Navigation {id="topic-10"}
 
@@ -1810,7 +1810,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.3 Focus Order (A)*{lang=en} 
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.3 Focus Order (A)*{lang=en}.
 
 #### [Critère 10.2](#crit-10-2) [A] Dans chaque écran, l’ordre de restitution par les technologies d’assistance est-il [cohérent](glossaire.md#coherent-ordre-de-lecture)&nbsp;? {id="crit-10-2"}
 
@@ -1830,7 +1830,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*{lang=en}.
 
 #### [Critère 10.3](#crit-10-3) [A] Dans chaque écran, la navigation ne doit pas contenir de [piège au clavier](glossaire.md#piege-au-clavier). Cette règle est-elle respectée&nbsp;? {id="crit-10-3"}
 
@@ -1949,7 +1949,7 @@ Le critère est non applicable lorsque la limite de temps est essentielle, notam
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.2.1 Réglage du délai (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable*{lang=en} 
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable*{lang=en}.
 
 #### [Critère 11.3](#crit-11-3) [A] Dans chaque écran, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une [version accessible](glossaire.md#version-accessible) (hors cas particuliers)&nbsp;? {id="crit-11-3"}
 
@@ -1970,11 +1970,13 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 1. Pour chaque fichier proposé au téléchargement, dans un format bureautique, vérifier la présence d’une version alternative présentée comme accessible.
 1. Si l’alternative est proposée dans un format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier de l’alternative proposée&nbsp;; 
-	- vérifier que l’ensemble des contenus est conforme avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
 1. Si l’alternative est proposée dans l’application, vérifier que le contenu est conforme au présent référentiel.
 1. Sinon, pour les documents au format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier&nbsp;; 
-	- vérifier que l’ensemble des contenus est conforme avec la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx).
+	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.	
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2081,7 +2083,7 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.2.1 Réglage du délai (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Mettre en pause, arrêter, masquer (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}.
 
 #### [Critère 11.9](#crit-11-9) [AA] Dans chaque écran, le contenu proposé est-il consultable quelle que soit l’orientation de l’écran (portrait ou paysage) (hors cas particuliers)&nbsp;? {id="crit-11-9"}
 
@@ -2119,7 +2121,7 @@ Si l’interface est le seul moyen d’accéder au service proposé, une alterna
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.4 Orientation*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.4 Orientation*{lang=en}.
 
 #### [Critère 11.10](#crit-11-10) [A] Dans chaque écran, les fonctionnalités activables au moyen d’un [geste complexe](glossaire.md#gestes-complexes-et-gestes-simples) sont-elles activables au moyen d’un [geste simple](glossaire.md#gestes-complexes-et-gestes-simples) (hors cas particuliers)&nbsp;? {id="crit-11-10"}
 
@@ -2142,7 +2144,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.1 Gestes pour le contrôle du pointeur (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*{lang=en}.
 
 #### [Critère 11.11](#crit-11-11) [A] Dans chaque écran, les fonctionnalités activables par la réalisation d’actions simultanées sont-elles activables au moyen d’une action unique. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-11-11"}
 
@@ -2163,7 +2165,7 @@ Le critère est non applicable pour les actions requises par la plateforme.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.9 Simultaneous user actions*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.9 Simultaneous user actions*{lang=en}.
 
 #### [Critère 11.12](#crit-11-12) [A] Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers)&nbsp;? {id="crit-11-12"}
 
@@ -2188,7 +2190,7 @@ Le critère est non applicable lorsque la fonctionnalité nécessite que le comp
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.2 Annulation de l’action du pointeur (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.2 Pointer Cancellation (A)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.2 Pointer Cancellation (A)*{lang=en}.
 
 #### [Critère 11.13](#crit-11-13) [A] Dans chaque écran, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers)&nbsp;? {id="crit-11-13"}
 
@@ -2215,7 +2217,7 @@ Le critère est non applicable lorsque&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.4 Activation par le mouvement (A)](https://www.w3.org/Translations/WCAG21-fr/#motion-actuation)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*{lang=en}.
 
 #### [Critère 11.14](#crit-11-14) [AA] Pour chaque fonctionnalité de conversion d’un document, les [informations relatives à l’accessibilité](glossaire.md#information-d-accessibilite) disponibles dans le document source sont-elles conservées dans le document de destination (hors cas particuliers)&nbsp;? {id="crit-11-14"}
 
@@ -2237,7 +2239,7 @@ Le critère est non applicable lorsque le format de conversion ne dispose pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}.
 
 #### [Critère 11.15](#crit-11-15) [A] Chaque fonctionnalité d’identification ou de contrôle de l’application qui repose sur l’utilisation de [caractéristique biologique](glossaire.md#caracteristique-biologique) de l’utilisateur, dispose-t-elle d’une méthode alternative&nbsp;? {id="crit-11-15"}
 
@@ -2258,7 +2260,7 @@ Le critère est non applicable lorsque le format de conversion ne dispose pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.3 Biometrics*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.3 Biometrics*{lang=en}.
 
 #### [Critère 11.16](#crit-11-16) [A] Pour chaque application qui intègre une fonctionnalité de [répétition des touches](glossaire.md#repetition-des-touches), la répétition est-elle ajustable (hors cas particuliers)&nbsp;? {id="crit-11-16"}
 
@@ -2288,7 +2290,7 @@ Le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.7 Key repeat*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.7 Key repeat*{lang=en}.
 
 ### [Thématique 12](#topic-12)&nbsp;: Documentation et fonctionnalités d’accessibilité {id="topic-12"}
 
@@ -2322,7 +2324,7 @@ Le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.1 Accessibility and compatibility features*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.1 Accessibility and compatibility features*{lang=en}.
 
 #### [Critère 12.2](#crit-12-2) [A] Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la documentation, l’ensemble du parcours qui permet de l’activer répond aux besoins d’accessibilité des utilisateurs qui en ont besoin. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-12-2"}
 
@@ -2345,7 +2347,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}.
 
 #### [Critère 12.3](#crit-12-3) [A] L’application ne perturbe pas les fonctionnalités d’accessibilité de la plateforme. Cette règle est-elle respectée&nbsp;? {id="crit-12-3"}
 
@@ -2374,7 +2376,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.6.2 No disruption of accessibility features*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.6.2 No disruption of accessibility features*{lang=en}.
 
 #### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle accessible&nbsp;? {id="crit-12-4"}
 
@@ -2388,14 +2390,15 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
 1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
 	- s’il s’agit d’une page web, qu’il respecte le [RGAA](../rgaa4/criteres.html)&nbsp;; 
-	- s’il s’agit d’un document bureautique, qu’il respecte la [liste des critères Documents bureautiques en téléchargement (format Docx, 66 kilo-octets)](/fr/rgaa4/files/liste-criteres-documents-bureautiques-telechargement-RGAA.docx)&nbsp;;
+	- s’il s’agit d’un document bureautique au format PDF, qu’il respecte le [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+	- s’il s’agit d’un document bureautique dans un autre format, qu’il respecte les critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;;
 	- s’il s’agit d’un écran de l’application, que le présent référentiel est respecté (la page **[Obligations](../obligations.html)** détaille par ailleurs que les écrans relatifs à la documentation doivent être inclus dans l’échantillon d’évaluation).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*{lang=en}.
 
 ### [Thématique 13](#topic-13)&nbsp;: Outils d’édition {id="topic-13"}
 
@@ -2415,7 +2418,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
 #### [Critère 13.2](#crit-13-2) [A] L’[outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des aides à la création de contenus accessibles&nbsp;? {id="crit-13-2"}
 
@@ -2433,7 +2436,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
 #### [Critère 13.3](#crit-13-3) [A] Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il accessible (hors cas particuliers)&nbsp;? {id="crit-13-3"}
 
@@ -2458,7 +2461,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*{lang=en}.
 
 #### [Critère 13.4](#crit-13-4) [AA] Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’outil d’édition fournit-il des suggestions de réparation&nbsp;? {id="crit-13-4"}
 
@@ -2480,7 +2483,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}.
 
 #### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux exigences du [RGAA](../rgaa4/criteres.html). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
 
@@ -2495,7 +2498,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
 #### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RGAA est-il clairement identifiable&nbsp;? {id="crit-13-6"}
 
@@ -2510,7 +2513,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
 ### [Thématique 14](#topic-14)&nbsp;: Services d’assistance {id="topic-14"}
 
@@ -2540,7 +2543,7 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.2.2 Information on accessibility and compatibility features*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.2.2 Information on accessibility and compatibility features*{lang=en}.
 
 #### [Critère 14.2](#crit-14-2) [A] Le [service d’assistance](glossaire.md#service-d-assistance) répond aux besoins de communication des personnes handicapées directement ou par [l’intermédiaire d’un service de relais](glossaire.md#service-de-relais). Cette règle est-elle respectée&nbsp;? {id="crit-14-2"}
 
@@ -2574,7 +2577,7 @@ Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.1 Audio bandwidth for speech*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.1 Audio bandwidth for speech*{lang=en}.
 
 #### [Critère 15.2](#crit-15-2) [A] Chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel)&nbsp;? {id="crit-15-2"}
 
@@ -2594,7 +2597,7 @@ Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.1 RTT communication*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.1 RTT communication*{lang=en}.
 
 #### [Critère 15.3](#crit-15-3) [A] Pour chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les deux modes sont-ils utilisables simultanément&nbsp;? {id="crit-15-3"}
 
@@ -2610,7 +2613,7 @@ Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.2 Concurrent voice and text*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.2 Concurrent voice and text*{lang=en}.
 
 #### [Critère 15.4](#crit-15-4) [A] Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés (hors cas particuliers)&nbsp;? {id="crit-15-4"}
 
@@ -2644,7 +2647,7 @@ Le critère est non applicable lorsque la fonctionnalité de communication orale
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.1 Visually distinguishable display, 6.2.2.2 Programmatically determinable send and receive direction, 6.2.2.3 Speaker identification*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.1 Visually distinguishable display, 6.2.2.2 Programmatically determinable send and receive direction, 6.2.2.3 Speaker identification*{lang=en}.
 
 #### [Critère 15.5](#crit-15-5) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle), un indicateur visuel de l’activité orale est-il présent&nbsp;? {id="crit-15-5"} 
 
@@ -2664,7 +2667,7 @@ Le critère est non applicable lorsque la fonctionnalité de communication orale
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*{lang=en}.
 
 #### [Critère 15.6](#crit-15-6) [A] Chaque application de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) qui peut interagir avec d’autres applications de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) respecte-t-elle les règles d’interopérabilité en vigueur&nbsp;? {id="crit-15-6"}
 
@@ -2679,7 +2682,7 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.3 Interoperability*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.3 Interoperability*{lang=en}.
 
 #### [Critère 15.7](#crit-15-7) [AA] Pour chaque application qui permet une [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), le délai de transmission de chaque [unité de saisie](glossaire.md#unite-de-saisie) est de 500ms ou moins. Cette règle est-elle respectée&nbsp;? {id="crit-15-7"}
 
@@ -2695,7 +2698,7 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.4 RTT Responsiveness*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.4 RTT Responsiveness*{lang=en}.
 
 #### [Critère 15.8](#crit-15-8) [A] Pour chaque application de télécommunication, l’identification de l’interlocuteur qui initie un appel est-elle accessible&nbsp;? {id="crit-15-8"}
 
@@ -2717,7 +2720,7 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.3 Caller ID*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.3 Caller ID*{lang=en}.
 
 #### [Critère 15.9](#crit-15-9) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui fournit l’identification de l’interlocuteur, existe-t-il un moyen de présenter cette identification pour les utilisateurs de langue des signes&nbsp;? {id="crit-15-9"}
 
@@ -2732,7 +2735,7 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.6 Speaker identification with video (sign language) communication*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.6 Speaker identification with video (sign language) communication*{lang=en}.
 
 #### [Critère 15.10](#crit-15-10) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui dispose de [fonctionnalités vocales](glossaire.md#fonctionnalites-vocales), celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler&nbsp;? {id="crit-15-10"}
 
@@ -2752,7 +2755,7 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.4 Alternatives to voice-based services*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.4 Alternatives to voice-based services*{lang=en}.
 
 #### [Critère 15.11](#crit-15-11) [AA] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui dispose d’une vidéo en temps réel, la qualité de la vidéo est-elle suffisante&nbsp;? {id="crit-15-11"}
 
@@ -2776,4 +2779,4 @@ Pour la dernière condition concernant le décalage entre la vidéo et l’audio
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.2 Resolution, 6.5.3 Frame rate, 6.5.4 Synchronization between audio and video*{lang=en}
+- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.2 Resolution, 6.5.3 Frame rate, 6.5.4 Synchronization between audio and video*{lang=en}.
