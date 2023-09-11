@@ -10,4 +10,4 @@ Le référentiel d’évaluation de l’accessibilité des applications mobiles 
 - [Méthodologie de test RGAA&nbsp;3](https://github.com/DISIC/rgaa_methodologie)
 - [IBM Accessibility Requirements](https://www.ibm.com/able/requirements/requirements/){lang=en}
 - [RTC Accessibility User Requirements](https://www.w3.org/TR/raur/#routing-and-communication-channel-control){lang=en}
-- [ETSI Drafting Rules (EDR) Version adopted by the Director-General (28/09/2018) - PDF 750 ko](https://portal.etsi.org/Portals/0/TBpages/edithelp/Docs/39_directives_oct_2018_part2%20(EDR).pdf){lang=en}
+- [ETSI Drafting Rules (EDR) Version adopted by the Director-General (28/09/2018) - PDF 3620 ko](https://portal.etsi.org/directives/39_directives_oct_2018.pdf#page=179){lang=en}
