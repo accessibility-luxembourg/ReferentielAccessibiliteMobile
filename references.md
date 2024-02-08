@@ -4,7 +4,7 @@ Le référentiel d’évaluation de l’accessibilité des applications mobiles 
 
 - [EN&nbsp;301&nbsp;549 3.2.1 - PDF 2,2 Mo](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf)
 - [WCAG&nbsp;2.1](https://www.w3.org/TR/WCAG21/)
-- [RGAA&nbsp;4](https://accessibilite.public.lu/fr/rgaa4/index.html)
+- [RGAA&nbsp;4](/fr/rgaa4/index.html)
 - [RGAA&nbsp;APPS](https://disic.github.io/rgaa-apps/)
 - [RGAA&nbsp;CMS](http://disic.github.io/referentiel-cms/)
 - [Méthodologie de test RGAA&nbsp;3](https://github.com/DISIC/rgaa_methodologie)

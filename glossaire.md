@@ -367,7 +367,7 @@ Un outil d’édition devrait disposer de fonctionnalités qui permettent de dé
 - pouvoir définir des titres de section&nbsp;;
 - pouvoir définir des étiquettes aux champs de formulaires.
 
-Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du RGAA de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
+Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du RAWeb de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
 
 #### Indication donnée par la forme, la taille ou la position
 

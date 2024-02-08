@@ -2389,7 +2389,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
 	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
 1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
-	- s’il s’agit d’une page web, qu’il respecte le [RGAA](../rgaa4/criteres.html)&nbsp;; 
+	- s’il s’agit d’une page web, qu’il respecte le [RAWeb1](../raweb1/criteres.html)&nbsp;; 
 	- s’il s’agit d’un document bureautique au format PDF, qu’il respecte le [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
 	- s’il s’agit d’un document bureautique dans un autre format, qu’il respecte les critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;;
 	- s’il s’agit d’un écran de l’application, que le présent référentiel est respecté (la page **[Obligations](../obligations.html)** détaille par ailleurs que les écrans relatifs à la documentation doivent être inclus dans l’échantillon d’évaluation).
@@ -2409,7 +2409,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ###### iOS et Android
 
 1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés).
-1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au RGAA. Par exemple&nbsp;: 
+1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au RAWeb. Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
@@ -2485,14 +2485,14 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}.
 
-#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux exigences du [RGAA](../rgaa4/criteres.html). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
+#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux exigences du [RAWeb](../raweb1/criteres.html). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer la présence de gabarits mis à disposition par l’outil d’édition.
-1. Tester le respect des critères du [RGAA](../rgaa4/criteres.html) et vérifier qu’au moins un des gabarits est totalement conforme.
+1. Tester le respect des critères du [RAWeb](../raweb1/criteres.html) et vérifier qu’au moins un des gabarits est totalement conforme.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
@@ -2500,13 +2500,13 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 - WCAG 2.1&nbsp;: N/A
 - EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
-#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RGAA est-il clairement identifiable&nbsp;? {id="crit-13-6"}
+#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RAWeb est-il clairement identifiable&nbsp;? {id="crit-13-6"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer la présence de gabarits totalement conformes au [RGAA](../rgaa4/criteres.html) mis à disposition par l’outil d’édition.
+1. Repérer la présence de gabarits totalement conformes au [RAWeb](../raweb1/criteres.html) mis à disposition par l’outil d’édition.
 1. Vérifier la présence d’une mention explicite permettant de les identifier. Par exemple, depuis la liste des gabarits, les gabarits conformes possèdent une étiquette &laquo;&nbsp;gabarit accessible&nbsp;&raquo;.
 1. Si c’est le cas, le critère est validé.
 
