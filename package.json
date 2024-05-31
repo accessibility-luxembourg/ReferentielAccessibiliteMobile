@@ -1,0 +1,25 @@
+{
+  "name": "raam",
+  "version": "1.0.0",
+  "description": "le référentiel d’évaluation de l’accessibilité des applications mobiles a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public  concernés par la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile.git"
+  },
+  "author": "SIP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile/issues"
+  },
+  "homepage": "https://github.com/accessibility-luxembourg/ReferentielAccessibiliteMobile#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.1.6",
+    "turndown": "^7.2.0"
+  }
+}
