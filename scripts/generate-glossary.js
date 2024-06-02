@@ -6,8 +6,6 @@ const GLOSSARY_SOURCE = "./glossaire.md";
 const GLOSSARY_DESTINATION = "./json/glossaire.json";
 
 
-// TODO: should we rewrite links? if yes, how?
-
 async function generateGlossary() {
   try {
     let glossary = []
