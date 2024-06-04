@@ -31,6 +31,8 @@ async function generateCriteria() {
 	  let test = []
 	  let firstTest = true
 	  let testNum = '1'
+	  let recordCp = false
+	  let particularCases = []
 	  $('div.root>*').each((i,e) => {
 		  let tagname = $(e).prop('tagName').toLowerCase()
 		  if (tagname == 'h3') {
@@ -66,9 +68,19 @@ async function generateCriteria() {
 				test = []
 				testNum = 1
 			}
+			console.log($(e).html(), $(e).attr('class'))
+			if ($(e).text().match(/^Cas\sparticulier/)) {
+				recordCp = true
+            } else if ($(e).attr('class')?.includes('methodo')) {
+				recordCp = false
+				crit.particularCases = particularCases
+				particularCases = []
+            } else if ($(e).attr('class')?.includes('mapping')) {
+				// get next UL and extract the content
+            }
 		  } else if (tagname == 'p') {
 			let testId = $(e).attr('id')
-			if (testId?.substr(0,4) == 'test') {
+			if (testId?.substr(0,4) == 'test') { // we are in a test
 				if (firstTest) {
 					firstTest = false
 				} else {
@@ -78,8 +90,18 @@ async function generateCriteria() {
 				testNum = testId?.match(/test-\d{1,2}-\d{1,2}-(\d{1,2})/)[1]
 				$(e).find('strong').remove()
 				test.push(toMd($(e).html()))
+			} else if (recordCp) {
+				particularCases.push(toMd($(e).html()))
 			} else {
 				//console.log('warning: '+testId+ $(e).prop('outerHTML'))
+			}
+		  } else if (tagname == 'ol') {
+			if (recordCp) {
+				let items = []
+				$(e).find('li').each((i,u) => {
+					items.push(toMd($(u).html()))
+				})
+				particularCases.push({'ol': items})
 			}
 		  } else if (tagname == 'ul') {
 			if ($(e).find('li[id]').length !== 0) { // we have more than one test
@@ -103,6 +125,12 @@ async function generateCriteria() {
 					$(e).find('li').each((i,f) => {
 						test.push(toMd($(f).html()))
 					})
+				} else if (recordCp) {
+					let items = []
+					$(e).find('li').each((i,u) => {
+						items.push(toMd($(u).html()))
+					})
+					particularCases.push({'ul': items})
 				}
 			}
 		  } else {
