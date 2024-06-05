@@ -7,6 +7,9 @@ const turndownService = new TurndownService()
 const CRITERIA_SOURCE = "./referentiel-technique.md";
 const CRITERIA_DESTINATION = "./json/criteres.json";
 
+const WCAG_VERSION = 'WCAG 2.1'
+const EN_VERSION = 'EN 301 549 V3.2.1 (2021-03)'
+
 function toMd(html) {
 	if (html !== undefined) {
 		return turndownService.turndown(html.trim())
@@ -16,7 +19,7 @@ function toMd(html) {
 }
 
 async function generateCriteria() {
-	// try {
+	try {
 	  let topics = []
   
 	  const data = await fs.readFile(`${CRITERIA_SOURCE}`, "utf-8");
@@ -68,15 +71,35 @@ async function generateCriteria() {
 				test = []
 				testNum = 1
 			}
-			console.log($(e).html(), $(e).attr('class'))
 			if ($(e).text().match(/^Cas\sparticulier/)) {
 				recordCp = true
             } else if ($(e).attr('class')?.includes('methodo')) {
 				recordCp = false
-				crit.particularCases = particularCases
+				if (particularCases.length !== 0) {
+					crit.particularCases = particularCases
+				}
 				particularCases = []
             } else if ($(e).attr('class')?.includes('mapping')) {
 				// get next UL and extract the content
+				crit.references = {}
+				$(e).next('ul').find('li').each((i,f) => {
+					let standard =$(f).text().split(':').map(g => g.trim())[0]
+					let label = (standard == WCAG_VERSION)?'wcag':'norm'
+					let sc = []
+					if (label == 'wcag') {
+						$(f).find('a').each((j,g) => {
+							sc.push($(g).text())
+						})
+					} else {
+						$(f).find('em').each((j,g) => {
+							$(g).text().split(/,\s(?=\d)/).map(h => sc.push(h.trim()))
+						})						
+					}
+					if (sc.length !== 0) {
+						crit.references[label] = sc
+					}
+					
+				})
             }
 		  } else if (tagname == 'p') {
 			let testId = $(e).attr('id')
@@ -140,16 +163,17 @@ async function generateCriteria() {
   
 	  const result = {wcag: {version: 2.1}, en301549: {version: "3.2.1"}, topics}
 
-	  console.log(JSON.stringify(result, null, 2).replaceAll(/\\n/g, ' '))
+
+	  //console.log(JSON.stringify(result, null, 2).replaceAll(/\\n/g, ' '))
 
 	  // Remove line breaks (\n) and create JSON file
-	//   let file = JSON.stringify(result, null, 2).replaceAll(/\\n/g, ' ')
-	//   fs.writeFile(CRITERIA_DESTINATION, file);
+	  let file = JSON.stringify(result, null, 2).replaceAll(/\\n/g, ' ')
+	  fs.writeFile(CRITERIA_DESTINATION, file);
   
-	//   console.log(`✅ Criteria successfully generated.`);
+	  console.log(`✅ Criteria successfully generated.`);
   
-	// } catch (err) {
-	//   console.error(`❌ An error occured while generating criteria: ${err}`);
-	// }
+	} catch (err) {
+	  console.error(`❌ An error occured while generating criteria: ${err}`);
+	}
   }
 generateCriteria();
