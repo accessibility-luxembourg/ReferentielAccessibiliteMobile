@@ -4,7 +4,8 @@
   "description": "le référentiel d’évaluation de l’accessibilité des applications mobiles a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public  concernés par la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/generate-criteria.js && node scripts/generate-glossary.js && node scripts/generate-methodologies.js"
   },
   "repository": {
     "type": "git",
