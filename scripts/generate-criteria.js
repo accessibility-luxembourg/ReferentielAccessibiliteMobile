@@ -47,7 +47,7 @@ async function generateCriteria() {
 				  firstCrit = true
 			  }
 			  let tmpTitle = $(e).html()
-			  topic.title = toMd(tmpTitle.split('&nbsp;:')[1])
+			  topic.topic = toMd(tmpTitle.split('&nbsp;:')[1])
 			  topic.number = parseInt($('<div>'+tmpTitle+'<div>')?.find('a')?.attr('href')?.replace('#topic-', ''))
 		  } else if (tagname == 'h4') {
 			if (firstCrit) {

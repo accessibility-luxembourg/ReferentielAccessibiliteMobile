@@ -148,7 +148,7 @@
           }
         }
       ],
-      "title": "Éléments graphiques",
+      "topic": "Éléments graphiques",
       "number": 1
     },
     {
@@ -248,7 +248,7 @@
           }
         }
       ],
-      "title": "Couleurs",
+      "topic": "Couleurs",
       "number": 2
     },
     {
@@ -602,7 +602,7 @@
           }
         }
       ],
-      "title": "Multimédia",
+      "topic": "Multimédia",
       "number": 3
     },
     {
@@ -683,7 +683,7 @@
           }
         }
       ],
-      "title": "Tableaux",
+      "topic": "Tableaux",
       "number": 4
     },
     {
@@ -820,7 +820,7 @@
           }
         }
       ],
-      "title": "Composants interactifs",
+      "topic": "Composants interactifs",
       "number": 5
     },
     {
@@ -846,7 +846,7 @@
           }
         }
       ],
-      "title": "Éléments obligatoires",
+      "topic": "Éléments obligatoires",
       "number": 6
     },
     {
@@ -879,7 +879,7 @@
           }
         }
       ],
-      "title": "Structuration de l’information",
+      "topic": "Structuration de l’information",
       "number": 7
     },
     {
@@ -995,7 +995,7 @@
           }
         }
       ],
-      "title": "Présentation de l’information",
+      "topic": "Présentation de l’information",
       "number": 8
     },
     {
@@ -1242,7 +1242,7 @@
           }
         }
       ],
-      "title": "Formulaires",
+      "topic": "Formulaires",
       "number": 9
     },
     {
@@ -1307,7 +1307,7 @@
           }
         }
       ],
-      "title": "Navigation",
+      "topic": "Navigation",
       "number": 10
     },
     {
@@ -1636,7 +1636,7 @@
           }
         }
       ],
-      "title": "Consultation",
+      "topic": "Consultation",
       "number": 11
     },
     {
@@ -1694,7 +1694,7 @@
           }
         }
       ],
-      "title": "Documentation et fonctionnalités d’accessibilité",
+      "topic": "Documentation et fonctionnalités d’accessibilité",
       "number": 12
     },
     {
@@ -1763,7 +1763,7 @@
           }
         }
       ],
-      "title": "Outils d’édition",
+      "topic": "Outils d’édition",
       "number": 13
     },
     {
@@ -1780,7 +1780,7 @@
           }
         }
       ],
-      "title": "Services d’assistance",
+      "topic": "Services d’assistance",
       "number": 14
     },
     {
@@ -1930,7 +1930,7 @@
           }
         }
       ],
-      "title": "Communication en temps réel",
+      "topic": "Communication en temps réel",
       "number": 15
     }
   ]
