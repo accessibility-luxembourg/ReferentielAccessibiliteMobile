@@ -32,4 +32,4 @@ Le système Android a ceci de particulier qu’il peut recevoir des couches appl
 
 Lorsque l’application est destinée à être diffusée et utilisée dans un environnement maîtrisé, l’environnement de test (base de référence) doit être constitué des configurations (technologie d’assistance, système d’exploitation) effectivement utilisées dans l’environnement maîtrisé.
 
-Par exemple, lorsque l’application est exclusivement diffusée dans un environnement iOS, les tests devront être réalisés uniquement avec des terminaux iOS et les technologies d’assistance qui en dépendent, par les agents sur cette plateforme. Cet environnement de test (base de référence) se substitue à l’environnement de test (base de référence) utilisé en environnement non maîtrisé.
+Par exemple, lorsque l’application est exclusivement diffusée dans un environnement iOS, les tests devront être réalisés uniquement avec des terminaux iOS et les technologies d’assistance qui en dépendent, par les agents sur cette plateforme. Cet environnement de test se substitue à l’environnement de test utilisé en environnement non maîtrisé.

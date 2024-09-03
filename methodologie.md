@@ -1,4 +1,4 @@
-Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’élément d’attribut, il est très difficile pour les applications mobiles de procéder de la même manière. D’une part, parce que cela demanderait des compétences techniques élevées (on accède au logiciel, mais rarement à son code contrairement à un site web). D’autre part, parce que contrairement au web et aux technologies (HTML/CSS/JavaScript) il existe une diversité d’environnements de développement qui rend difficile la définition d’une liste de tests basée sur la revue de code.
+Contrairement aux contenus web pour lesquels il est possible d’inspecter le code source afin de déterminer la présence d’éléments ou d’attributs, il est très difficile pour les applications mobiles de procéder de la même manière. D’une part, parce que cela demanderait des compétences techniques élevées (on accède au logiciel, mais rarement à son code contrairement à un site web). D’autre part, parce que contrairement au web et aux technologies HTML / CSS / JavaScript il existe une diversité d’environnements de développement qui rend difficile la définition d’une liste de tests basée sur la revue de code.
 
 C’est la raison pour laquelle l’approche choisie est de tester la présence de certains éléments au travers d’outils spécialisés (inspecteurs d’interfaces, technologies d’assistance, commutateurs externes) ou directement sur l’interface elle-même.
 
@@ -79,7 +79,7 @@ iOS permet de spécifier un style de focus pour les utilisateurs qui utilisent u
 - de la masquer automatiquement au bout d’un temps paramétrable&nbsp;;
 - d’augmenter la taille de la prise de focus&nbsp;;
 - d’augmenter le contraste&nbsp;;
-- de choisir la couleur.
+- la couleur.
 
 ##### Android
 
