@@ -30,7 +30,7 @@ async function generateCriteria() {
 	  let firstTopic = true
 	  let firstCrit = true
 	  let topic = {"criteria": []}
-	  let crit = {tests: {}}
+	  let crit = {criterium: {tests: {}}}
 	  let test = []
 	  let firstTest = true
 	  let testNum = '1'
@@ -54,20 +54,20 @@ async function generateCriteria() {
 				firstCrit = false
 			} else {
 				topic.criteria.push(crit)
-				crit = {tests: {}}
+				crit = {criterium: {tests: {}}}
 			}
 			let tmpTitle = $(e).html()
-			crit.number = $('<div>'+tmpTitle+'<div>').find('a').attr('href').replace(/#crit-.*-/, '')
+			crit.criterium.number = parseInt($('<div>'+tmpTitle+'<div>').find('a').attr('href').replace(/#crit-.*-/, ''))
 			$(e).find('a:first-child').remove()
 			tmpTitle = $(e).html().trim()
 			const re = /\[([A]{1,2})\]\s(.*)$/
 			const matchs = tmpTitle.match(re)
-			crit.title = toMd(matchs[2])
-			crit.level = matchs[1]
+			crit.criterium.title = toMd(matchs[2])
+			crit.criterium.level = matchs[1]
 		  } else if (tagname == 'h5') {
 			if (firstTest == false) {
 				firstTest = true
-				crit.tests[testNum] = test
+				crit.criterium.tests[testNum] = test
 				test = []
 				testNum = 1
 			}
@@ -76,12 +76,12 @@ async function generateCriteria() {
             } else if ($(e).attr('class')?.includes('methodo')) {
 				recordCp = false
 				if (particularCases.length !== 0) {
-					crit.particularCases = particularCases
+					crit.criterium.particularCases = particularCases
 				}
 				particularCases = []
             } else if ($(e).attr('class')?.includes('mapping')) {
 				// get next UL and extract the content
-				crit.references = {}
+				crit.criterium.references = {}
 				$(e).next('ul').find('li').each((i,f) => {
 					let standard =$(f).text().split(':').map(g => g.trim())[0]
 					let label = (standard == WCAG_VERSION)?'wcag':'norm'
@@ -93,12 +93,12 @@ async function generateCriteria() {
 					} else {
 						$(f).find('em').each((j,g) => {
 							$(g).text().split(/,\s(?=\d)/).map(h => sc.push(h.trim()))
-						})						
+						})
 					}
 					if (sc.length !== 0) {
-						crit.references[label] = sc
+						crit.criterium.references[label] = sc
 					}
-					
+
 				})
             }
 		  } else if (tagname == 'p') {
@@ -107,7 +107,7 @@ async function generateCriteria() {
 				if (firstTest) {
 					firstTest = false
 				} else {
-					crit.tests[testNum] = test
+					crit.criterium.tests[testNum] = test
 					test = []
 				}
 				testNum = testId?.match(/test-\d{1,2}-\d{1,2}-(\d{1,2})/)[1]
@@ -136,11 +136,11 @@ async function generateCriteria() {
 					if (ul.length !== 0) {
 						$(ul[0]).find('li').each((k, g) => {
 							test.push(toMd($(g).html()))
-						}) 
+						})
 					}
 					$(f).find('ul').remove()
 					test.unshift(toMd($(f).html()))
-					crit.tests[testNum] = test
+					crit.criterium.tests[testNum] = test
 					test = []
 				})
 			} else {
