@@ -42,6 +42,8 @@ async function generateCriteria() {
 			  if (firstTopic) {
 				  firstTopic = false
 			  } else {
+				  topic.criteria.push(crit)
+				  crit = {criterium: {tests: {}}}
 				  topics.push(topic)
 				  topic = {"criteria": []}
 				  firstCrit = true

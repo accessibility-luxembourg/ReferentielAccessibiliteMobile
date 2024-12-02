@@ -162,6 +162,22 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 9,
+            "title": "Chaque [élément graphique légendé](glossaire.md#element-graphique-legende) est-il correctement restitué par les technologies d’assistance ?",
+            "level": "AA",
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "norm": [
+                "11.1.1.1.1 Non-text Content"
+              ]
+            }
+          }
         }
       ],
       "topic": "Éléments graphiques",
@@ -268,6 +284,25 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 4,
+            "title": "Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-de-l-application-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé ?",
+            "level": "AA",
+            "references": {
+              "wcag": [
+                "1.4.3 Contraste (minimum) (AA)",
+                "1.4.11 Contraste du contenu non textuel (AA)"
+              ],
+              "norm": [
+                "5.2 Activation of accessibility features",
+                "11.1.4.3 Contrast (Minimum)",
+                "11.1.4.11 Non-text Contrast"
+              ]
+            }
+          }
         }
       ],
       "topic": "Couleurs",
@@ -281,16 +316,6 @@
             "number": 1,
             "title": "Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement audio a-t-il, si nécessaire, une [transcription textuelle](glossaire.md#transcription-textuelle-media-temporel) [adjacente clairement identifiable](glossaire.md#adjacente-clairement-identifiable) (hors cas particuliers) ?",
             "level": "A",
-            "references": {
-              "wcag": [
-                "1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)",
-                "1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)"
-              ],
-              "norm": [
-                "11.1.2.1.1 Audio-only and Video-only (Pre-recorded)",
-                "11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)"
-              ]
-            },
             "particularCases": [
               "Le critère est non applicable pour les éléments suivants :",
               {
@@ -303,7 +328,17 @@
                   "Le média temporel a été publié avant le 23 septembre 2020 (d’après la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo))."
                 ]
               }
-            ]
+            ],
+            "references": {
+              "wcag": [
+                "1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)",
+                "1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)"
+              ],
+              "norm": [
+                "11.1.2.1.1 Audio-only and Video-only (Pre-recorded)",
+                "11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)"
+              ]
+            }
           }
         },
         {
@@ -656,13 +691,7 @@
               ]
             }
           }
-        }
-      ],
-      "topic": "Multimédia",
-      "number": 3
-    },
-    {
-      "criteria": [
+        },
         {
           "criterium": {
             "tests": {
@@ -672,9 +701,9 @@
                 "Il existe une piste audio supplémentaire qui contient les sous-titres vocalisés."
               ]
             },
-            "number": 1,
-            "title": "Chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) a-t-il un [résumé](glossaire.md#resume-de-tableau) ?",
-            "level": "A",
+            "number": 18,
+            "title": "Pour chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci peuvent-ils être, si nécessaire, vocalisés (hors cas particuliers) ?",
+            "level": "AA",
             "particularCases": [
               "Le critère est non applicable dans les cas suivants :",
               {
@@ -684,6 +713,25 @@
                 ]
               }
             ],
+            "references": {
+              "norm": [
+                "7.1.5 Spoken subtitles"
+              ]
+            }
+          }
+        }
+      ],
+      "topic": "Multimédia",
+      "number": 3
+    },
+    {
+      "criteria": [
+        {
+          "criterium": {
+            "tests": {},
+            "number": 1,
+            "title": "Chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) a-t-il un [résumé](glossaire.md#resume-de-tableau) ?",
+            "level": "A",
             "references": {
               "wcag": [
                 "1.3.1 Information et relations (A)"
@@ -745,6 +793,24 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 5,
+            "title": "Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), les entêtes de lignes et de colonnes sont-ils correctement reliés aux cellules de données ?",
+            "level": "A",
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "norm": [
+                "11.1.3.1.1 Info and Relationships",
+                "11.5.2.5 Object information",
+                "11.5.2.6 Row, column, and headers"
+              ]
+            }
+          }
         }
       ],
       "topic": "Tableaux",
@@ -772,6 +838,23 @@
             "number": 1,
             "title": "Chaque [composant d’interface](glossaire.md#composant-d-interface) est-il, si nécessaire, [compatible avec les technologies d’assistance](glossaire.md#compatible-avec-les-technologies-d-assistance) (hors cas particuliers) ?",
             "level": "A",
+            "particularCases": [
+              "Le critère est non applicable pour les éléments suivants :",
+              {
+                "ul": [
+                  "L’application est soumise à des exigences de sécurité strictes qui empêchent d’autres applications d’interagir avec son interface (comme une technologie d’assistance). Des exemples de systèmes soumis à des exigences de sécurité strictes sont les systèmes traitant des activités de renseignement, des activités de cryptologie liées à la sécurité nationale, du commandement et du contrôle des forces militaires.",
+                  "Les cartes et les services de cartographie en ligne, pour autant que les informations essentielles soient fournies sous une forme numérique accessible pour ce qui concerne les cartes destinées à la navigation."
+                ]
+              },
+              "Il existe une gestion de cas particuliers pour le [test 5.1.2](#test-5-1-2) lorsque :",
+              {
+                "ul": [
+                  "La ponctuation et les lettres majuscules sont présentes dans le texte de l’intitulé visible : elles peuvent être ignorées dans le nom accessible sans porter à conséquence.",
+                  "Le texte de l’intitulé visible sert de symbole : le texte ne doit pas être interprété littéralement au niveau du nom accessible. Le nom doit exprimer la fonction véhiculée par le symbole (par exemple, “B” au niveau d’un éditeur de texte aura pour nom accessible “Mettre en gras”, le signe “>” en fonction du contexte signifiera “Suivant” ou “Lancer la vidéo”). Le cas des symboles mathématiques fait cependant exception (voir la note ci-dessous)."
+                ]
+              },
+              "**Note :** si l’étiquette visible représente une expression mathématique, les symboles mathématiques peuvent être repris littéralement pour servir d’étiquette au nom accessible (ex. : “A>B”). Il est laissé à l’utilisateur le soin d’opérer la correspondance entre l’expression et ce qu’il doit épeler compte tenu de la connaissance qu’il a du fonctionnement de son logiciel de saisie vocale (“A plus grand que B” ou “A supérieur à B”)."
+            ],
             "references": {
               "wcag": [
                 "2.4.4 Link Purpose (In Context)",
@@ -793,24 +876,7 @@
                 "11.5.2.16 Modifications of states and properties",
                 "11.6.2 No disruption of accessibility features"
               ]
-            },
-            "particularCases": [
-              "Le critère est non applicable pour les éléments suivants :",
-              {
-                "ul": [
-                  "L’application est soumise à des exigences de sécurité strictes qui empêchent d’autres applications d’interagir avec son interface (comme une technologie d’assistance). Des exemples de systèmes soumis à des exigences de sécurité strictes sont les systèmes traitant des activités de renseignement, des activités de cryptologie liées à la sécurité nationale, du commandement et du contrôle des forces militaires.",
-                  "Les cartes et les services de cartographie en ligne, pour autant que les informations essentielles soient fournies sous une forme numérique accessible pour ce qui concerne les cartes destinées à la navigation."
-                ]
-              },
-              "Il existe une gestion de cas particuliers pour le [test 5.1.2](#test-5-1-2) lorsque :",
-              {
-                "ul": [
-                  "La ponctuation et les lettres majuscules sont présentes dans le texte de l’intitulé visible : elles peuvent être ignorées dans le nom accessible sans porter à conséquence.",
-                  "Le texte de l’intitulé visible sert de symbole : le texte ne doit pas être interprété littéralement au niveau du nom accessible. Le nom doit exprimer la fonction véhiculée par le symbole (par exemple, “B” au niveau d’un éditeur de texte aura pour nom accessible “Mettre en gras”, le signe “>” en fonction du contexte signifiera “Suivant” ou “Lancer la vidéo”). Le cas des symboles mathématiques fait cependant exception (voir la note ci-dessous)."
-                ]
-              },
-              "**Note :** si l’étiquette visible représente une expression mathématique, les symboles mathématiques peuvent être repris littéralement pour servir d’étiquette au nom accessible (ex. : “A>B”). Il est laissé à l’utilisateur le soin d’opérer la correspondance entre l’expression et ce qu’il doit épeler compte tenu de la connaissance qu’il a du fonctionnement de son logiciel de saisie vocale (“A plus grand que B” ou “A supérieur à B”)."
-            ]
+            }
           }
         },
         {
@@ -890,13 +956,7 @@
               ]
             }
           }
-        }
-      ],
-      "topic": "Composants interactifs",
-      "number": 5
-    },
-    {
-      "criteria": [
+        },
         {
           "criterium": {
             "tests": {
@@ -906,6 +966,26 @@
                 "L’état de la fonctionnalité peut être déterminé par le toucher ou le son sans modifier l’état du contrôle."
               ]
             },
+            "number": 5,
+            "title": "Chaque état d’un [contrôle à bascule](glossaire.md#controle-a-bascule) présenté à l’utilisateur est-il perceptible ?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "5.6.1 Tactile or auditory status",
+                "5.6.2 Visual status"
+              ]
+            }
+          }
+        }
+      ],
+      "topic": "Composants interactifs",
+      "number": 5
+    },
+    {
+      "criteria": [
+        {
+          "criterium": {
+            "tests": {},
             "number": 1,
             "title": "Dans chaque écran, les textes sont-ils restitués par les technologies d’assistance dans la langue principale de l’écran ?",
             "level": "A",
@@ -915,6 +995,22 @@
               ],
               "norm": [
                 "11.3.1.1.1 Language of software"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 2,
+            "title": "Dans chaque écran, les éléments de l’interface ne doivent pas être utilisés [uniquement à des fins de présentation](glossaire.md#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée ?",
+            "level": "A",
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "norm": [
+                "11.1.3.1.1 Info and Relationships"
               ]
             }
           }
@@ -948,6 +1044,24 @@
                 "11.2.4.6 Headings and Labels",
                 "11.4.1.2 Name, Role, Value",
                 "11.5.2.3 Use of accessibility services",
+                "11.5.2.5 Object information",
+                "11.5.2.9 Parent-child relationships"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 2,
+            "title": "Dans chaque écran, chaque liste est-elle correctement structurée ?",
+            "level": "A",
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "norm": [
+                "11.1.3.1.1 Info and Relationships",
                 "11.5.2.5 Object information",
                 "11.5.2.9 Parent-child relationships"
               ]
@@ -1081,13 +1195,7 @@
               ]
             }
           }
-        }
-      ],
-      "topic": "Présentation de l’information",
-      "number": 8
-    },
-    {
-      "criteria": [
+        },
         {
           "criterium": {
             "tests": {
@@ -1104,13 +1212,35 @@
                 "Le contenu additionnel reste visible jusqu’à ce qu’il ne soit plus valide."
               ]
             },
-            "number": 1,
-            "title": "Chaque champ de formulaire a-t-il une étiquette visible ?",
-            "level": "A",
+            "number": 7,
+            "title": "Dans chaque écran, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](glossaire.md#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?",
+            "level": "AA",
             "particularCases": [
               "Le critère est non applicable lorsque le contenu additionnel est contrôlé par la plateforme (par exemple, attribut `title` en HTML) ou correspond à une fenêtre modale.",
               "Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d’information, le [test 8.7.1](#test-8-7-1) est non applicable."
             ],
+            "references": {
+              "wcag": [
+                "1.4.13 Contenu au survol ou au focus (AA)"
+              ],
+              "norm": [
+                "11.1.4.13 Content on Hover or Focus"
+              ]
+            }
+          }
+        }
+      ],
+      "topic": "Présentation de l’information",
+      "number": 8
+    },
+    {
+      "criteria": [
+        {
+          "criterium": {
+            "tests": {},
+            "number": 1,
+            "title": "Chaque champ de formulaire a-t-il une étiquette visible ?",
+            "level": "A",
             "references": {
               "wcag": [
                 "2.4.6 En-têtes et étiquettes (AA)"
@@ -1350,13 +1480,7 @@
               ]
             }
           }
-        }
-      ],
-      "topic": "Formulaires",
-      "number": 9
-    },
-    {
-      "criteria": [
+        },
         {
           "criterium": {
             "tests": {
@@ -1366,6 +1490,28 @@
                 "Le champ est compatible avec une fonctionnalité de remplissage automatique."
               ]
             },
+            "number": 12,
+            "title": "Pour chaque champ qui attend une [donnée personnelle de l’utilisateur](glossaire.md#donnee-personnelle-de-l-utilisateur), la saisie est-elle facilitée ?",
+            "level": "AA",
+            "references": {
+              "wcag": [
+                "1.3.5 Identifier la finalité de la saisie (AA)"
+              ],
+              "norm": [
+                "11.1.3.5.1 Identify Input Purpose (AA)"
+              ]
+            }
+          }
+        }
+      ],
+      "topic": "Formulaires",
+      "number": 9
+    },
+    {
+      "criteria": [
+        {
+          "criterium": {
+            "tests": {},
             "number": 1,
             "title": "Dans chaque écran, l’[ordre de tabulation](glossaire.md#ordre-de-tabulation) au clavier est-il [cohérent](glossaire.md#coherent-ordre-de-lecture) ?",
             "level": "A",
@@ -1421,6 +1567,29 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {
+              "1": [
+                "Dans chaque écran, chaque raccourci clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) vérifie-t-il l’une de ces conditions ?",
+                "Un mécanisme est disponible pour désactiver le raccourci clavier ;",
+                "Un mécanisme est disponible pour configurer la touche de raccourci clavier au moyen des touches de modification (Ctrl, Alt, Maj, etc.) ;",
+                "Dans le cas d’un composant d’interface, le raccourci clavier qui lui est associé ne peut être activé que si le focus clavier est sur ce composant."
+              ]
+            },
+            "number": 4,
+            "title": "Dans chaque écran, les [raccourcis clavier](glossaire.md#raccourci-clavier) n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?",
+            "level": "A",
+            "references": {
+              "wcag": [
+                "2.1.4 Raccourcis clavier utilisant des caractères (A)"
+              ],
+              "norm": [
+                "11.2.1.4.1 Character Key Shortcuts (A)"
+              ]
+            }
+          }
         }
       ],
       "topic": "Navigation",
@@ -1442,6 +1611,9 @@
             "number": 1,
             "title": "Pour chaque écran, l’utilisateur a-t-il le contrôle de chaque [limite de temps modifiant le contenu](glossaire.md#procede-de-rafraichissement) (hors cas particuliers) ?",
             "level": "A",
+            "particularCases": [
+              "Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu."
+            ],
             "references": {
               "wcag": [
                 "2.2.1 Réglage du délai (A)",
@@ -1451,10 +1623,7 @@
                 "11.2.2.1 Timing adjustable (A)",
                 "11.2.2.2 Pause, Stop, Hide (A)"
               ]
-            },
-            "particularCases": [
-              "Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu."
-            ]
+            }
           }
         },
         {
@@ -1780,6 +1949,34 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {
+              "1": [
+                "Pour chaque application qui intègre une fonctionnalité de répétition des touches, les conditions suivantes sont-elles respectées ?",
+                "Le délai de déclenchement de la fonction de répétition peut être paramétré à 2 secondes au moins ;",
+                "Le délai entre deux répétitions peut être paramétré au moins à 2 secondes."
+              ]
+            },
+            "number": 16,
+            "title": "Pour chaque application qui intègre une fonctionnalité de [répétition des touches](glossaire.md#repetition-des-touches), la répétition est-elle ajustable (hors cas particuliers) ?",
+            "level": "A",
+            "particularCases": [
+              "Le critère est non applicable :",
+              {
+                "ul": [
+                  "Pour les répétitions de touches gérées au niveau de la plateforme ;",
+                  "Pour les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches."
+                ]
+              }
+            ],
+            "references": {
+              "norm": [
+                "5.7 Key repeat"
+              ]
+            }
+          }
         }
       ],
       "topic": "Consultation",
@@ -1800,15 +1997,6 @@
             "number": 1,
             "title": "La documentation de l’application décrit-elle les [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application et leur utilisation ?",
             "level": "AA",
-            "particularCases": [
-              "Le critère est non applicable :",
-              {
-                "ul": [
-                  "Pour les répétitions de touches gérées au niveau de la plateforme ;",
-                  "Pour les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches."
-                ]
-              }
-            ],
             "references": {
               "norm": [
                 "12.1.1 Accessibility and compatibility features"
@@ -1841,6 +2029,20 @@
             "references": {
               "norm": [
                 "11.6.2 No disruption of accessibility features"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 4,
+            "title": "La documentation de l’application est-elle accessible ?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "12.1.2 Accessible documentation",
+                "12.2.4 Accessible documentation"
               ]
             }
           }
@@ -1923,6 +2125,20 @@
               ]
             }
           }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 6,
+            "title": "Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RAWeb est-il clairement identifiable ?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "11.8.1 Content technology",
+                "11.8.5 Templates"
+              ]
+            }
+          }
         }
       ],
       "topic": "Outils d’édition",
@@ -1939,6 +2155,19 @@
             "references": {
               "norm": [
                 "12.2.2 Information on accessibility and compatibility features"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {},
+            "number": 2,
+            "title": "Le [service d’assistance](glossaire.md#service-d-assistance) répond aux besoins de communication des personnes handicapées directement ou par [l’intermédiaire d’un service de relais](glossaire.md#service-de-relais). Cette règle est-elle respectée ?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "12.2.3 Effective communication"
               ]
             }
           }
@@ -2109,6 +2338,28 @@
             "references": {
               "norm": [
                 "6.4 Alternatives to voice-based services"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {
+              "1": [
+                "Pour chaque application de communication orale bidirectionnelle qui dispose d’une vidéo en temps réel, les conditions suivantes sont-elles respectées ?",
+                "La résolution de la vidéo répond à la norme [QVGA](glossaire.md#qvga) au moins ;",
+                "La fréquence des images est de 20 images par seconde au moins ;",
+                "Le décalage entre la vidéo et les paroles ne doit pas être supérieur à 100 ms."
+              ]
+            },
+            "number": 11,
+            "title": "Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui dispose d’une vidéo en temps réel, la qualité de la vidéo est-elle suffisante ?",
+            "level": "AA",
+            "references": {
+              "norm": [
+                "6.5.2 Resolution",
+                "6.5.3 Frame rate",
+                "6.5.4 Synchronization between audio and video"
               ]
             }
           }
