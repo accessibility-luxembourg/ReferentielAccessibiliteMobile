@@ -4,9 +4,6 @@ const cheerio = require('cheerio')
 const TurndownService = require('turndown')
 const turndownService = new TurndownService()
 
-const METHO_SOURCE = "./referentiel-technique.md";
-const METHO_DESTINATION = "./json/methodologies.json";
-
 function toMd(html) {
 	if (html !== undefined) {
 		return turndownService.turndown(html.trim())
@@ -15,7 +12,10 @@ function toMd(html) {
 	}
 }
 
-async function generateMetho() {
+async function generateMetho(lang) {
+  const METHO_SOURCE = `${__dirname}/../${lang}/referentiel-technique.md`;
+  const METHO_DESTINATION = `${__dirname}/../${lang}/json/methodologies.json`;
+
   try {
     let methodologies = {}
 
@@ -67,4 +67,5 @@ async function generateMetho() {
   }
 }
 
-generateMetho();
+generateMetho('fr');
+generateMetho('en');

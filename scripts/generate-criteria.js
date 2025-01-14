@@ -4,9 +4,6 @@ const cheerio = require('cheerio')
 const TurndownService = require('turndown')
 const turndownService = new TurndownService()
 
-const CRITERIA_SOURCE = "./referentiel-technique.md";
-const CRITERIA_DESTINATION = "./json/criteres.json";
-
 const WCAG_VERSION = 'WCAG 2.1'
 const EN_VERSION = 'EN 301 549 V3.2.1 (2021-03)'
 
@@ -18,7 +15,10 @@ function toMd(html) {
 	}
 }
 
-async function generateCriteria() {
+async function generateCriteria(lang) {
+	const CRITERIA_SOURCE = `${__dirname}/../${lang}/referentiel-technique.md`;
+	const CRITERIA_DESTINATION = `${__dirname}/../${lang}/json/criteres.json`;
+
 	try {
 	  let topics = []
   
@@ -178,4 +178,5 @@ async function generateCriteria() {
 	  console.error(`❌ An error occured while generating criteria: ${err}`);
 	}
   }
-generateCriteria();
+generateCriteria('fr');
+generateCriteria('en');

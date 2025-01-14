@@ -2,11 +2,10 @@ const fs = require('fs').promises;
 const md = require('markdown-it')({ html: true })
 const cheerio = require('cheerio')
 
-const GLOSSARY_SOURCE = "./glossaire.md";
-const GLOSSARY_DESTINATION = "./json/glossaire.json";
-
-
-async function generateGlossary() {
+async function generateGlossary(lang) {
+  const GLOSSARY_SOURCE = `${__dirname}/../${lang}/glossaire.md`;
+  const GLOSSARY_DESTINATION = `${__dirname}/../${lang}/json/glossaire.json`;
+  
   try {
     let glossary = []
 
@@ -42,4 +41,5 @@ async function generateGlossary() {
   }
 }
 
-generateGlossary();
+generateGlossary('fr');
+generateGlossary('en');
