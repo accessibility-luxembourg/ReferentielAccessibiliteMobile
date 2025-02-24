@@ -199,8 +199,8 @@
             "level": "A",
             "references": {
               "wcag": [
-                "1.3.1 Info and Relationships (A)",
-                "1.4.1 Use of color (A)"
+                "1.3.1 Information et relations (A)",
+                "1.4.1 Utilisation de la couleur (A)"
               ],
               "norm": [
                 "11.1.3.1.1 Info and Relationships",
@@ -267,7 +267,7 @@
                   "Composant d’interface inactif (par exemple, un bouton désactivé) sur lequel aucune action n’est possible.",
                   "Composant d’interface géré par la plateforme et pour lequel il n’existe pas de méthode simple de développement pour le modifier.",
                   "Composant d’interface dont la couleur n’est pas nécessaire pour identifier le composant ou son état (par exemple, le soulignement des liens qui aurait un rapport de contraste inférieur à 3:1 mais dont le texte a un rapport de contraste de 4.5:1).",
-                  "[Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran).",
+                  "[Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran.",
                   "[Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique faisant partie d’un logo ou du nom de marque d’un organisme ou d’une société.",
                   "[Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dont la présentation est essentielle à l’information véhiculée (par exemple, drapeaux, logotypes, photos de personnes ou de scènes, captures d’écran, diagrammes médicaux, carte de chaleurs).",
                   "[Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dynamique dont le contraste peut varier si d’autres éléments sont survolés (ou reçoivent le focus), mais dont le survol ou focus permet de le rendre suffisamment contrasté (par exemple, un diagramme en camembert composé de plusieurs sections suffisamment contrastées, mais lorsque la souris survole une section du camembert, les autres sections ne sont plus suffisamment contrastées, leur opacité est réduite pour mettre en avant la section survolée)."
@@ -289,7 +289,7 @@
           "criterium": {
             "tests": {},
             "number": 4,
-            "title": "Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-de-l-application-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé ?",
+            "title": "Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé ?",
             "level": "AA",
             "references": {
               "wcag": [
@@ -471,19 +471,29 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?"
+              ],
+              "2": [
+                "Chaque média temporel synchronisé en direct a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?"
+              ]
+            },
             "number": 7,
-            "title": "Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers) ?",
+            "title": "Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers) ?",
             "level": "A",
             "particularCases": [
-              "[Voir les cas particuliers du critère 3.1](#crit-3-1)"
+              "[Voir les cas particuliers du critère 3.1](#crit-3-1)",
+              "Les médias temporels synchronisés en direct diffusés via une application mobile soumise à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés."
             ],
             "references": {
               "wcag": [
-                "1.2.2 Sous-titres (pré-enregistrés) (A)"
+                "1.2.2 Sous-titres (pré-enregistrés) (A)",
+                "1.2.4 Sous-titres (en direct) (AA)"
               ],
               "norm": [
-                "11.1.2.2 Captions (Prerecorded)"
+                "11.1.2.2 Captions (Prerecorded)",
+                "11.1.2.4 Captions (live)"
               ]
             }
           }
@@ -492,21 +502,34 @@
           "criterium": {
             "tests": {
               "1": [
-                "Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions ?",
+                "Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers) ?",
+                "Les sous-titres sont dans la langue de la vidéo ;",
+                "Les sous-titres sont pertinents ;",
+                "Les sous-titres sont correctement synchronisés."
+              ],
+              "2": [
+                "Pour chaque média temporel synchronisé en direct ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers) ?",
+                "Les sous-titres sont dans la langue de la vidéo ;",
                 "Les sous-titres sont pertinents ;",
                 "Les sous-titres sont correctement synchronisés."
               ]
             },
             "number": 8,
-            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents ?",
+            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents (hors cas particuliers) ?",
             "level": "A",
+            "particularCases": [
+              "[Voir les cas particuliers du critère 3.1](#crit-3-1)",
+              "Les médias temporels synchronisés en direct diffusés via une application mobile soumise à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés."
+            ],
             "references": {
               "wcag": [
-                "1.2.2 Sous-titres (pré-enregistrés) (A)"
+                "1.2.2 Sous-titres (pré-enregistrés) (A)",
+                "1.2.4 Sous-titres (en direct) (AA)"
               ],
               "norm": [
                 "7.1.2 Captioning synchronization",
-                "11.1.2.2 Captions (Prerecorded)"
+                "11.1.2.2 Captions (Prerecorded)",
+                "11.1.2.4 Captions (live)"
               ]
             }
           }
@@ -603,12 +626,14 @@
             "level": "A",
             "references": {
               "wcag": [
-                "2.1.1 Clavier (A)"
+                "2.1.1 Clavier (A)",
+                "2.1.2 Pas de piège au clavier (A)"
               ],
               "norm": [
                 "7.1.1 Captioning playback",
                 "7.2.1 Audio description playback",
-                "11.2.1.1.1 Keyboard"
+                "11.2.1.1.1 Keyboard",
+                "11.2.1.2 No Keyboard Trap"
               ]
             }
           }
@@ -617,13 +642,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "Pour chaque média temporel, les fonctionnalités de contrôle des alternatives respectent-elles ces conditions ?",
-                "Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les autres fonctionnalités de contrôle primaires ;",
-                "Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les autres fonctionnalités de contrôle primaires."
+                "Pour chaque média temporel synchronisé pré-enregistré qui dispose d’une piste de sous-titres synchronisés ou d’une audiodescription, les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions ?",
+                "Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les fonctionnalités principales ;",
+                "Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les fonctionnalités principales."
               ]
             },
             "number": 14,
-            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise), les fonctionnalités de contrôle des alternatives sont-elles présentées au même niveau que les autres fonctionnalités de [contrôle primaires](glossaire.md#controle-primaire-d-un-media-temporel) ?",
+            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel) ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -636,7 +661,7 @@
           "criterium": {
             "tests": {
               "1": [
-                "Pour chaque fonctionnalité qui transmet, convertit ou enregistre une vidéo qui possède une piste de sous-titres, à l’issue du processus, les sous-titres respectent-ils ces conditions ?",
+                "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres synchronisés, à l’issue du processus, les sous-titres respectent-ils ces conditions ?",
                 "Les sous-titres sont présents ;",
                 "Les sous-titres peuvent être affichés ;",
                 "Les sous-titres sont correctement synchronisés ;",
@@ -644,7 +669,7 @@
               ]
             },
             "number": 15,
-            "title": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de sous-titres, à l’issue du processus, les sous-titres sont-ils correctement conservés ?",
+            "title": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), à l’issue du processus, les sous-titres sont-ils correctement conservés ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -658,14 +683,14 @@
           "criterium": {
             "tests": {
               "1": [
-                "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions ?",
+                "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions ?",
                 "L’audiodescription est présente ;",
                 "L’audiodescription peut être activée ;",
                 "L’audiodescription est correctement synchronisée."
               ]
             },
             "number": 16,
-            "title": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée ?",
+            "title": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -677,9 +702,15 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Pour chaque média temporel pré-enregistré, la présentation des sous-titres respecte-t-elle une de ces conditions ?",
+                "Les paramètres système de présentation des sous-titres définis par l’utilisateur s’appliquent aux sous-titres.",
+                "Il existe une fonctionnalité dans l’écran qui permet à l’utilisateur de modifier les paramètres de présentation des sous-titres."
+              ]
+            },
             "number": 17,
-            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des sous-titres est-elle contrôlable par l’utilisateur (hors cas particuliers) ?",
+            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronises-objet-multimedia) est-elle contrôlable par l’utilisateur (hors cas particuliers) ?",
             "level": "AA",
             "particularCases": [
               "Le critère est non applicable pour les sous-titres incrustés (_open captions_)."
@@ -696,22 +727,18 @@
           "criterium": {
             "tests": {
               "1": [
-                "Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres synchronisés respecte-t-il une de ces conditions ?",
-                "Les sous-titres sont dans un format standardisé ;",
-                "Il existe une piste audio supplémentaire qui contient les sous-titres vocalisés."
+                "Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres de traduction vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Une piste sonore contenant une vocalisation de l’ensemble des sous-titres de traduction peut être activée par l’utilisateur.",
+                "Une fonctionnalité est disponible qui permet de vocaliser les sous-titres de traduction.",
+                "Les sous-titres de traduction peuvent être vocalisés par les technologies d’assistance.",
+                "Il existe une version alternative contenant une vocalisation de l’ensemble des sous-titres de traduction, accessible via un lien ou bouton adjacent."
               ]
             },
             "number": 18,
-            "title": "Pour chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci peuvent-ils être, si nécessaire, vocalisés (hors cas particuliers) ?",
+            "title": "Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers) ?",
             "level": "AA",
             "particularCases": [
-              "Le critère est non applicable dans les cas suivants :",
-              {
-                "ul": [
-                  "Les sous-titres sont incrustés dans la vidéo.",
-                  "La vidéo et les sous-titres utilisent la même langue. Le critère ne concerne que les sous-titres de traduction."
-                ]
-              }
+              "Le critère est non applicable pour les sous-titres incrustés dans la vidéo (_open captions_)."
             ],
             "references": {
               "norm": [
@@ -829,7 +856,7 @@
               "2": [
                 "Chaque composant d’interface vérifie-t-il ces conditions (hors cas particuliers) ?",
                 "Le composant possède un nom pertinent ;",
-                "Le nom accessible du composant contient au moins l’intitulé visible ;",
+                "Le nom accessible du composant contient au moins l’[intitulé visible](glossaire.md#intitule-visible) ;",
                 "Le composant possède un rôle pertinent ;",
                 "Le composant possède une valeur pertinente ;",
                 "Le composant possède un état pertinent."
@@ -857,7 +884,7 @@
             ],
             "references": {
               "wcag": [
-                "2.4.4 Link Purpose (In Context)",
+                "2.4.4 Fonction du lien (selon le contexte)",
                 "2.5.3 Étiquette dans le nom (A)",
                 "4.1.2 Nom, rôle et valeur (A)"
               ],
@@ -897,8 +924,8 @@
             ],
             "references": {
               "wcag": [
-                "1.3.1 Info and Relationships (A)",
-                "2.1.1 Keyboard (A)",
+                "1.3.1 Information et relations (A)",
+                "2.1.1 Clavier (A)",
                 "2.4.7 Visibilité du focus (AA)"
               ],
               "norm": [
@@ -1323,7 +1350,7 @@
               "1": [
                 "Chaque bouton de formulaire respecte-t-il ces conditions ?",
                 "L’intitulé du bouton accessible aux technologies d’assistance est pertinent ;",
-                "L’intitulé visible du bouton est contenu dans l’intitulé accessible aux technologies d’assistance."
+                "L’[intitulé visible](glossaire.md#intitule-visible) du bouton est contenu dans l’intitulé accessible aux technologies d’assistance."
               ]
             },
             "number": 5,
@@ -1403,13 +1430,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "Chaque champ de formulaire obligatoire respecte-t-il ces conditions ?",
+                "Chaque champ de formulaire qui attend un type de données et/ou un format spécifique respecte-t-il ces conditions ?",
                 "Le type de données et/ou de format est visible ;",
                 "Le type de données et/ou de format est accessible aux technologies d’assistance."
               ]
             },
             "number": 8,
-            "title": "Pour chaque champ de formulaire obligatoire, le type de données et/ou de format attendu est-il disponible ?",
+            "title": "Pour chaque champ de formulaire qui attend un [type de données et/ou un format spécifique](glossaire.md#type-et-format-de-donnees), l’information correspondante est-elle disponible ?",
             "level": "A",
             "references": {
               "wcag": [
@@ -1612,7 +1639,8 @@
             "title": "Pour chaque écran, l’utilisateur a-t-il le contrôle de chaque [limite de temps modifiant le contenu](glossaire.md#procede-de-rafraichissement) (hors cas particuliers) ?",
             "level": "A",
             "particularCases": [
-              "Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu."
+              "Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu.",
+              "Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference)."
             ],
             "references": {
               "wcag": [
@@ -1746,7 +1774,7 @@
             "tests": {
               "1": [
                 "Les changements brusques de luminosité ou les effets de flash vérifient-ils une de ces conditions ?",
-                "La fréquence de l’effet est inférieure à 3 par seconde ;",
+                "La fréquence de l’effet est inférieure ou égale à 3 par seconde ;",
                 "La surface totale cumulée des effets est inférieure ou égale à 21 824 pixels."
               ]
             },
@@ -1794,8 +1822,8 @@
             "tests": {
               "1": [
                 "Dans chaque écran, chaque contenu vérifie-t-il ces conditions ?",
-                "La consultation est possible quel que soit le mode d’orientation de l’écran ;",
-                "Le contenu proposé reste le même quel que soit le mode d’orientation de l’écran même si sa présentation et le moyen d’y accéder peuvent différer."
+                "La consultation est possible, quel que soit le mode d’orientation de l’écran ;",
+                "Le contenu proposé reste le même, quel que soit le mode d’orientation de l’écran même si sa présentation et le moyen d’y accéder peuvent différer."
               ]
             },
             "number": 9,
@@ -1862,8 +1890,8 @@
             "tests": {
               "1": [
                 "Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran vérifient-elles l’une de ces conditions (hors cas particuliers) ?",
-                "L’action est déclenchée au moment où le dispositif de pointage est relâché ou relevé ;",
-                "L’action est déclenchée au moment où le dispositif de pointage est pressé ou posé puis annulée lorsque le dispositif de pointage est relâché ou relevé ;",
+                "L’action est déclenchée au moment où le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve) ;",
+                "L’action est déclenchée au moment où le dispositif de pointage est [pressé ou posé](glossaire.md#presse-ou-pose) puis annulée lorsque le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve) ;",
                 "L’[action est complexe](glossaire.md#action-complexe) et un mécanisme est disponible pour abandonner (avant achèvement de l’action) ou annuler (après achèvement) l’exécution de l’action."
               ]
             },
@@ -1935,13 +1963,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "Chaque fonctionnalité d’identification ou de contrôle de l’application qui repose sur l’utilisation de caractéristique biologique de l’utilisateur respecte-t-elle une de ces conditions ?",
-                "Il existe une alternative qui ne repose pas sur une caractéristique biologique de l’utilisateur ;",
-                "Il existe une alternative qui repose sur une caractéristique biologique de l’utilisateur qui soit suffisamment différente."
+                "Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de [caractéristiques biologiques](glossaire.md#caracteristique-biologique) de l’utilisateur respecte-t-elle une de ces conditions ?",
+                "Il existe une alternative qui ne repose pas sur une caractéristique biologique de l’utilisateur.",
+                "Il existe une alternative qui repose sur une caractéristique biologique de l’utilisateur qui est suffisamment différente de la caractéristique biologique initialement demandée."
               ]
             },
             "number": 15,
-            "title": "Chaque fonctionnalité d’identification ou de contrôle de l’application qui repose sur l’utilisation de [caractéristique biologique](glossaire.md#caracteristique-biologique) de l’utilisateur, dispose-t-elle d’une méthode alternative ?",
+            "title": "Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de [caractéristiques biologiques](glossaire.md#caracteristique-biologique) de l’utilisateur dispose-t-elle d’une méthode alternative ?",
             "level": "A",
             "references": {
               "norm": [
@@ -1963,11 +1991,11 @@
             "title": "Pour chaque application qui intègre une fonctionnalité de [répétition des touches](glossaire.md#repetition-des-touches), la répétition est-elle ajustable (hors cas particuliers) ?",
             "level": "A",
             "particularCases": [
-              "Le critère est non applicable :",
+              "Le critère est non applicable pour :",
               {
                 "ul": [
-                  "Pour les répétitions de touches gérées au niveau de la plateforme ;",
-                  "Pour les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches."
+                  "les répétitions de touches gérées au niveau de la plateforme ;",
+                  "les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches."
                 ]
               }
             ],
@@ -1988,14 +2016,14 @@
           "criterium": {
             "tests": {
               "1": [
-                "La documentation de l’application inclut-elle les éléments suivants au moins ?",
-                "Une description des fonctionnalités d’accessibilité de l’application ;",
-                "Une explication de l’utilisation des fonctionnalités d’accessibilité de l’application ;",
-                "Des informations concernant l’accessibilité de la plateforme et sa compatibilité avec les technologies d’assistance."
+                "La [documentation](glossaire.md#documentation) de l’application inclut-elle les éléments suivants au moins ?",
+                "Une description des [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) proposées par l’application.",
+                "Un guide d’utilisation des [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) proposées par l’application.",
+                "Une description des composants qui présentent des défauts de compatibilité avec les technologies d’assistance."
               ]
             },
             "number": 1,
-            "title": "La documentation de l’application décrit-elle les [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application et leur utilisation ?",
+            "title": "La [documentation](glossaire.md#documentation) de l’application décrit-elle les [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) disponibles et les informations relatives à la compatibilité avec l’accessibilité ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -2008,7 +2036,7 @@
           "criterium": {
             "tests": {},
             "number": 2,
-            "title": "Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la documentation, l’ensemble du parcours qui permet de l’activer répond aux besoins d’accessibilité des utilisateurs qui en ont besoin. Cette règle est-elle respectée (hors cas particuliers) ?",
+            "title": "Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la [documentation](glossaire.md#documentation), le [mécanisme qui permet de l’activer](glossaire.md#mecanisme-qui-permet-d-activer-une-fonctionnalite-d-accessibilite) répond aux besoins d’accessibilité des utilisateurs concernés. Cette règle est-elle respectée (hors cas particuliers) ?",
             "level": "A",
             "particularCases": [
               "Le critère est non applicable pour les fonctionnalités intégrées à la plateforme."
@@ -2035,9 +2063,22 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html) ?"
+              ],
+              "2": [
+                "La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html) ?"
+              ],
+              "3": [
+                "La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
+              ],
+              "4": [
+                "La documentation mise à disposition dans une application mobile est-elle conforme au RAAM ?"
+              ]
+            },
             "number": 4,
-            "title": "La documentation de l’application est-elle accessible ?",
+            "title": "La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) ?",
             "level": "A",
             "references": {
               "norm": [
@@ -2055,9 +2096,22 @@
       "criteria": [
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html) ?"
+              ],
+              "2": [
+                "Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) ?"
+              ],
+              "3": [
+                "Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
+              ],
+              "4": [
+                "Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu diffusé dans une application mobile permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au RAAM ?"
+              ]
+            },
             "number": 1,
-            "title": "L’[outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme ?",
+            "title": "Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) ?",
             "level": "A",
             "references": {
               "norm": [
@@ -2071,7 +2125,7 @@
           "criterium": {
             "tests": {},
             "number": 2,
-            "title": "L’[outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des aides à la création de contenus accessibles ?",
+            "title": "Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des [aides à la création de contenus conformes](glossaire.md#aide-a-la-creation-de-contenus-accessibles) aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) ?",
             "level": "A",
             "references": {
               "norm": [
@@ -2085,7 +2139,7 @@
           "criterium": {
             "tests": {},
             "number": 3,
-            "title": "Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il accessible (hors cas particuliers) ?",
+            "title": "Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) (hors cas particuliers) ?",
             "level": "A",
             "particularCases": [
               "Le critère est non applicable lorsque le format de destination ne permet pas de conserver les informations d’accessibilité présentes dans le contenu en entrée."
@@ -2102,7 +2156,7 @@
           "criterium": {
             "tests": {},
             "number": 4,
-            "title": "Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’outil d’édition fournit-il des suggestions de réparation ?",
+            "title": "Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’[outil d’édition](glossaire.md#outil-d-edition) fournit-il des suggestions de réparation ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -2114,9 +2168,22 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée ?"
+              ],
+              "2": [
+                "Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée ?"
+              ],
+              "3": [
+                "Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Cette règle est-elle respectée ?"
+              ],
+              "4": [
+                "Pour chaque ensemble de [gabarits](glossaire.md#gabarit) permettant de diffuser des contenus dans une application mobile, un gabarit au moins est conforme aux critères du RAAM. Cette règle est-elle respectée ?"
+              ]
+            },
             "number": 5,
-            "title": "Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux exigences du [RAWeb](../raweb1/criteres.html). Cette règle est-elle respectée ?",
+            "title": "Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique). Cette règle est-elle respectée ?",
             "level": "A",
             "references": {
               "norm": [
@@ -2130,7 +2197,7 @@
           "criterium": {
             "tests": {},
             "number": 6,
-            "title": "Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RAWeb est-il clairement identifiable ?",
+            "title": "Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) est-il clairement identifiable ?",
             "level": "A",
             "references": {
               "norm": [
@@ -2150,7 +2217,7 @@
           "criterium": {
             "tests": {},
             "number": 1,
-            "title": "Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application décrites dans la documentation ?",
+            "title": "Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) et à la compatibilité avec l’accessibilité, décrites dans la [documentation](glossaire.md#documentation) ?",
             "level": "AA",
             "references": {
               "norm": [
@@ -2168,6 +2235,32 @@
             "references": {
               "norm": [
                 "12.2.3 Effective communication"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {
+              "1": [
+                "La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html) ?"
+              ],
+              "2": [
+                "La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html) ?"
+              ],
+              "3": [
+                "La documentation fournie par le service d’assistance dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
+              ],
+              "4": [
+                "La documentation fournie par le service d’assistance dans une application mobile est-elle conforme au RAAM ?"
+              ]
+            },
+            "number": 3,
+            "title": "La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) ?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "12.2.4 Accessible documentation"
               ]
             }
           }
@@ -2193,13 +2286,7 @@
         },
         {
           "criterium": {
-            "tests": {
-              "1": [
-                "Chaque application qui permet une communication orale bidirectionnelle respecte-t-elle une de ces conditions ?",
-                "L’application dispose d’une fonctionnalité intégrée de communication écrite en temps réel ;",
-                "L’application peut être connectée à un terminal qui intègre une fonctionnalité de communication écrite en temps réel."
-              ]
-            },
+            "tests": {},
             "number": 2,
             "title": "Chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) ?",
             "level": "A",
@@ -2227,20 +2314,20 @@
           "criterium": {
             "tests": {
               "1": [
-                "Pour chaque fonctionnalité de communication écrite en temps réel, les messages respectent-ils ces conditions ?",
+                "Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages respectent-ils ces conditions ?",
                 "Les messages reçus et envoyés sont séparés dans la présentation ;",
                 "La présentation permet d’identifier la nature du message (reçu ou envoyé) ;",
+                "La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance ;"
+              ],
+              "2": [
+                "Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) utilisée avec une fonctionnalité de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui identifie les intervenants, les messages respectent-ils ces conditions ?",
                 "La présentation permet d’identifier les auteurs des messages ;",
-                "La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance ;",
                 "L’identification de l’auteur du message est accessible aux technologies d’assistance."
               ]
             },
             "number": 4,
             "title": "Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés (hors cas particuliers) ?",
             "level": "A",
-            "particularCases": [
-              "Le critère est non applicable lorsque la fonctionnalité de communication orale bidirectionnelle ne permet pas d’identifier les participants, il n’est alors pas requis que la fonctionnalité de communication écrite en temps réel identifie les auteurs des messages."
-            ],
             "references": {
               "norm": [
                 "6.2.2.1 Visually distinguishable display",
@@ -2320,7 +2407,7 @@
           "criterium": {
             "tests": {},
             "number": 9,
-            "title": "Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui fournit l’identification de l’interlocuteur, existe-t-il un moyen de présenter cette identification pour les utilisateurs de langue des signes ?",
+            "title": "Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui permet d’identifier l’activité d’un interlocuteur oralisant, il est possible d’identifier l’activité d’un interlocuteur signant. Cette règle est-elle respectée ?",
             "level": "A",
             "references": {
               "norm": [

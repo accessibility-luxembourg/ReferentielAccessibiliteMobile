@@ -5,7 +5,10 @@
 Example of an accessibility feature: 
 - a component for loading a more contrasting colour palette for users;
 - a font size enlargement component; 
-- a component providing access to a simplified language version.
+- a component providing access to a simplified language version;
+- special keyboard shortcuts available for certain assistive technologies;
+- gestures or device movements that trigger features;
+- a customised rotor on some screens (the rotor is a screen reader feature that enables quick navigation between types of elements on a screen; some platforms allow you to define application-specific quick navigation elements in this rotor. [See a demo](https://developer.apple.com/videos/play/wwdc2020/10116/)).
 
 #### Accessibility information
 
@@ -13,12 +16,13 @@ Accessibility information is all the information (attributes, programmatic relat
 
 For example, in HTML, the `alt` attribute of an image is accessibility information.
 
-An editing tool should have functions that enable all the information needed to create accessible content to be defined: 
-- defining the alternative of an image or, on the contrary, declaring it decorative;
-- be able to define section headings;
+An editing tool should have functions that enable all the information needed to create accessible content to be defined, for example: 
+- the ability to define the alternative of an image or, on the contrary, declaring it decorative;
+- the ability to definee section headings;
+- the ability to define the language of a passage of text;
 - the ability to define form field labels.
 
-All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the RAWeb level A and AA criteria must be met. For an application, all the criteria in this framework must be met.
+All accessibility criteria relating to the considered content technology are concerned. For example, for an HTML page, all the [RAWeb](../raweb1/criteres.html) level A and AA criteria must be met. For the production of a PDF document, it must be possible to meet all the criteria of the PDF Accessibility Assessment Framework ([RAPDF](../rapdf1/index.html)) levels A and AA. For an application, all the criteria in this framework must be met.
 
 #### Accessible and operable by keyboard and any pointing device
 
@@ -91,13 +95,7 @@ Generally speaking, it is easier to produce an audio version than a text version
 
 #### Application mechanism for displaying a correct contrast ratio
 
-A user interface component provided by the application author, the activation of which modifies the appearance of the screen.
-
-This could be, for example, a replacement mechanism enabling content to be displayed with a sufficient contrast ratio. The appearance of this user interface component shall comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without itself having recourse to a mechanism enabling a compliant contrast ratio to be displayed. 
-
-Another example is a replacement mechanism to replace text graphic elements with styled text.
-
-This mechanism must preserve the content and functionality of the application or screen it modifies.
+A user interface component whose activation allows the appearance of the site or page to be modified so that content is displayed with a sufficient contrast ratio. The design of this interface component must comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without itself using a mechanism enabling a compliant contrast ratio to be displayed. This mechanism must maintain the same content and functionality as the site or page it modifies.
 
 #### Audio description (time-based media)
 
@@ -113,7 +111,7 @@ Narration added (via a sound file) to an audio track to describe important visua
 
 #### Biological characteristics
 
-User identification or control methods based on usable biological characteristics may include 
+User identification or control methods based on usable biological characteristics may include, for example:
 - fingerprint recognition; 
 - facial recognition; 
 - voice recognition.
@@ -159,7 +157,7 @@ This concerns the technology, its functions and its uses:
 
 A simple gesture with a screen involves touching a single point on the screen. This may be a single press or click, a double press or click, or a long press. 
 
-A complex gesture can be
+A complex gesture can be:
 - a gesture involving several points of contact on the screen (example: a gesture with two fingers on the screen to zoom in or out on a map); 
 - a gesture based on following a trajectory on the screen (e.g. a function that detects the movement of a finger to the left or right on a tactile surface to trigger switching to the previous/next item in a carousel).
 
@@ -197,9 +195,9 @@ The "^" character is the power operator.
 
 The standard distinguishes between several sizes of text to be evaluated, each size having a contrast threshold. These sizes are evaluated in pixels or points. The larger the text (greater than 18.5px bold or 24px normal weight), the lower the required ratio (3:1).
 
-Given the difficulty of assessing font sizes on mobile devices, all text should be considered at normal size except for text that is significantly very large.
-
-For example, text could be considered "significantly very large" if its constituent letters are at least 1.5 cm high and/or wide.
+In the framework:
+- a normal text size is a text with a calculated size of less than 24px normal weight or less than 18.5px bold;
+- a large text is a text with a calculated size of 24px or more normal weight or less than 18.5px or more bold.
 
 #### Control (moving or blinking content)
 
@@ -229,6 +227,15 @@ Element used to structure information in rows and columns using data cells and h
 
 Text linked to the table that identifies the content of a data table clearly and concisely.
 
+#### Data type and format
+
+Text indication enabling the user to know what type of data and/or input format is required by a field, before filling it in. For example:
+- Date (dd/mm/yyyy);
+- Amount in euros;
+- Postcode (4 digits: e.g. L-2450).
+
+**Note:** when the form field type provides an input mask, such as by displaying a native control (for example, the native date picker component), the format indication is not necessary.
+
 #### Decorative graphic element
 
 [Graphic element](#graphic-element) having no function and conveying no specific information in relation to the content with which it is associated. Examples:
@@ -240,11 +247,22 @@ Text linked to the table that identifies the content of a data table clearly and
 
 Content associated with a [graphic element](#graphic-element) in addition to its textual alternative in order to fully describe the information conveyed by the element.
 
+#### Digital accessibility rules 
+
+The generic term "digital accessibility rules" refers to the <a href="https://accessibilite.public.lu/en/raweb1/index.html">RAWeb</a>, the <a href="https://accessibilite.public.lu/en/raam1/index.html">RAAM</a>, the RAPDF or the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf">EN 301 549 standard</a>, depending on the context of use.
+
+#### Documentation 
+
+The documentation of an application or [support service](#support-services) can be:
+- a help screen;
+- an [accessibility statement](../obligations.html#accessibility-statement); 
+- any other content that serves as documentation (PDF document, external HTML page readable in a web browser).
+
 ### E
 
 #### Editing tool
 
-Application used to create or modify content for distribution to other users. An editing tool can be used by one or more users working together.
+Application or editing component in an application used to create or modify content for distribution to other users. An editing tool can be used by one or more users working together.
 
 An editing tool can be
 - the tool as delivered by the editor;
@@ -253,18 +271,21 @@ An editing tool can be
 
 Examples of editing tools
 - an application for editing and controlling the content of a website or application, e.g. CMS (Content Management System), LMS (Learning Management System), LCMS (Learning Content Management System), content aggregator;
+- an application for creating office documents (e.g. for distribution in PDF format);
 - multimedia editing tools;
 - applications for creating web applications;
 - application for editing code;
 - application for exporting in web technology format (for example, software for saving in HTML);
 - applications that generate content using templates, scripts, command lines, etc.;
-- an application for editing portions of web pages or applications (typically, blog systems, wikis and forums);
+- an application or feature of an application for editing portions of web pages or applications (typically, blog systems, comment features on websites, wikis and forums);
 - mail application for sending e-mails.
 
 Examples of editing tools that are not included in the scope
 - An application where the content created is not made available to other users (note-taking application with no sharing functionality, for example). In this case, the edited content is only available to the owner and is not made available to other users.
 - Forms intended for users. For example, an order form for an e-commerce application. Although forms allow content to be edited, this content is not made available to other users.
 - Independent accessibility control tools: these tools do not modify the content they control.
+
+Editing tools are not systematically included in the sample. For example, when auditing a news application, RAAM does not require the editing tool (e.g. a CMS) used to create the content to be audited. If the purpose of the audit is to evaluate the public consultation interface, the sample should only contain representative public screens, but not the content management system. 
 
 #### Error management (form) 
 
@@ -299,6 +320,19 @@ When a text adjacent to a graphic element contains information about the graphic
 
 When a graphic element is captioned, it is necessary to associate the legend with the graphic element, so that assistive technologies can treat the graphic element and its legend as a single whole.
 
+### H
+
+#### Help with creating accessible content
+Any feature available from a content editing interface, whatever the target format, which helps the author of the content to take account of digital accessibility rules.
+
+An help in creating accessible content can be an automatic assistance tool or a documentation.
+
+An help in creating content includes:
+- automatic or semi-automatic tests available from the editing features;
+- other automatic tools (a chatbot, for example);
+- documentation explaining how to define accessibility properties for each content item;
+- manual tests available from the editing features to guide authors in detecting errors.
+
 ### I
 
 #### Ignored by assistive technologies
@@ -313,8 +347,8 @@ Information transmitted visually by means of a colour. The indication that field
 
 Indication by colour alone must be accompanied by another method for users who do not see or perceive colours or their associations well.
 
-The indication given by colour must be provided 
-- by means of formatting for users with limited colour perception;
+The indication given by colour must be provided: 
+- by a means involving graphics (pictogram, background image, shape, different border style, etc.) or another typographic style (bold, italic, text size, other font, etc.) for users with limited colour perception.
 - and by descriptive (non-visible) information present on the element so that screen readers can render the information to users who cannot see.
 
 #### Indication conveyed by shape, size or location
@@ -343,6 +377,10 @@ It is possible to apply presentation effects to captions (text colour, style, fo
 
 Feature which consists of printing (on the screen, in an input zone for example) a character several times as long as the corresponding key on the keyboard (visual or physical) is activated.
 
+When keys are associated with functions in an application, it is no longer the character that is printed several times, but the function that can then be repeated several times.
+
+The trigger delay and the delay between two key repetitions is a parameter that can be defined at the platform level, but an application could allow this parameter to be configured as well. See [possible configuration parameters on iOS](https://support.apple.com/en-gb/guide/iphone/ipha7c3927eb/ios) for example.
+
 #### Keyboard shortcut
 
 A means of triggering an action associated with a user interface component by pressing one or more keys on a keyboard.
@@ -358,6 +396,43 @@ There are special cases where it is necessary to capture the keyboard focus and 
 #### Label and field located next to each other
 
  The label and its field must be visually close, so that the relationship between the two cannot lead to confusion.
+
+#### Lists 
+
+A sequence of elements that can be grouped together in the form of a structured list. For example, the sequence of links in a navigation menu is a list of links, and the various steps in a procedure are a list of elements.
+
+The notion of "visually grouped in the form of a list" is characterised by:
+- The presence of a visual marker making it clear that it is an unordered list, for example -, -, *, etc.;
+- The presence of a visual marker to indicate that it is an ordered list, e.g. a number, a Greek letter, etc.;
+- The presence of a series of elements that visually follow one another, with an identical visual form, nature and function, but without having a direct visual list marker, for example a navigation menu.
+
+However, not all lists require a list structure, for example a series of terms separated by a comma.
+
+### M
+
+#### Mandatory field indication
+
+Textual or graphic indication (icon) letting the user know that a field is mandatory before entering it.
+
+**Note:** If this indication is not made explicitly in text (icon, "*", "!", etc.), the explanation of the meaning of this indication must be located, visually and in reading order, before the indication is used for the first time.
+
+#### Mechanism enabling to activate an accessibility feature 
+
+Interface component or set of interface components used to activate a feature that takes into account one or more adaptation needs of the interface. For example: a button enabling to display a screen with compliant contrasts or a button enabling to increase paragraph spacing.
+
+We also talk about a **set of components** when, in some interfaces, the component that enables the feature to be activated is only made available once one or more other components have been activated. For example: a button can be used to display a modal window, which itself contains a button that can be used to display a screen with the correct contrast. In this case, the button that displays the modal window **and** the button that activates the display of compliant contrasts together constitute the mechanism.
+
+This mechanism must keep the content and features of the application or screen it modifies unchanged.
+
+#### Mechanism that enables a compliant contrast ratio to be displayed
+
+Interface component whose activation enables the appearance of the site or page to be modified so as to display the contents with a sufficient contrast ratio. The design of this interface component must comply with [criterion 2.2](referentiel-technique.md#crit-2-2) and [criterion 2.3](referentiel-technique.md#crit-2-3) without using itself a mechanism for displaying a compliant contrast ratio. This mechanism must keep the content and features of the application or screen it modifies unchanged.
+
+#### Modifying or cancelling data and actions taken
+
+Processes by which a user can modify the data they have entered, have their entry cancelled or have actions resulting from their entry cancelled, for example cancelling an order or a bank transfer.
+
+**Note:** The screen containing a form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, must explicitly indicate the period during which the user can request the cancellation of their input. It must also contain the procedure for cancelling the entry. This process does not have to be available online, although it is recommended.
 
 ### N
 
@@ -383,6 +458,12 @@ The auditor must also check that, where they are present, these parameters are u
 
 Platforms have native controls, for example a native color picker for colour selection, a calendar or a specific field containing the format control for date selection, etc. Form fields that expect particular formats (such as a date, for example) should use the platform's native controls to ensure maximum compatibility with assistive technologies.
 
+#### Navigation sequence
+
+The order in which the keyboard focus moves (to the next element or to the previous element). 
+
+**Warning:** when an element initiates a change in the screen (change of context, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
+
 ### O
 
 #### Only for layout purposes
@@ -405,7 +486,11 @@ Personal data concerning the user in a form can be
 - birthday; 
 - the URL of a web page presenting the user or the organisation that the person represents.
 
-#### Primary control (of a time-based media)
+#### Pressed
+
+Corresponds to event handlers considered as down events. For example ACTION_DOWN on Android or UITouch.Phase.began on iOS.
+
+#### Primary features (of a time-based media)
 
 Primary control functions are the basic functions of a media player: play, pause, stop, audio control.
 
@@ -419,7 +504,9 @@ QVGA (Quarter Video Graphics Array) resolution is a display standard that corres
 
 #### Real-time text communication
 
-Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the enter key).
+Real-time text (RTT) is a mode of written communication which allows users to read the text being written by the sender, without waiting for the sender to validate (for example with the <kbd>enter</kbd> key).
+
+Collaborative editing tools (e.g. online office suites) are an example of how RTT works: the various parties involved can see the texts written and modified by each of them at the same time as the changes are applied to the texts. This is very different from a common online conversation system (such as instant messaging), which only transmits a written message to interlocutors when a key or button is pressed (for example, the <kbd>enter</kbd> key).
 
 Example of real-time text communication integrated into a platform: [Answer or make RTT or TTY calls from your iPhone](https://support.apple.com/en-us/HT207033)
 
@@ -445,7 +532,11 @@ When the form consists of a single block of information of the same kind (the us
 
 Relay services allow users, whatever their mode of communication (text, sign, speech) to interact remotely during real-time communication with other participants, by providing conversion between modes of communication. 
 
-For example, there are relays that enable a user who communicates using sign language to communicate with someone who does not, via a service that provides live interpreting.
+For example: a user who communicates using sign language wants to talk to someone who does not. A relay service will provide live interpreting so that they can communicate.
+
+#### Released
+
+Corresponds to event handlers considered as up events (mouseup, touchend for example). For example ACTION_UP on Android or UITouch.Phase.ended on iOS.
 
 #### Replacement mechanism
 
@@ -467,7 +558,7 @@ There are no replacement mechanisms in Android that are equivalent to those in i
 The replacement mechanism available on Android ("**High contrast text**") is still experimental. Its use is not currently recommended.
 
 ##### Other replacement mechanisms not provided by the platforms
-
+n
 If the platform does not provide a replacement mechanism for certain parameters, the application can provide one from its interface.
 
 ### S
@@ -488,6 +579,12 @@ A status message is not necessarily visible on the screen, but it must always be
 
 Text whose appearance is controlled by the platform's formatting technology (such as CSS for HTML pages).
 
+#### Subtitles 
+
+Subtitles are in a language other than the language of the video.
+
+Subtitles are different from [captions](#synchronised-captions-media-object) for the deaf and hard of hearing.
+
 #### Sudden change in brightness or blinking effect
 
 Alternating relative brightness that can cause seizures in some people, if they are large enough in a specific frequency range.
@@ -501,6 +598,7 @@ A summary (of table) is a passage of text associated with a complex data table. 
 #### Support services
 
 A support service can be
+- the feedback mechanism identified in the application's accessibility statement,
 - a help desk, 
 - a call centre, 
 - a technical support,
@@ -517,17 +615,11 @@ Text of audio information (a character's words, important noise to understand th
 
 ### T
 
-#### Navigation sequence
-
-The order in which the keyboard focus moves (to the next element or to the previous element). 
-
-**Warning:** when an element initiates a change in the screen (change of context, management of hidden zones, addition of content, management of form fields, etc.) it is necessary to activate the element initiating the change in order to test the consistency of the navigation sequence.
-
 #### Template
 
 A template is a document format with predefined parameters. It is used to insert content edited by the author. A template has presentation, usage and technical parameters that are not visible.
 
-A template may concern an entire page or screen (home page template, etc.) or specific types of content (forms, videos, etc.)
+A template may concern an entire page or screen (home page template, etc.) or specific types of content (forms, pictures, videos, etc.)
 
 A set of templates is a group of templates that allow different formatting of the same element. For example
 - templates for the application's home screen;
@@ -546,13 +638,15 @@ The use of graphic elements containing text is not recommended. Where it is poss
 
 #### Time-based media (audio, video and synchronised)
 
-- Time-based media audio-only: sound content (wave, MP3...).
+- Time-based media audio-only: sound content (Wav, MP3...).
 - Time-based media video-only: moving or sequential images or photos.
 - Synchronised time-based media: audio or video streams synchronised with another format to present information and/or including interactive temporal components. Time-based media can be viewed in 2 different ways:
 	- as a downloadable file that can be viewed with external software;
 	- content embedded in the software and viewable from the interface.
 
 Time-based media can be broadcast in real time or played back asynchronously (pre-recorded media).
+
+**Note 1:** animated gifs and images animated by a script in the application are not considered to be temporal media.
 
 #### Time stamp
 
@@ -583,7 +677,7 @@ This textual information must be presented in the chronological order in which i
 
 #### Transformation
 
-Process managed automatically by the tool. There are two types of transformation: 
+Process managed automatically by the editing tool. There are two types of transformation: 
 - content restructuring: transformation during which the input format (e.g. HTML, XML...) is the same as the output one, the restructuring only modifies elements of the markup. For example: linearising a table, dividing a document into several pages.
 - content recoding: transformation during which the input format is different of the output one (e.g. HTML to XHTML, HTML to PDF). This applies in particular to editing zones that use a different syntax to that which will be used for public display.
 
@@ -596,6 +690,8 @@ Two-way voice communication applications are applications that allow 2 or more p
 #### User interface component
 
 A user interface component is an element with which the user can interact, for example a button, a link or an input zone. Some components can be more complex, such as a menu, a dialogue window or a system of tabs. Finally, a user interface component can be based on elements native to the platform language or developed from scratch.
+
+**Note:** Not all native HTML interface components are found in mobile application development languages. For example, radio buttons or checkboxes do not exist as such in applications developed for iOS. Developers will then need to use the most appropriate components available in development languages to fulfil a similar function. To reproduce what would be a list of radio buttons, it is possible, for example, to use lists of buttons associated with a selected or unselected state. Therefore, during screen reader tests, it is possible that the declared role does not correspond to the role displayed by the interface (for example, a button that looks like a radio button). Nevertheless, if the role and state of the component are relevant and accessible to assistive technologies, then the criterion will be considered compliant for this component.
 
 ### V
 
@@ -614,6 +710,14 @@ Each function must be accessible via the keyboard and any pointing device (touch
 If the player does not allow a second audio track to be included for audio description, a link (or button) to an alternative video with audio description is a satisfactory alternative feature. The same applies to closed captions: if the video does not have closed captions that can be activated and deactivated, the presence of an alternative video with closed captions (available via a link or a button) is a satisfactory alternative.
 
 **Note:** If there is no sound in a time-based media, there is no point in adding a sound activation/deactivation feature. However, if this functionality is present and requires a text alternative to be understood by certain users, then it should be given one since the user is likely to access it and want to activate it.
+
+#### Visible text 
+
+Text displayed as a visible text on the screen within a button or link.
+
+Text displayed as a label for a form field.
+
+This text can be text or an image containing text.
 
 #### Voice-based services
 

@@ -1,6 +1,6 @@
-**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation mais il peut exister d’autres méthodes d’évaluation. De plus, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Enfin, il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seul le contenu du critère et des tests ont une valeur normative.
+**Avertissement&nbsp;:** Pour chaque critère du référentiel, une méthodologie d’évaluation est proposée. Néanmoins, cette méthodologie n’a pas de valeur normative, c’est-à-dire qu’elle n’est fournie qu’à titre d’aide à la prise en main du référentiel, en donnant un exemple d’une méthode possible d’évaluation, mais il peut exister d’autres méthodes d’évaluation. De plus, la présence d’une méthodologie ne saurait se substituer à une formation, notamment à l’usage des outils d’évaluation (comme les lecteurs d’écrans) ou à la compréhension des enjeux d’accessibilité numérique en environnement mobile. La méthodologie nécessite également un temps de prise en main avant de permettre la réalisation d’un audit efficace et complet, et ne dispense pas de la lecture attentive des critères même du référentiel. Enfin, le contenu de cette méthodologie ainsi que ces étapes ne peuvent pas constituer une base opposable en cas de contestation. Il est possible que des erreurs ne soient pas détectées sur la seule base de cette méthodologie. Seuls le contenu du critère et des tests ont une valeur normative.
 
-**Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être dérogé. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
+**Note concernant les [vues web](glossaire.md#vues-web)&nbsp;:** dans les applications, certains écrans (ou tous les écrans) sont des pages web embarquées, appelées aussi [vues web](glossaire.md#vues-web) ou *web views*{lang=en}. Si le contenu de ces vues web est sous la responsabilité de l’éditeur de l’application, alors elles devront se conformer au présent référentiel au même titre que les autres écrans de l’application développés dans un langage propre aux applications mobiles. Si ces vues web ne sont pas sous la responsabilité de l’éditeur, leur contenu pourra être exempté. Néanmoins, en fonction de l’importance pour les utilisateurs du contenu, il pourra être exigé une alternative ou un moyen de compensation.
 
 ### [Thématique 1](#topic-1)&nbsp;: Éléments graphiques {id="topic-1"}
 
@@ -20,7 +20,8 @@
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.2](#crit-1-2) [A] Chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) possède-t-il une alternative [accessible aux technologies d’assistance](glossaire.md#accessible-aux-technologies-d-assistance)&nbsp;? {id="crit-1-2"}
 
@@ -38,7 +39,8 @@
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.3](#crit-1-3) [A] Pour chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information), l’alternative [accessible aux technologies d’assistance](glossaire.md#accessible-aux-technologies-d-assistance) est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-1-3"}
 
@@ -62,7 +64,8 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.4](#crit-1-4) [A] Pour chaque [élément graphique](glossaire.md#element-graphique) utilisé comme [CAPTCHA](glossaire.md#captcha) ou comme [élément graphique de test](glossaire.md#element-graphique-de-test), l’alternative restituée par les technologies d’assistance permet-elle d’identifier la nature et la fonction de l’élément graphique&nbsp;? {id="crit-1-4"}
 
@@ -78,7 +81,8 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.5](#crit-1-5) [A] Chaque [élément graphique](glossaire.md#element-graphique) utilisé comme [CAPTCHA](glossaire.md#captcha) possède-t-il une alternative&nbsp;? {id="crit-1-5"}
 
@@ -93,13 +97,14 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 1. Repérer dans l’écran les éléments graphiques utilisés comme CAPTCHA ([voir la note de glossaire concernant les particularités de restitution](glossaire.md#element-graphique)).
 1. Vérifier&nbsp;:
 	- la présence d’une alternative non graphique (CAPTCHA sonore ou logique)&nbsp;;
-	- ou la présence d’une autre solution d’accès à la fonctionnalité sécurisée par le CAPTCHA (envoi d’un code sms, envoi d’un email de confirmation, etc.).
+	- ou la présence d’une autre solution d’accès à la fonctionnalité sécurisée par le CAPTCHA (envoi d’un code sms, envoi d’un e-mail de confirmation, etc.).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.6](#crit-1-6) [A] Chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) a-t-il, si nécessaire, une [description détaillée](glossaire.md#description-detaillee)&nbsp;? {id="crit-1-6"}
 
@@ -125,7 +130,8 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.7](#crit-1-7) [A] Pour chaque [élément graphique porteur d’information](glossaire.md#element-graphique-porteur-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), celle-ci est-elle pertinente&nbsp;? {id="crit-1-7"}
 
@@ -140,7 +146,8 @@ Note&nbsp;: le cas des CAPTCHAs et des éléments graphiques tests est traité d
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 1.8](#crit-1-8) [AA] Chaque [élément graphique texte](glossaire.md#element-graphique-texte) porteur d’information, en l’absence d’un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement), doit, si possible être remplacé par du [texte stylé](glossaire.md#texte-style). Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-1-8"}
 
@@ -165,7 +172,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.5 Texte sous forme d’image (AA)](https://www.w3.org/Translations/WCAG21-fr/#images-of-text)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.5.1 Images of text*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.5.1 Images of text*{lang=en}.
+- APPT&nbsp;: [Images of Text](https://appt.org/en/guidelines/wcag/success-criterion-1-4-5){lang=en}.
 
 #### [Critère 1.9](#crit-1-9) [AA] Chaque [élément graphique légendé](glossaire.md#element-graphique-legende) est-il correctement restitué par les technologies d’assistance&nbsp;? {id="crit-1-9"}
 
@@ -181,7 +189,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 ### [Thématique 2](#topic-2)&nbsp;: Couleurs {id="topic-2"}
 
@@ -196,7 +205,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Activer l’option **Différencier sans couleur** (*Réglages > Accessibilité > Affichage et taille du texte > Différencier sans couleur*).
-1. Repérer dans l’écran les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
+1. Repérer dans l’écran les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
 1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.
 1. Avec le **lecteur d’écran**, accéder à l’information donnée par la couleur.  
 1. Vérifier qu’une information équivalente est restituée par le lecteur d’écran (par exemple l’état &laquo;&nbsp;sélectionné&nbsp;&raquo; d’un bouton vert).
@@ -204,16 +213,17 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### Android
 
-1. Repérer dans l’écran les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
-1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.).
+1. Repérer dans l’écran les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’information et les médias temporels dont la mise en couleur est porteuse d’information.
+1. Vérifier qu’il existe un autre moyen visuel de récupérer cette information&nbsp;: présence d’une icône ou d’un effet graphique de forme ou de position, un effet typographique, etc.
 1. Avec le **lecteur d’écran**, accéder à l’information donnée par la couleur. 
 1. Vérifier qu’une information équivalente est restituée par le lecteur d’écran (par exemple l’état &laquo;&nbsp;sélectionné&nbsp;&raquo; d’un bouton vert).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.1.4.1 Use of colour*{lang=en}.
+- WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.1.4.1 Use of colour*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Use of Color](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1){lang=en}.
 
 #### [Critère 2.2](#crit-2-2) [AA] Dans chaque écran, le [contraste](glossaire.md#contraste) entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers)&nbsp;? {id="crit-2-2"}
 
@@ -233,28 +243,30 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### iOS
 
-1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste.
-1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
-	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
-	- En réalisant des [captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les important sur l’ordinateur).
-1. Vérifier&nbsp;:
-	- Pour les textes en taille normale, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
-	- Pour les textes de grande taille, que la valeur de contraste est de 3:1 au moins.
+1. Pour les textes dont [la taille (normale ou agrandie)](glossaire.md#contraste-taille-des-textes) ne peut être appréciée à l’œil nu, vous devrez la mesurer ([voir la section dédiée dans la méthodologie](methodologie.md#evaluer-la-taille-d-un-texte)).
+1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan&nbsp;: 
+	- en [diffusant l’écran du terminal mobile](methodologie.md#diffuser-l-ecran-du-terminal-mobile) sur l’ordinateur&nbsp;;
+	- ou en [réalisant des captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les [important sur l’ordinateur](methodologie.md#importer-des-captures-d-ecrans-sur-l-ordinateur)).
+1. Pour les textes problématiques identifiés précédemment, vérifier&nbsp;:
+	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
+	- Pour les textes dont la taille est de 24 px ou plus sans effet de graisse, ou de 18,5 px ou plus avec effet de graisse, que la valeur de contraste est de 3:1 au moins.
 1. Si c’est le cas, le critère est validé.
 
 Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Inspector](methodologie.md#applications-de-tests)**{lang=en} disponible sur macOS pour réaliser une évaluation rapide des contrastes des écrans. Le logiciel dispose d’une fonctionnalité &laquo;&nbsp;Audit&nbsp;&raquo; qui permet de faire des tests automatiques de certains éléments textes et graphiques des écrans. Cette fonctionnalité ne détecte pas l’ensemble des défauts de contraste, des tests complémentaires suivant la méthodologie décrite ci-avant seront nécessaires.
 
 ###### Android
 
-1. S’il existe dans l’application, activer le mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. S’il existe dans l’application, activer le [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les textes, les textes contenus dans des éléments graphiques et les textes incrustés dans les vidéos qui pourraient poser des problèmes de contraste.
-1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
-	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
-	- En réalisant des [captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les important sur l’ordinateur).
-1. Vérifier&nbsp;:
-	- Pour les textes en taille normale, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
-	- Pour les textes de grande taille, que la valeur de contraste est de 3:1 au moins.
+1. Pour les textes dont [la taille (normale ou agrandie)](glossaire.md#contraste-taille-des-textes) ne peut être appréciée à l’œil nu, vous devrez la mesurer ([voir la section dédiée dans la méthodologie](methodologie.md#evaluer-la-taille-d-un-texte)).
+1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan&nbsp;: 
+	- en [diffusant l’écran du terminal mobile](methodologie.md#diffuser-l-ecran-du-terminal-mobile) sur l’ordinateur&nbsp;;
+	- ou en [réalisant des captures d’écran](methodologie.md#realiser-des-captures-d-ecran) des éléments à évaluer (et en les [important sur l’ordinateur](methodologie.md#importer-des-captures-d-ecrans-sur-l-ordinateur)).
+1. Pour les textes problématiques identifiés précédemment, vérifier&nbsp;:
+	- Pour les textes dont la taille est de moins de 24 px sans effet de graisse, ou de moins de 18,5 px avec effet de graisse, que la valeur de contraste est de 4.5:1, au moins&nbsp;; 
+	- Pour les textes dont la taille est de 24 px ou plus sans effet de graisse, ou de 18,5 px ou plus avec effet de graisse, que la valeur de contraste est de 3:1 au moins.
 1. Si c’est le cas, le critère est validé.
 
 Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanner](methodologie.md#applications-de-tests)** pour réaliser une évaluation rapide des contrastes des écrans. L’application ne détecte pas l’ensemble des défauts de contrastes, des tests complémentaires suivant la méthodologie décrite ci-avant seront nécessaires.
@@ -262,7 +274,8 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.7 User preferences*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.7 User preferences*{lang=en}.
+- APPT&nbsp;: [Contrast (Minimum)](https://appt.org/en/guidelines/wcag/success-criterion-1-4-3){lang=en}.
 
 #### [Critère 2.3](#crit-2-3) [AA] Dans chaque écran, les couleurs utilisées dans les [composants d’interface](glossaire.md#composant-d-interface) et les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers)&nbsp;? {id="crit-2-3"}
 
@@ -279,7 +292,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 - Composant d’interface inactif (par exemple, un bouton désactivé) sur lequel aucune action n’est possible.
 - Composant d’interface géré par la plateforme et pour lequel il n’existe pas de méthode simple de développement pour le modifier.
 - Composant d’interface dont la couleur n’est pas nécessaire pour identifier le composant ou son état (par exemple, le soulignement des liens qui aurait un rapport de contraste inférieur à 3:1 mais dont le texte a un rapport de contraste de 4.5:1).
-- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran).
+- [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique non porteur d’information ou ayant une alternative, une description détaillée, une information identique visible dans l’écran.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique faisant partie d’un logo ou du nom de marque d’un organisme ou d’une société.
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dont la présentation est essentielle à l’information véhiculée (par exemple, drapeaux, logotypes, photos de personnes ou de scènes, captures d’écran, diagrammes médicaux, carte de chaleurs).
 - [Élément graphique](glossaire.md#element-graphique) ou parties d’élément graphique dynamique dont le contraste peut varier si d’autres éléments sont survolés (ou reçoivent le focus), mais dont le survol ou focus permet de le rendre suffisamment contrasté (par exemple, un diagramme en camembert composé de plusieurs sections suffisamment contrastées, mais lorsque la souris survole une section du camembert, les autres sections ne sont plus suffisamment contrastées, leur opacité est réduite pour mettre en avant la section survolée).
@@ -288,7 +301,7 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ###### iOS
 
-1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant.
+1. Activer l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) ou s’il est présent dans l’application, activer le [mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les éléments graphiques porteurs d’information et pour chacun&nbsp;: 
 	- Identifier quelle(s) couleur(s) du composant sont nécessaires à l’identification de la localisation et/ou de l’information véhiculée (cela peut être la bordure, la couleur d’une icône, la couleur de fond)&nbsp;;
 	- Identifier les couleurs adjacentes qui ont un impact sur la visibilité de la ou les couleurs du composant.
@@ -305,7 +318,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Inspec
 
 ###### Android
 
-1. S’il existe dans l’application, activer le mécanisme de remplacement de l’application permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant.
+1. S’il existe dans l’application, activer le [mécanisme de remplacement permettant d’afficher les éléments graphiques avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Repérer dans l’écran les éléments graphiques porteurs d’information et pour chacun&nbsp;: 
 	- Identifier quelle(s) couleur(s) du composant sont nécessaires à l’identification de la localisation et/ou de l’information véhiculée (cela peut être la bordure, la couleur d’une icône, la couleur de fond)&nbsp;;
 	- Identifier les couleurs adjacentes qui ont un impact sur la visibilité de la ou les couleurs du composant.
@@ -323,16 +336,17 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.11 Non-text Contrast*{lang=en}, *11.7 User preference*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.11 Non-text Contrast*{lang=en}, *11.7 User preference*{lang=en}.
+- APPT&nbsp;: [Non-text Contrast](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11){lang=en}.
 
-#### [Critère 2.4](#crit-2-4) [AA] Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-de-l-application-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé&nbsp;? {id="crit-2-4"}
+#### [Critère 2.4](#crit-2-4) [AA] Le rapport de contraste de chaque [mécanisme de remplacement qui permet d’afficher l’écran avec un rapport de contraste conforme](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme) est-il suffisamment élevé&nbsp;? {id="crit-2-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS
 
 1. Vérifier que l’option **Augmenter le contraste** (*Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*) est désactivée.
-1. Repérer la présence d’un mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Repérer la présence d’un [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Vérifier qu’il n’est pas activé (c’est-à-dire que l’écran est diffusé avec les contrastes par défaut).
 1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
 	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
@@ -348,7 +362,7 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 
 ###### Android
 
-1. Repérer la présence d’un mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant.
+1. Repérer la présence d’un [mécanisme de remplacement permettant d’afficher l’application avec un rapport de contraste suffisant](glossaire.md#mecanisme-qui-permet-d-afficher-un-rapport-de-contraste-conforme).
 1. Vérifier qu’il n’est pas activé (c’est-à-dire que l’écran est diffusé avec les contrastes par défaut).
 1. Activer le logiciel **Colour Contrast Analyser**{lang=en} sur l’ordinateur et capturer les couleurs d’avant-plan et d’arrière-plan sur le terminal mobile soit&nbsp;:  
 	- En [diffusant l’écran du terminal mobile sur l’ordinateur](methodologie.md#diffuser-l-ecran-du-terminal-mobile)&nbsp;;
@@ -365,7 +379,8 @@ Note&nbsp;: Il est possible d’utiliser l’application **[Accessibility Scanne
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.3 Contraste (minimum) (AA)](https://www.w3.org/Translations/WCAG21-fr/#contrast-minimum), [1.4.11 Contraste du contenu non textuel (AA)](https://www.w3.org/Translations/WCAG21-fr/#non-text-contrast)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}, *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.1.4.11 Non-text Contrast*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}, *11.1.4.3 Contrast (Minimum)*{lang=en}, *11.1.4.11 Non-text Contrast*{lang=en}.
+- APPT&nbsp;: [Contrast (Minimum)](https://appt.org/en/guidelines/wcag/success-criterion-1-4-3){lang=en}, [Non-text Contrast](https://appt.org/en/guidelines/wcag/success-criterion-1-4-11){lang=en}.
 
 ### [Thématique 3](#topic-3)&nbsp;: Multimédia {id="topic-3"}
 
@@ -394,7 +409,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}, [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
 #### [Critère 3.2](#crit-3-2) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement audio ayant une [transcription textuelle](glossaire.md#transcription-textuelle-media-temporel), celle-ci est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-3-2"}
 
@@ -407,13 +423,14 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS et Android
 
 1. Repérer dans l’écran les transcriptions textuelles des médias temporels seulement audio.
-1. Vérifier que chaque transcription textuelle est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
+1. Vérifier que chaque transcription textuelle est pertinente (toutes les informations sonores importantes sont présentes, les dialogues notamment).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}.
 
 #### [Critère 3.3](#crit-3-3) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement vidéo a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-3"}
 
@@ -444,7 +461,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}, [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
 #### [Critère 3.4](#crit-3-4) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré seulement vidéo ayant une alternative, celle-ci est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-3-4"}
 
@@ -474,9 +492,10 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.1 Contenus seulement audio et seulement vidéo (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-only-and-video-only-prerecorded), [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.1.1 Audio-only and Video-only (Pre-recorded)*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio-only and Video-only (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-1){lang=en}, [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
-#### [Critère 3.5](#crit-3-5) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-5}
+#### [Critère 3.5](#crit-3-5) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, une alternative (hors cas particuliers)&nbsp;? {id="crit-3-5"}
 
 **[Test 3.5.1](#test-3-5-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré vérifie-t-il, si nécessaire, l’une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-5-1"}
 - Il existe une [transcription textuelle](glossaire.md#transcription-textuelle-media-temporel) accessible [adjacente clairement identifiable](glossaire.md#adjacente-clairement-identifiable)&nbsp;;
@@ -502,7 +521,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
 #### [Critère 3.6](#crit-3-6) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant une alternative, celle-ci est-elle pertinente (hors cas particuliers)&nbsp;? {id="crit-3-6"}
 
@@ -523,25 +543,31 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 	- que celle-ci est pertinente (toutes les informations visuelles importantes sont présentes)&nbsp;;
 	- et que celle-ci est correctement synchronisée (la bande-son de l’audiodescription coïncide correctement avec la bande vidéo).
 1. Si une transcription textuelle est présente, vérifier&nbsp;:
-	-  que celle-ci est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
+	- que celle-ci est pertinente (toutes les informations sonores ou visuelles importantes sont présentes, les dialogues et les textes incrustés notamment).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.3 Audio-description ou version de remplacement pour un média temporel (pré-enregistré) (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-or-media-alternative-prerecorded). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.3.1 Audio Description or Media Alternative (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio Description or Media Alternative (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-3){lang=en}.
 
-#### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7}
+#### [Critère 3.7](#crit-3-7) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé a-t-il, si nécessaire, des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) (hors cas particuliers)&nbsp;? {id="crit-3-7"}
+
+- **[Test 3.7.1](#test-3-7-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-1"}
+- **[Test 3.7.2](#test-3-7-2)&nbsp;:** Chaque média temporel synchronisé en direct a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers)&nbsp;? {id="test-3-7-2"}
 
 ##### Cas particuliers
 
-[Voir les cas particuliers du critère 3.1](#crit-3-1) 
+[Voir les cas particuliers du critère 3.1](#crit-3-1)
+
+Les médias temporels synchronisés en direct diffusés via une application mobile soumise à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels synchronisés qui nécessitent des sous-titres (c’est-à-dire dont la bande son apporte de l’information, comme le discours d’une personne).
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias temporels synchronisés en direct qui nécessitent des sous-titres (c’est-à-dire dont la bande son apporte de l’information, comme le discours d’une personne).
 1. Vérifier&nbsp;:
 	- qu’il existe des sous-titres synchronisés&nbsp;;
 	- ou qu’il existe une version alternative possédant des sous-titres synchronisés accessible via un composant adjacent (un bouton ou un lien).
@@ -549,35 +575,50 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.2 Captions (Prerecorded)*{lang=en}.
+- WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded), [1.2.4 Sous-titres (en direct) (AA)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.2 Captions (Prerecorded)*{lang=en}, *11.1.2.4 Captions (live)*{lang=en}.
+- APPT&nbsp;: [Captions (Prerecorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2){lang=en}, [Captions (Live)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-4){lang=en}.
 
-#### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents&nbsp;? {id="crit-3-8}
+#### [Critère 3.8](#crit-3-8) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé ayant des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci sont-ils pertinents (hors cas particuliers)&nbsp;? {id="crit-3-8"}
 
-**[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-8-1"}
-- Les sous-titres sont pertinents&nbsp;;
-- Les sous-titres sont correctement synchronisés.
+- **[Test 3.8.1](#test-3-8-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-1"}
+	- Les sous-titres sont dans la langue de la vidéo&nbsp;;
+	- Les sous-titres sont pertinents&nbsp;;
+	- Les sous-titres sont correctement synchronisés.
+- **[Test 3.8.2](#test-3-8-2)&nbsp;:** Pour chaque média temporel synchronisé en direct ayant des sous-titres synchronisés, les sous-titres respectent-ils ces conditions (hors cas particuliers)&nbsp;? {id="test-3-8-2"}
+	- Les sous-titres sont dans la langue de la vidéo&nbsp;;
+	- Les sous-titres sont pertinents&nbsp;;
+	- Les sous-titres sont correctement synchronisés.
+
+##### Cas particuliers
+
+[Voir les cas particuliers du critère 3.1](#crit-3-1)
+
+Les médias temporels synchronisés en direct diffusés via une application mobile soumise à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés.
+
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels synchronisés possédant des sous-titres.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés et les médias temporels synchronisés en direct possédant des sous-titres.
 1. Vérifier que les sous-titres sont&nbsp;:
 	- pertinents (toutes les informations sonores importantes sont présentes, les dialogues notamment)&nbsp;;
+	- dans la langue de la vidéo&nbsp;;
 	- et correctement synchronisés. Si vous n’observez pas de décalage entre le discours oralisé et l’apparition des sous-titres, les sous-titres sont correctement synchronisés. La norme de référence spécifie que les sous-titres doivent apparaître dans les 100 ms suivant l’[horodatage du sous-titre](glossaire.md#horodatage-time-stamp).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.2 Captioning synchronization*{lang=en}, *11.1.2.2 Captions (Prerecorded)*{lang=en}.
+- WCAG 2.1&nbsp;: [1.2.2 Sous-titres (pré-enregistrés) (A)](https://www.w3.org/Translations/WCAG21-fr/#captions-prerecorded), [1.2.4 Sous-titres (en direct) (AA)](https://www.w3.org/Translations/WCAG21-fr/#captions-live)
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.1.2 Captioning synchronization*{lang=en}, *11.1.2.2 Captions (Prerecorded)*{lang=en}, *11.1.2.4 Captions (live)*{lang=en}.
+- APPT&nbsp;: [Captions (Prerecorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-2){lang=en}, [Captions (Live)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-4){lang=en}.
 
 #### [Critère 3.9](#crit-3-9) [AA] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré (seulement vidéo ou synchronisé) a-t-il, si nécessaire, une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel) (hors cas particuliers)&nbsp;? {id="crit-3-9"}
 
 ##### Cas particuliers
 
-[Voir les cas particuliers du critère 3.1](#crit-3-1) 
+[Voir les cas particuliers du critère 3.1](#crit-3-1)
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -592,7 +633,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.5 Audio-description (pré-enregistrée) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio Description (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5){lang=en}.
 
 #### [Critère 3.10](#crit-3-10) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré (seulement vidéo ou synchronisé) ayant une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), celle-ci est-elle pertinente&nbsp;? {id="crit-3-10"}
 
@@ -615,7 +657,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.2.5 Audio-description (pré-enregistrée) (AA)](https://www.w3.org/Translations/WCAG21-fr/#audio-description-prerecorded)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.2.2 Audio description synchronization*{lang=en}, *11.1.2.5 Audio Description (Pre-recorded)*{lang=en}.
+- APPT&nbsp;: [Audio Description (Pre-recorded)](https://appt.org/en/guidelines/wcag/success-criterion-1-2-5){lang=en}.
 
 #### [Critère 3.11](#crit-3-11) [A] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, le contenu textuel adjacent permet-il d’identifier clairement le média temporel (hors cas particuliers)&nbsp;?  {id="crit-3-11"}
 
@@ -636,7 +679,8 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 3.12](#crit-3-12) [A] Chaque séquence sonore déclenchée automatiquement est-elle [contrôlable](glossaire.md#controle-son-declenche-automatiquement) par l’utilisateur&nbsp;? {id="crit-3-12"}
 
@@ -644,6 +688,10 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 - La séquence sonore a une durée inférieure ou égale à 3 secondes&nbsp;;
 - La séquence sonore peut être stoppée sur action de l’utilisateur&nbsp;;
 - Le volume de la séquence sonore peut être contrôlé par l’utilisateur indépendamment du contrôle de volume du système.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -658,7 +706,8 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.2 Contrôle du son (A)](https://www.w3.org/Translations/WCAG21-fr/#audio-control)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.2 Audio Control*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.2 Audio Control*{lang=en}.
+- APPT&nbsp;: [Audio Control](https://appt.org/en/guidelines/wcag/success-criterion-1-4-2){lang=en}.
 
 #### [Critère 3.13](#crit-3-13) [A] Chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) a-t-il, si nécessaire, les [fonctionnalités de contrôle de sa consultation](glossaire.md#controle-de-la-consultation-d-un-media-temporel)&nbsp;?  {id="crit-3-13"}
 
@@ -679,34 +728,37 @@ Le critère est non applicable lorsque le média temporel est utilisé à des fi
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}.
+- WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 Pas de piège au clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap)
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.1.1 Captioning playback*{lang=en}, *7.2.1 Audio description playback*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.1.2 No Keyboard Trap*{lang=en}.
+- APPT&nbsp;: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2){lang=en}.
 
-#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise), les fonctionnalités de contrôle des alternatives sont-elles présentées au même niveau que les autres fonctionnalités de [contrôle primaires](glossaire.md#controle-primaire-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
+#### [Critère 3.14](#crit-3-14) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui dispose d’une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia) ou d’une [audiodescription](glossaire.md#audiodescription-synchronisee-media-temporel), les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les [fonctionnalités principales](glossaire.md#fonctionnalites-principales-d-un-media-temporel)&nbsp;? {id="crit-3-14"}
 
-**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque média temporel, les fonctionnalités de contrôle des alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
-- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les autres fonctionnalités de contrôle primaires&nbsp;;
-- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les autres fonctionnalités de contrôle primaires.
+**[Test 3.14.1](#test-3-14-1)&nbsp;:** Pour chaque média temporel synchronisé pré-enregistré qui dispose d’une piste de sous-titres synchronisés ou d’une audiodescription, les fonctionnalités de contrôle de ces alternatives respectent-elles ces conditions&nbsp;? {id="test-3-14-1"}
+- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les fonctionnalités principales&nbsp;;
+- Pour chaque média temporel, la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les fonctionnalités principales.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’écran les médias temporels pré-enregistrés ayant une alternative (sous-titres synchronisés ou audiodescription).
-1. Si des sous-titres sont présents, vérifier que la fonctionnalité qui permet d’activer et désactiver les sous-titres est présentée au même niveau que les autres fonctionnalités (comme la fonctionnalité de lecture par exemple), c’est-à-dire qu’il n’est pas nécessaire de réaliser plus d’actions pour déclencher les sous-titres que pour déclencher les autres fonctionnalités. Par exemple, si le bouton de lecture peut être activé depuis l’interface par un simple geste de tap (sans la nécessité d’activer un premier composant), la fonction de sous-titres doit être disponible de manière équivalente, avec un simple geste de tap. Si la fonction des sous-titres est disponible depuis un menu déroulant qui doit être activé (par un geste de tap par exemple), elle ne sera pas considérée comme étant au même niveau puisqu’il y aura une étape supplémentaire à réaliser.
-1. Si une audiodescription est présente, vérifier que la fonctionnalité qui permet d’activer et désactiver l’audiodescription est présentée au même niveau que les autres fonctionnalités.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec une piste de sous-titres synchronisés ou une audiodescription.
+1. Vérifier qu’il est possible d’activer et désactiver les sous-titres ou l’audiodescription sans étape supplémentaire par rapport aux fonctionnalités principales (lecture, pause…).
 1. Si c’est le cas, le critère est validé.
 
+*Exemple*&nbsp;: Si le bouton de lecture peut être activé depuis l’interface par un simple tap (sans la nécessité d’activer un premier composant pour afficher un menu déroulant par exemple), la fonction de sous-titres doit être disponible de manière équivalente, avec un simple tap. À l’inverse, si la fonction des sous-titres est disponible depuis un menu déroulant qui doit être activé au préalable (par un tap par exemple), elle ne sera pas considérée comme étant au même niveau puisqu’il y aura une étape supplémentaire à réaliser.
+
 Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des composants physiques des terminaux (boutons de volume d’un smartphone par exemple), il n’est pas requis que ces terminaux possèdent des contrôles physiques dédiés à l’activation des sous-titres et de l’audiodescription ou que ces contrôles, s’ils existent, soient situés au même niveau.
+
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.3 User controls for captions and audio description*{lang=en}.
 
-#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de sous-titres, à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
+#### [Critère 3.15](#crit-3-15) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède une piste de [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), à l’issue du processus, les sous-titres sont-ils correctement conservés&nbsp;? {id="crit-3-15"}
 
-**[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre une vidéo qui possède une piste de sous-titres, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
+**[Test 3.15.1](#test-3-15-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres synchronisés, à l’issue du processus, les sous-titres respectent-ils ces conditions&nbsp;? {id="test-3-15-1"}
 - Les sous-titres sont présents&nbsp;;
 - Les sous-titres peuvent être affichés&nbsp;;
 - Les sous-titres sont correctement synchronisés&nbsp;;
@@ -716,23 +768,23 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 ###### iOS et Android
 
-1. Repérer les fonctionnalités qui permettent de transmettre (envoyer un contenu vers un autre terminal par exemple), convertir ou enregistrer un média temporel.
+1. Repérer les fonctionnalités qui permettent de transmettre (envoyer un contenu vers un autre terminal ou envoyer une vidéo par e-mail par exemple), convertir (convertir une vidéo au format .avi dans un format .mpg par exemple) ou enregistrer un média temporel synchronisé pré-enregistré (enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel par exemple).
 1. Exécuter chacune des fonctionnalités (transmettre, convertir et enregistrer).
-1. Pour chacun des médias résultant de la fonctionnalité, évaluer&nbsp;:
-	- si les sous-titres sont toujours présents&nbsp;; 
-	- si les sous-titres peuvent être affichés&nbsp;;
-	- si les sous-titres sont correctement synchronisés&nbsp;;
-	- si les caractéristiques essentielles des sous-titres sont conservées (par exemple, si dans le média original les sous-titres étaient colorés en fonction du locuteur, cette coloration doit se retrouver dans le média qui résulte de la fonctionnalité).
+1. Pour chaque fonctionnalité, vérifier si les sous-titres&nbsp;:
+	- sont toujours présents&nbsp;; 
+	- peuvent être affichés&nbsp;;
+	- sont correctement synchronisés&nbsp;;
+	- conservent leurs caractéristiques essentielles (par exemple, si les sous-titres étaient colorés en fonction du locuteur, les couleurs doivent être reprises).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.1.3 Preservation of captioning*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.1.3 Preservation of captioning*{lang=en}.
 
-#### [Critère 3.16](#crit-3-16) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée&nbsp;? {id="crit-3-16"}
+#### [Critère 3.16](#crit-3-16) [AA] Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré avec une [audiodescription synchronisée](glossaire.md#audiodescription-synchronisee-media-temporel), à l’issue du processus, l’audiodescription est-elle correctement conservée&nbsp;? {id="crit-3-16"}
 
-**[Test 3.16.1](#test-3-16-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions&nbsp;? {id="test-3-16-1"}
+**[Test 3.16.1](#test-3-16-1)&nbsp;:** Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré avec une audiodescription synchronisée, à l’issue du processus l’audiodescription respecte-t-elle ces conditions&nbsp;? {id="test-3-16-1"}
 - L’audiodescription est présente&nbsp;;
 - L’audiodescription peut être activée&nbsp;;
 - L’audiodescription est correctement synchronisée.
@@ -741,22 +793,26 @@ Note&nbsp;: Bien que les contrôles de volume et de lecture puissent être des c
 
 ###### iOS et Android
 
-1. Repérer les fonctionnalités qui permettent de transmettre (envoyer un contenu vers un autre terminal par exemple), convertir ou enregistrer un média temporel.
+1. Repérer les fonctionnalités qui permettent de transmettre, convertir ou enregistrer un média temporel synchronisé. Par exemple&nbsp;: envoyer un contenu vers un autre terminal ou par mail, convertir une vidéo au format .avi dans un format .mpg, enregistrer une vidéo depuis une plateforme de diffusion sur son ordinateur personnel.
 1. Exécuter chacune des fonctionnalités (transmettre, convertir et enregistrer).
-1. Pour chacun des médias résultant de la fonctionnalité, évaluer&nbsp;:
-	- si l’audiodescription est présente&nbsp;; 
-	- si l’audiodescription peut être activée&nbsp;;
-	- si l’audiodescription est correctement synchronisée&nbsp;: 
-	    - les sons et paroles de l’audiodescription ne chevauchent pas ceux de la bande-son originale pour provoquer des problèmes de perception et de compréhension&nbsp;;
+1. Pour chaque fonctionnalité, vérifier si l’audiodescription&nbsp;:
+	- est présente&nbsp;; 
+	- peut être activée&nbsp;;
+	- est correctement synchronisée&nbsp;: 
+	    - les sons et paroles de l’audiodescription ne chevauchent pas ceux de la bande-son originale et ne provoquent pas de problèmes de perception et de compréhension&nbsp;;
 	    - les informations véhiculées dans l’audiodescription sont données au moment où apparaissent les informations visuelles équivalentes.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.2.3 Preservation of audio description*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}, *7.2.3 Preservation of audio description*{lang=en}.
 
-#### [Critère 3.17](#crit-3-17) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des sous-titres est-elle contrôlable par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-3-17"}
+#### [Critère 3.17](#crit-3-17) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) pré-enregistré, la présentation des [sous-titres](glossaire.md#sous-titres-synchronises-objet-multimedia) est-elle contrôlable par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-3-17"}
+
+**[Test 3.17.1](#test-3-17-1)&nbsp;:** Pour chaque média temporel pré-enregistré, la présentation des sous-titres respecte-t-elle une de ces conditions&nbsp;? {id="test-3-17-1"}
+- Les paramètres système de présentation des sous-titres définis par l’utilisateur s’appliquent aux sous-titres.
+- Il existe une fonctionnalité dans l’écran qui permet à l’utilisateur de modifier les paramètres de présentation des sous-titres.
 
 ##### Cas particuliers
 
@@ -770,10 +826,11 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 1. Modifier les paramètres de présentation des sous-titres depuis la plateforme&nbsp;: 
 	- Aller dans *Réglages > Accessibilité > Sous-titres codés et SM > Style*&nbsp;;
 	- Sélectionner **Créer un style** pour définir un style de sous-titres personnalisé et reconnaissable. 
-	- Définir un ou plusieurs paramètres parmi&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan ou encore l’opacité de l’arrière-plan (vérifier que le paramètre **Ignorer les réglages personnalisés** en bas d’écran est désactivé).
+	- Vérifier que le paramètre **Ignorer les réglages personnalisés** en bas d’écran est désactivé.
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par la plateforme, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
 1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
-1. Si ce n’est pas le cas, vérifier dans le média la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres.
-1. Vérifier que les paramètres définis ci-avant sont appliqués aux sous-titres.
+1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
+1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
 1. Si c’est le cas, le critère est validé.
 
 ###### Android
@@ -781,59 +838,60 @@ Le critère est non applicable pour les sous-titres incrustés (*open captions*{
 1. Repérer dans l’écran les médias temporels pré-enregistrés qui possèdent des sous-titres.
 1. Modifier les paramètres de présentation des sous-titres depuis la plateforme&nbsp;: 
 	- Aller dans *Paramètres > Accessibilité > Préférence pour les sous-titres > Style et taille des sous-titres*&nbsp;;
-	- Définir un ou plusieurs paramètres parmi&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan ou encore l’opacité de l’arrière-plan.
-1. Vérifier que les paramètres au niveau de la plateforme sont appliqués aux sous-titres.
-1. Si ce n’est pas le cas, vérifier dans le média la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres.
-1. Vérifier que les paramètres définis ci-avant sont appliqués aux sous-titres.
+	- Définir un ou plusieurs paramètres de présentation des sous-titres depuis les options de personnalisation mises à disposition par la plateforme, par exemple&nbsp;: la taille des sous-titres, la couleur, le style de bordure des sous-titres, la couleur d’arrière-plan, l’opacité de l’arrière-plan, etc. (Note&nbsp;: la norme ne donne pas la liste précise des paramètres qu’il est obligatoire de pouvoir définir, aussi, la possibilité de modifier une seule caractéristique des sous-titres est suffisante pour rendre le critère conforme).
+1. Vérifier que les paramètres définis au niveau de la plateforme sont appliqués aux sous-titres.
+1. Sinon, repérer dans l’écran la présence d’une fonctionnalité permettant de modifier les paramètres de présentation des sous-titres (dans l’écran ou directement depuis le lecteur multimédia).
+1. Vérifier que les paramètres définis sont appliqués aux sous-titres.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.4 Captions characteristics, 11.7 User preferences*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.1.4 Captions characteristics, 11.7 User preferences*{lang=en}.
 
-#### [Critère 3.18](#crit-3-18) [AA] Pour chaque [média temporel synchronisé pré-enregistré](glossaire.md#media-temporel-type-son-video-et-synchronise) qui possède des [sous-titres synchronisés](glossaire.md#sous-titres-synchronises-objet-multimedia), ceux-ci peuvent-ils être, si nécessaire, vocalisés (hors cas particuliers)&nbsp;? {id="crit-3-18"}
+#### [Critère 3.18](#crit-3-18) [AA] Pour chaque [média temporel](glossaire.md#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède des [sous-titres de traduction](glossaire.md#sous-titres-de-traduction) synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers)&nbsp;? {id="crit-3-18"}
 
-**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres synchronisés respecte-t-il une de ces conditions ? {id="test-3-18-1"}
-- Les sous-titres sont dans un format standardisé&nbsp;;
-- Il existe une piste audio supplémentaire qui contient les sous-titres vocalisés.
+**[Test 3.18.1](#test-3-18-1)&nbsp;:** Chaque média temporel synchronisé pré-enregistré qui possède des sous-titres de traduction vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;? {id="test-3-18-1"}
+
+- Une piste sonore contenant une vocalisation de l’ensemble des sous-titres de traduction peut être activée par l’utilisateur.
+- Une fonctionnalité est disponible qui permet de vocaliser les sous-titres de traduction.
+- Les sous-titres de traduction peuvent être vocalisés par les technologies d’assistance.
+- Il existe une version alternative contenant une vocalisation de l’ensemble des sous-titres de traduction, accessible via un lien ou bouton adjacent.
 
 ##### Cas particuliers
 
-Le critère est non applicable dans les cas suivants&nbsp;: 
-- Les sous-titres sont incrustés dans la vidéo.
-- La vidéo et les sous-titres utilisent la même langue. Le critère ne concerne que les sous-titres de traduction.
+Le critère est non applicable pour les sous-titres incrustés dans la vidéo (*open captions*{lang=en}).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-###### iOS
+######  iOS et Android
 
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés qui possèdent des sous-titres de traduction.
-1. Vérifier que les sous-titres sont dans un format standardisé (par exemple, le format .srt).
-1. Sinon, activer le **lecteur d’écran** et naviguer jusqu’au lecteur multimédia.
-1. [Activer le rotor](https://support.apple.com/fr-fr/guide/iphone/iph3e2e3a6d/ios).
-1. Faire défiler les paramètres du rotor et trouver l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo;. 
-1. Si c’est le cas, en balayant vers le haut, sélectionner l’option &laquo;&nbsp;Énonciation&nbsp;&raquo;.
-1. Activer les sous-titres de la vidéo et lancer la vidéo.
-1. Vérifier que les sous-titres affichés sont restitués par le lecteur d’écran.
-1. Si ce n’est pas le cas, vérifier la présence dans le lecteur multimédia d’une piste sonore supplémentaire qui serait la version vocalisée des sous-titres.
-1. Activer la piste audio supplémentaire et vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
-1. Si c’est le cas, le critère est validé.
-
-Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’est pas disponible dans le rotor, déplacer le focus du lecteur d’écran pour atteindre la vidéo et utiliser à nouveau le rotor. Si l’option n’apparaît toujours pas, les sous-titres ne pourront pas être restitués par le lecteur d’écran, le critère est non conforme.
-
-###### Android
-
-1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés qui possèdent des sous-titres de traduction.
-1. Vérifier que les sous-titres sont dans un format standardisé (par exemple, le format .srt).
-1. Sinon, vérifier la présence dans le lecteur multimédia d’une piste sonore supplémentaire qui serait la version vocalisée des sous-titres.
-1. Activer la piste audio supplémentaire et vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
+1. Repérer dans l’écran les médias temporels synchronisés pré-enregistrés avec des sous-titres de traduction.
+1. Vérifier la présence d’une piste sonore qui serait la version vocalisée des sous-titres de traduction&nbsp;:
+	- activer la piste sonore&nbsp;;
+	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
+1. Sinon&nbsp;: 
+	- vérifier la présence d’une fonctionnalité qui permet de vocaliser des sous-titres&nbsp;; 
+	- activer la fonctionnalité&nbsp;;
+	- lancer la lecture du contenu multimédia&nbsp;;
+	- vérifier que les textes affichés par ce moyen sont vocalisés.
+1. Sinon&nbsp;:
+	- activer le **lecteur d’écran** et naviguer jusqu’au lecteur multimédia&nbsp;;
+	- activer les sous-titres de traduction&nbsp;;
+ 	- vérifier que les sous-titres vocalisés correspondent aux sous-titres affichés.
+1. Sinon&nbsp;: 
+	- activer le **lecteur d’écran** et naviguer jusqu’au lecteur multimédia&nbsp;;
+	- activer les sous-titres de traduction dans le lecteur multimédia et lancer la vidéo&nbsp;;
+	- vérifier que les sous-titres affichés sont restitués par le lecteur d’écran.
+1. Sinon&nbsp;: 
+	- rechercher la présence d’un média alternatif dont la bande son contient les sous-titres de traduction vocalisés&nbsp;;
+ 	- vérifier que les sous-titres affichés sont restitués par le lecteur d’écran.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *7.1.5 Spoken subtitles*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *7.1.5 Spoken subtitles*{lang=en}.
 
 ### [Thématique 4](#topic-4)&nbsp;: Tableaux {id="topic-4"}
 
@@ -853,7 +911,8 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 #### [Critère 4.2](#crit-4-2) [A] Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant un [résumé](glossaire.md#resume-de-tableau), celui-ci est-il pertinent&nbsp;? {id="crit-4-2"}
 
@@ -867,7 +926,8 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 #### [Critère 4.3](#crit-4-3) [A] Chaque [tableau de données](glossaire.md#tableau-de-donnees) a-t-il un [titre](glossaire.md#titre-d-un-tableau-de-donnees)&nbsp;? {id="crit-4-3"}
 
@@ -883,7 +943,8 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 #### [Critère 4.4](#crit-4-4) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees) ayant un [titre](glossaire.md#titre-d-un-tableau-de-donnees), celui-ci est-il pertinent&nbsp;? {id="crit-4-4"}
 
@@ -897,7 +958,8 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 #### [Critère 4.5](#crit-4-5) [A] Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), les entêtes de lignes et de colonnes sont-ils correctement reliés aux cellules de données&nbsp;? {id="crit-4-5"}
 
@@ -913,7 +975,8 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.6 Row, column, and headers*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.6 Row, column, and headers*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 ### [Thématique 5](#topic-5)&nbsp;: Composants interactifs {id="topic-5"}
 
@@ -924,7 +987,7 @@ Note&nbsp;: Si l’option &laquo;&nbsp;Description multimédia&nbsp;&raquo; n’
 	- Une alternative [adjacente clairement identifiable](glossaire.md#adjacente-clairement-identifiable) compatible avec une API d’accessibilité permet d’accéder aux mêmes fonctionnalités.
 - **[Test 5.1.2](#test-5-1-2)&nbsp;:** Chaque composant d’interface vérifie-t-il ces conditions (hors cas particuliers)&nbsp;? {id="test-5-1-2"}
 	- Le composant possède un nom pertinent&nbsp;;
-	- Le nom accessible du composant contient au moins l’intitulé visible&nbsp;;
+	- Le nom accessible du composant contient au moins l’[intitulé visible](glossaire.md#intitule-visible)&nbsp;;
 	- Le composant possède un rôle pertinent&nbsp;;
 	- Le composant possède une valeur pertinente&nbsp;;
 	- Le composant possède un état pertinent.
@@ -943,7 +1006,7 @@ Il existe une gestion de cas particuliers pour le [test 5.1.2](#test-5-1-2) lors
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
-Le test le plus complet est un test de restitution avec un lecteur d’écran. En effet tous les éléments à évaluer, s’ils sont présents, sont restitués par les lecteurs d’écran. D’autres tests avec d’autres technologies d’assistance peuvent être nécessaires pour s’assurer de la compatibilité. Plusieurs méthodes d’évaluation plus ou moins complètes vous sont décrites.
+Le test le plus complet est un test de restitution avec un lecteur d’écran. En effet, tous les éléments à évaluer, s’ils sont présents, sont restitués par les lecteurs d’écran. D’autres tests avec d’autres technologies d’assistance peuvent être nécessaires pour s’assurer de la compatibilité. Plusieurs méthodes d’évaluation plus ou moins complètes vous sont décrites.
 
 Plusieurs méthodes sont disponibles avec iOS, mais seul le test avec VoiceOver est le test qui permet d’évaluer l’ensemble des éléments demandé par le critère.
 
@@ -995,9 +1058,9 @@ Le contrôle vocal va permettre de déceler les composants utilisables au touche
 
 1. Activer le contrôle vocal&nbsp;: *Réglages > Accessibilité > Contrôle vocal*.
 1. Afficher les libellés des composants interactifs&nbsp;: depuis l’écran de paramètres du contrôle vocal, atteindre le bouton &laquo;&nbsp;Superposition&nbsp;&raquo; et l’activer, puis choisir &laquo;&nbsp;Noms des éléments&nbsp;&raquo;.
-1. Dorénavant, lorsque le contrôle vocal sera activé, des infobulles grises apparaitront au-dessus des éléments interactifs qui ont des labels. À noter que si l’écran possède un très grand nombre de contrôles interactifs, les labels s’afficheront par groupes successifs (un  groupe de label disparait et un autre apparaît).
+1. Dorénavant, lorsque le contrôle vocal sera activé, des infobulles grises apparaîtront au-dessus des éléments interactifs qui ont des labels. À noter que si l’écran possède un très grand nombre de contrôles interactifs, les labels s’afficheront par groupes successifs (un  groupe de label disparaît et un autre apparaît).
 
-Ce qu’il faut savoir&nbsp;: seuls les éléments qui ont des rôles interactifs reconnus par l’API d’accessibilité posséderont un label. Ceci va permettre de repérer rapidement quels éléments utilisables au toucher ne sont pas reconnus par le contrôle vocal et ne sont donc pas des éléments interactifs (ce qui constitue une non conformité).
+Ce qu’il faut savoir&nbsp;: seuls les éléments qui ont des rôles interactifs reconnus par l’API d’accessibilité posséderont un label. Ceci va permettre de repérer rapidement quels éléments utilisables au toucher ne sont pas reconnus par le contrôle vocal et ne sont donc pas des éléments interactifs (ce qui constitue une non-conformité).
 
 Procédure&nbsp;: 
 
@@ -1025,8 +1088,9 @@ Procédure&nbsp;:
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context), [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status*{lang=en}, *11.2.4.4 Link Purpose (in context)*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.4.1.2.1 Name, role, value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.8 Label relationships*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}, *11.5.2.11 List of available actions*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.16 Modifications of states and properties*{lang=en}, *11.6.2 No disruption of accessibility features*{lang=en}.
+- WCAG 2.1&nbsp;: [2.4.4 Fonction du lien (selon le contexte)](https://www.w3.org/Translations/WCAG21-fr/#link-purpose-in-context), [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status*{lang=en}, *11.2.4.4 Link Purpose (in context)*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.4.1.2.1 Name, role, value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.8 Label relationships*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}, *11.5.2.11 List of available actions*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.16 Modifications of states and properties*{lang=en}, *11.6.2 No disruption of accessibility features*{lang=en}.
+- APPT&nbsp;: [Link Purpose (in context)](https://appt.org/en/guidelines/wcag/success-criterion-2-4-4){lang=en}, [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3){lang=en}, [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2){lang=en}.
 
 #### [Critère 5.2](#crit-5-2) [A] Chaque [composant d’interface](glossaire.md#composant-d-interface) est-il [contrôlable par le clavier et tout dispositif de pointage](glossaire.md#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers)&nbsp;? {id="crit-5-2"}
 
@@ -1050,7 +1114,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 1. Activer le **lecteur d’écran**.
 1. Parcourir l’ensemble des composants interactifs.
 1. Vérifier&nbsp;: 
-	-  qu’il peut être atteint avec le lecteur d’écran&nbsp;;
+	- qu’il peut être atteint avec le lecteur d’écran&nbsp;;
 	- qu’il peut être activé avec le lecteur d’écran. 
 1. Si c’est un composant modifiable (champ de saisie, case à cocher, potentiomètre), vérifier qu’il peut être modifié avec le lecteur d’écran.
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
@@ -1063,8 +1127,9 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 
 ##### Correspondances {class="disclosure mapping"}
 
-- WCAG 2.1&nbsp;: [1.3.1 Info and Relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships), [2.1.1 Keyboard (A)](https://www.w3.org/TR/WCAG21/#keyboard), [2.4.7 Visibilité du focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.13 Tracking of focus and selection attributes*{lang=en}, *11.5.2.14 Modification of focus and selection attributes*{lang=en}, *11.5.2.17 Modifications of values and text*{lang=en}.
+- WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.4.7 Visibilité du focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.1.1.1 Keyboard*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.7 Values*{lang=en}, *11.5.2.12 Execution of available actions*{lang=en}, *11.5.2.13 Tracking of focus and selection attributes*{lang=en}, *11.5.2.14 Modification of focus and selection attributes*{lang=en}, *11.5.2.17 Modifications of values and text*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7){lang=en}.
 
 #### [Critère 5.3](#crit-5-3) [A] Chaque [changement de contexte](glossaire.md#changement-de-contexte) respecte-t-il une de ces conditions&nbsp;? {id="crit-5-3"}
 
@@ -1090,7 +1155,8 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.2.1 Au focus (A)](https://www.w3.org/Translations/WCAG21-fr/#on-focus), [3.2.2 À la saisie (A)](https://www.w3.org/Translations/WCAG21-fr/#on-input)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.2.1 On Focus*{lang=en}, *11.3.2.2 On Input*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.2.1 On Focus*{lang=en}, *11.3.2.2 On Input*{lang=en}.
+- APPT&nbsp;: [On Focus](https://appt.org/en/guidelines/wcag/success-criterion-3-2-1){lang=en}, [On Input](https://appt.org/en/guidelines/wcag/success-criterion-3-2-2){lang=en}.
 
 #### [Critère 5.4](#crit-5-4) [AA] Dans chaque écran, les [messages de statut](glossaire.md#message-de-statut) sont-ils correctement restitués par les technologies d’assistance&nbsp;? {id="crit-5-4"}
 
@@ -1109,7 +1175,8 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [4.1.3 Messages d’état (AA)](https://www.w3.org/Translations/WCAG21-fr/#status-messages)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.4.1.3.1 Status Messages*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.15 Change notification*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.4.1.3.1 Status Messages*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.15 Change notification*{lang=en}.
+- APPT&nbsp;: [Status Messages](https://appt.org/en/guidelines/wcag/success-criterion-4-1-3){lang=en}.
 
 #### [Critère 5.5](#crit-5-5) [A] Chaque état d’un [contrôle à bascule](glossaire.md#controle-a-bascule) présenté à l’utilisateur est-il perceptible&nbsp;? {id="crit-5-5"}
 
@@ -1130,7 +1197,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status, 5.6.2 Visual status*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.6.1 Tactile or auditory status, 5.6.2 Visual status*{lang=en}.
 
 ### [Thématique 6](#topic-6)&nbsp;: Éléments obligatoires {id="topic-6"}
 
@@ -1149,7 +1216,7 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 
 ###### Android 
 
-1. Aller dans *Paramètres > Accessibilité > TalkBack > Paramètres > Paramètres de la synthèse vocale*  (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;: 
+1. Aller dans *Paramètres > Accessibilité > TalkBack > Paramètres > Synthèse vocale*  (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;: 
 	- Vérifier que le paramètre &laquo;&nbsp;Moteur préféré&nbsp;&raquo; est &laquo;&nbsp;Synthèse vocale Google&nbsp;&raquo;&nbsp;; 
 	- Activer les paramètres de la synthèse (bouton à droite de &laquo;&nbsp;Moteur préféré&nbsp;&raquo;) et vérifier que le paramètre &laquo;&nbsp;Détection de la langue&nbsp;&raquo; est sur &laquo;&nbsp;Forcée&nbsp;&raquo;.
 1. Activer le **lecteur d’écran** et parcourir l’ensemble des éléments de l’écran.
@@ -1159,7 +1226,8 @@ Pour le clavier externe, [certains paramétrages sont nécessaires pour que le p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.1.1 Langue de la page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.1.1.1 Language of software*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.1.1.1 Language of software*{lang=en}.
+- APPT&nbsp;: [Language of page](https://appt.org/en/guidelines/wcag/success-criterion-3-1-1){lang=en}.
 
 #### [Critère 6.2](#crit-6-2) [A] Dans chaque écran, les éléments de l’interface ne doivent pas être utilisés [uniquement à des fins de présentation](glossaire.md#uniquement-a-des-fins-de-presentation). Cette règle est-elle respectée&nbsp;? {id="crit-6-2"}
 
@@ -1191,7 +1259,8 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 ### [Thématique 7](#topic-7)&nbsp;: Structuration de l’information {id="topic-7"}
 
@@ -1243,7 +1312,8 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.4.6 Headings and Labels*{lang=en}, *11.4.1.2 Name, Role, Value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.2.4.6 Headings and Labels*{lang=en}, *11.4.1.2 Name, Role, Value*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6){lang=en}, [Name, Role, Value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2){lang=en}.
 
 #### [Critère 7.2](#crit-7-2) [A] Dans chaque écran, chaque liste est-elle correctement structurée&nbsp;? {id="crit-7-2"}
 
@@ -1252,14 +1322,15 @@ Dans ce critère, on ne contrôle que les éléments qui ne doivent pas être in
 ###### iOS et Android
 
 1. Activer le **lecteur d’écran**.
-1. Repérer dans l’écran les éléments rassemblés sous forme de liste.
+1. Repérer dans l’écran les éléments [regroupés visuellement sous forme de liste](glossaire.html#listes).
 1. Vérifier que le lecteur d’écran restitue &laquo;&nbsp;Liste&nbsp;&raquo; lorsqu’il atteint le groupe d’éléments.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.9 Parent-child relationships*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 ### [Thématique 8](#topic-8)&nbsp;: Présentation de l’information {id="topic-8"}
 
@@ -1279,7 +1350,8 @@ Note&nbsp;: Dans les applications, il est possible de réaliser des regroupement
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}, *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.10 Text*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content*{lang=en}, *11.1.3.1.1 Info and Relationships*{lang=en}, *11.5.2.10 Text*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}, [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}.
 
 #### [Critère 8.2](#crit-8-2) [AA] Dans chaque écran, l’utilisateur peut-il augmenter la taille des caractères de 200% au moins (hors cas particuliers)&nbsp;? {id="crit-8-2"}
 
@@ -1299,31 +1371,35 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ###### iOS
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Police plus grande*.
-1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo; et augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (le maximum de la jauge permet d’atteindre un zoom supérieur à 200%, le test peut donc se limiter à augmenter le zoom en utilisant l’avant-dernière position du potentiomètre).
+1. Activer le bouton &laquo;&nbsp;Taille de police plus grande&nbsp;&raquo;.
+1. Ouvrir le centre de contrôle et activer le [paramètre &laquo;&nbsp;Taille du texte&nbsp;&raquo; (bouton « aA »)](methodologie.md#modifier-la-taille-de-police-sur-ios) pour afficher la jauge des tailles de police. Augmenter la valeur pour atteindre le palier 190%.
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
 	- que tous les textes de l’interface restent lisibles et les fonctionnalités utilisables&nbsp;; 
 	- que des contenus ne disparaissent pas&nbsp;; 
-	- si des textes ont disparu, qu’il existe une méthode dans l’écran pour afficher les textes à la demande (par exemple avec l’appui prolongé sur une icône).
+	- si des textes ne sont pas agrandis ou ont disparu, qu’il existe une méthode dans l’écran pour afficher les textes à la demande (par exemple avec l’appui prolongé sur une icône).
 1. Si c’est le cas, le critère est validé.
 
 ###### Android
 
 1. Accéder aux paramètres de réglages des tailles de caractères de la plateforme&nbsp;: *Paramètres > Accessibilité > Taille de la police* (selon la version de la plateforme, le chemin d’accès peut être différent)&nbsp;; 
-1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) jusqu’à atteindre un agrandissement de 200% (sur certains terminaux, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%).
+1. Augmenter la valeur de la taille de la police (potentiomètre en bas de l’écran) au maximum (voir note technique).
 1. Si nécessaire, redémarrer l’application pour s’assurer que le paramètre est pris en compte par l’application.
 1. Vérifier&nbsp;: 
 	- que tous les textes de l’interface ont été agrandis&nbsp;; 
 	- que tous les textes de l’interface restent lisibles et les fonctionnalités utilisables&nbsp;;
 	- que des contenus ne disparaissent pas&nbsp;; 
-	- si des textes ont disparu, qu’il existe une méthode dans l’écran pour afficher les textes à la demande (par exemple avec l’appui prolongé sur une icône).
+	- si des textes ne sont pas agrandis ou ont disparu, qu’il existe une méthode dans l’écran pour afficher les textes à la demande (par exemple avec l’appui prolongé sur une icône).
 1. Si c’est le cas, le critère est validé.
+
+**Note technique**&nbsp;: Avant Android 14, sur les terminaux sans surcouche constructeur, le paramètre de taille de la police ne permet pas d’agrandir à 200% de la taille par défaut. Ce n’est qu’à partir d’Android 14 que cela est rendu possible. Si vous testez sur un terminal Android avec une version antérieure à 14, vous pouvez cumuler le paramètre de taille de la police et le paramètre de la taille de l’affichage pour atteindre un zoom approchant des 200%. À partir d’Android 14, le paramètre de taille de la police vous permet d’atteindre les 200%. À l’inverse, sur certaines versions d’Android, la jauge du potentiomètre peut être différente et offrir des valeurs qui permettent d’atteindre un zoom supérieur à 200%, il faudra alors vérifier que le test ne se fait que pour une valeur de 200%.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.4 Redimensionnement du texte (AA)](https://www.w3.org/Translations/WCAG21-fr/#resize-text)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.4.1 Resize Text (AA)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.7 User preferences*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.4.1 Resize Text (AA)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.7 User preferences*{lang=en}.
+- APPT&nbsp;: [Resize Text](https://appt.org/en/guidelines/wcag/success-criterion-1-4-4){lang=en}.
 
 #### [Critère 8.3](#crit-8-3) [A] Dans chaque écran, chaque [composant en environnement de texte dont la nature n’est pas évidente](glossaire.md#composant-dont-la-nature-n-est-pas-evidente) a-t-il un rapport de contraste supérieur ou égal à 3:1 par rapport au texte environnant&nbsp;? {id="crit-8-3"}
 
@@ -1353,7 +1429,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
+- APPT&nbsp;: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1){lang=en}.
 
 #### [Critère 8.4](#crit-8-4) [A] Dans chaque écran, pour chaque [composant en environnement de texte dont la nature n’est pas évidente](glossaire.md#composant-dont-la-nature-n-est-pas-evidente), une indication autre que la couleur permet-elle de signaler la prise de focus et le survol à la souris&nbsp;? {id="crit-8-4"}
 
@@ -1371,7 +1448,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}.
+- APPT&nbsp;: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1){lang=en}.
 
 #### [Critère 8.5](#crit-8-5) [A] Dans chaque écran, pour chaque élément recevant le focus, la [prise de focus](glossaire.md#prise-de-focus) est-elle visible&nbsp;? {id="crit-8-5"}
 
@@ -1381,23 +1459,26 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
 1. Activer tous les [paramètres disponibles de style de focus](methodologie.md#clavier-externe). 
-1. Naviguer dans l’application et évaluer si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
+1. Naviguer au clavier dans l’application et vérifier si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
 1. Si c’est le cas, le critère est validé.
 
 ###### Android
 
-1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
-1. Naviguer dans l’application et évaluer si la visibilité du focus telle que définie au niveau du système est préservée sur l’ensemble des éléments de l’application.
+1. Connecter un **clavier externe** et [paramétrer la navigation au clavier](methodologie.md#clavier-externe).
+1. Naviguer au clavier dans l’application et vérifier&nbsp;:
+	* si le test est réalisé sans activation d’un service d’accessibilité, que le focus est visible&nbsp;;
+	* si le test est réalisé avec l’activation d’un service d’accessibilité, que le focus tel que défini dans le service est visible sur l’ensemble des éléments de l’application.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color), [2.4.7 Visibilité du focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#focus-visible) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.7 User preferences*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.1 Use of Colour*{lang=en}, *11.2.4.7 Focus Visible*{lang=en}, *11.7 User preferences*{lang=en}.
+- APPT&nbsp;: [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1){lang=en}, [Focus Visible](https://appt.org/en/guidelines/wcag/success-criterion-2-4-7){lang=en}.
 
 #### [Critère 8.6](#crit-8-6) [A] Dans chaque écran, l’information ne doit pas être donnée uniquement par [la forme, taille ou position](glossaire.md#indication-donnee-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée&nbsp;? {id="crit-8-6"}
 
-Sont concernés les mots ou ensemble de mots, les textes, les éléments graphiques porteurs d’informations et les médias temporels.
+Sont concernés les mots ou ensembles de mots, les textes, les éléments graphiques porteurs d’informations et les médias temporels.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1411,7 +1492,8 @@ Sont concernés les mots ou ensemble de mots, les textes, les éléments graphiq
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.3 Caractéristiques sensorielles (A)](https://www.w3.org/Translations/WCAG21-fr/#sensory-characteristics), [1.4.1 Utilisation de la couleur (A)](https://www.w3.org/Translations/WCAG21-fr/#use-of-color). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.3 Sensory Characteristics*{lang=en}, *11.1.4.1 Use of Colour*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.3 Sensory Characteristics*{lang=en}, *11.1.4.1 Use of Colour*{lang=en}.
+- APPT&nbsp;: [Sensory Characteristics](https://appt.org/en/guidelines/wcag/success-criterion-1-3-3){lang=en}, [Use of Colour](https://appt.org/en/guidelines/wcag/success-criterion-1-4-1){lang=en}.
 
 #### [Critère 8.7](#crit-8-7) [AA] Dans chaque écran, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](glossaire.md#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers)&nbsp;? {id="crit-8-7"}
 
@@ -1470,7 +1552,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.4.13 Contenu au survol ou au focus (AA)](https://www.w3.org/Translations/WCAG21-fr/#content-on-hover-or-focus) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.4.13 Content on Hover or Focus*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.4.13 Content on Hover or Focus*{lang=en}.
+- APPT&nbsp;: [Content on Hover or Focus](https://appt.org/en/guidelines/wcag/success-criterion-1-4-13){lang=en}.
 
 ### [Thématique 9](#topic-9)&nbsp;: Formulaires {id="topic-9"}
 
@@ -1489,7 +1572,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}.
+- APPT&nbsp;: [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6){lang=en}.
 
 #### [Critère 9.2](#crit-9-2) [A] Chaque champ de formulaire a-t-il une étiquette accessible aux technologies d’assistance&nbsp;? {id="crit-9-2"}
 
@@ -1519,7 +1603,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships (A)*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships (A)*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.3 Use of accessibility services*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}, [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2){lang=en}.
 
 #### [Critère 9.3](#crit-9-3) [A] Chaque étiquette associée à un champ de formulaire est-elle pertinente&nbsp;? {id="crit-9-3"}
 
@@ -1559,7 +1644,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.6 En-têtes et étiquettes (AA)](https://www.w3.org/Translations/WCAG21-fr/#headings-and-labels),  [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.4.6 Headings and Labels*{lang=en}, *11.2.5.3.1 Label in Name*{lang=en}, *11.3.3.2 Labels or Instructions (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}.
+- APPT&nbsp;: [Headings and Labels](https://appt.org/en/guidelines/wcag/success-criterion-2-4-6){lang=en}, [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3){lang=en}, [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
 #### [Critère 9.4](#crit-9-4) [A] Chaque étiquette de champ et son champ associé sont-ils [accolés](glossaire.md#accoles-etiquette-et-champ-accoles)&nbsp;? {id="crit-9-4"}
 
@@ -1574,13 +1660,14 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
+- APPT&nbsp;: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
 #### [Critère 9.5](#crit-9-5) [A] Dans chaque formulaire, l’intitulé de chaque bouton est-il pertinent&nbsp;? {id="crit-9-5"}
 
 **[Test 9.5.1](#test-9-5-1)&nbsp;:** Chaque bouton de formulaire respecte-t-il ces conditions&nbsp;? {id="test-9-5-1"}
 - L’intitulé du bouton accessible aux technologies d’assistance est pertinent&nbsp;;
-- L’intitulé visible du bouton est contenu dans l’intitulé accessible aux technologies d’assistance.
+- L’[intitulé visible](glossaire.md#intitule-visible) du bouton est contenu dans l’intitulé accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1616,7 +1703,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.3 Étiquette dans le nom (A)](https://www.w3.org/Translations/WCAG21-fr/#label-in-name), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.3.1 Label in Name (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.5.3.1 Label in Name (A)*{lang=en}, *11.4.1.2.1 Name, role, value (A)*{lang=en}, *11.5.2.5 Object information*{lang=en}, *11.5.2.8 Label relationships*{lang=en}.
+- APPT&nbsp;: [Label in Name](https://appt.org/en/guidelines/wcag/success-criterion-2-5-3){lang=en}, [Name, role, value](https://appt.org/en/guidelines/wcag/success-criterion-4-1-2){lang=en}.
 
 #### [Critère 9.6](#crit-9-6) [A] Dans chaque formulaire, les [champs de même nature](glossaire.md#champs-de-meme-nature) sont-ils identifiés, si nécessaire&nbsp;? {id="crit-9-6"}
 
@@ -1638,7 +1726,8 @@ Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d�
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.1 Info and Relationships, 11.3.3.2 Labels or Instructions*{lang=en}.
+- APPT&nbsp;: [Info and Relationships](https://appt.org/en/guidelines/wcag/success-criterion-1-3-1){lang=en}, [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
 #### [Critère 9.7](#crit-9-7) [A] Les champs de formulaire obligatoires sont-ils correctement identifiés (hors cas particuliers)&nbsp;? {id="crit-9-7"}
 
@@ -1660,19 +1749,21 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 
 1. Activer le **lecteur d’écran**.
 1. Valider le formulaire sans saisir de données afin d’identifier les champs obligatoires.
-1. Pour chaque champ obligatoire, Vérifier&nbsp;:
+1. Pour chaque champ obligatoire, vérifier&nbsp;:
 	- que les informations restituées par le lecteur d’écran à la prise de focus sur le champ contiennent la mention du caractère obligatoire&nbsp;;
-	- et qu’un texte visible à proximité du champ indique le caractère obligatoire du champ de formulaire.
+	- et qu’une [indication visible](glossaire.md#indication-de-champ-obligatoire) à proximité du champ indique le caractère obligatoire du champ de formulaire.
+1. Si l’[indication visible](glossaire.md#indication-de-champ-obligatoire) est réalisée de manière non textuelle  (icône, «&nbsp;\*&nbsp;», «&nbsp;!&nbsp;», etc.), l’explication de la signification de cette indication se situe visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}.
+- APPT&nbsp;: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
-#### [Critère 9.8](#crit-9-8) [A] Pour chaque champ de formulaire obligatoire, le type de données et/ou de format attendu est-il disponible&nbsp;? {id="crit-9-8"}
+#### [Critère 9.8](#crit-9-8) [A] Pour chaque champ de formulaire qui attend un [type de données et/ou un format spécifique](glossaire.md#type-et-format-de-donnees), l’information correspondante est-elle disponible&nbsp;? {id="crit-9-8"}
 
-**[Test 9.8.1](#test-9-8-1)&nbsp;:** Chaque champ de formulaire obligatoire respecte-t-il ces conditions&nbsp;? {id="test-9-8-1"}
+**[Test 9.8.1](#test-9-8-1)&nbsp;:** Chaque champ de formulaire qui attend un type de données et/ou un format spécifique respecte-t-il ces conditions&nbsp;? {id="test-9-8-1"}
 - Le type de données et/ou de format est visible&nbsp;;
 - Le type de données et/ou de format est accessible aux technologies d’assistance.
 
@@ -1691,7 +1782,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.2 Étiquettes ou instructions (A)](https://www.w3.org/Translations/WCAG21-fr/#labels-or-instructions). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}. 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.3.2 Labels or Instructions (A)*{lang=en}. 
+- APPT&nbsp;: [Labels or Instructions](https://appt.org/en/guidelines/wcag/success-criterion-3-3-2){lang=en}.
 
 #### [Critère 9.9](#crit-9-9) [A] Dans chaque formulaire, les erreurs de saisie sont-elles accessibles&nbsp;? {id="crit-9-9"}
 
@@ -1714,7 +1806,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.1 Identification des erreurs (A)](https://www.w3.org/Translations/WCAG21-fr/#error-identification)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.3.3.1.1 Error Identification (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.3.3.1.1 Error Identification (A)*{lang=en}.
+- APPT&nbsp;: [Error Identification](https://appt.org/en/guidelines/wcag/success-criterion-3-3-1){lang=en}.
 
 #### [Critère 9.10](#crit-9-10) [AA] Dans chaque formulaire, le [contrôle de saisie](glossaire.md#controle-de-saisie-formulaire) est-il accompagné, si nécessaire, de suggestions des types, formats de données ou valeurs attendus&nbsp;? {id="crit-9-10"}
 
@@ -1735,7 +1828,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.3 Suggestion après une erreur (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-suggestion). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;:  *11.3.3.3 Error Suggestion (AA)*{lang=en}. 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;:  *11.3.3.3 Error Suggestion (AA)*{lang=en}. 
+- APPT&nbsp;: [Error Suggestion](https://appt.org/en/guidelines/wcag/success-criterion-3-3-3){lang=en}.
 
 #### [Critère 9.11](#crit-9-11) [AA] Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur&nbsp;? {id="crit-9-11"} 
 
@@ -1746,7 +1840,7 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 1. Activer le **lecteur d’écran**.
 1. Remplir le formulaire.
 1. Pour chaque donnée à caractère financier (par exemple, une indication de revenu), juridique (par exemple, une référence d’acte administratif), personnelle (par exemple, un numéro de téléphone), pour chaque formulaire qui transmet des réponses à un test ou à un examen, vérifier que l’utilisateur peut&nbsp;:
-	- modifier ou annuler les données et les actions effectuées sur ces données en cours de saisie (par exemple la saisie du champ et la fonctionnalité d’annulation d’édition du navigateur ne sont pas désactivées)&nbsp;;
+	- [modifier ou annuler les données et les actions effectuées](glossaire.md#modifier-ou-annuler-les-donnees-et-les-actions-effectuees) sur ces données en cours de saisie (par exemple la saisie du champ et la fonctionnalité d’annulation d’édition de la plateforme ne sont pas désactivées)&nbsp;;
     - ou confirmer, de manière explicite, l’envoi de ces données via un mécanisme dédié (par exemple, un champ de formulaire ou une étape supplémentaire).
 1. Pour chaque formulaire qui modifie ou supprime des données (par exemple la suppression d’une adresse postale), vérifier que l’utilisateur peut&nbsp;:
     - récupérer les données supprimées en cours de saisie&nbsp;;
@@ -1756,7 +1850,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [3.3.4 Prévention des erreurs (juridiques, financières, de données) (AA)](https://www.w3.org/Translations/WCAG21-fr/#error-prevention-legal-financial-data). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;:  *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;:  *11.3.3.4 Error Prevention (Legal, Financial, Data) (AA)*{lang=en}.
+- APPT&nbsp;: [Error Prevention (Legal, Financial, Data)](https://appt.org/en/guidelines/wcag/success-criterion-3-3-4){lang=en}.
 
 #### [Critère 9.12](#crit-9-12) [AA] Pour chaque champ qui attend une [donnée personnelle de l’utilisateur](glossaire.md#donnee-personnelle-de-l-utilisateur), la saisie est-elle facilitée&nbsp;? {id="crit-9-12"}
 
@@ -1790,7 +1885,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.5 Identifier la finalité de la saisie (AA)](https://www.w3.org/Translations/WCAG21-fr/#identify-input-purpose)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.5.1 Identify Input Purpose (AA)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.5.1 Identify Input Purpose (AA)*{lang=en}.
+- APPT&nbsp;: [Identify Input Purpose](https://appt.org/en/guidelines/wcag/success-criterion-1-3-5){lang=en}.
 
 ### [Thématique 10](#topic-10)&nbsp;: Navigation {id="topic-10"}
 
@@ -1810,7 +1906,8 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.4.3 Focus Order (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.4.3 Focus Order (A)*{lang=en}.
+- APPT&nbsp;: [Focus Order](https://appt.org/en/guidelines/wcag/success-criterion-2-4-3){lang=en}.
 
 #### [Critère 10.2](#crit-10-2) [A] Dans chaque écran, l’ordre de restitution par les technologies d’assistance est-il [cohérent](glossaire.md#coherent-ordre-de-lecture)&nbsp;? {id="crit-10-2"}
 
@@ -1830,13 +1927,18 @@ Dans le cas où l’ensemble des champs d’un formulaire sont obligatoires, le 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.2.1 Meaningful Sequence, 11.2.4.3 Focus Order (A), 11.5.2.10 Text*{lang=en}.
+- APPT&nbsp;: [Meaningful Sequence](https://appt.org/en/guidelines/wcag/success-criterion-1-3-2){lang=en}, [Focus Order](https://appt.org/en/guidelines/wcag/success-criterion-2-4-3){lang=en}.
 
 #### [Critère 10.3](#crit-10-3) [A] Dans chaque écran, la navigation ne doit pas contenir de [piège au clavier](glossaire.md#piege-au-clavier). Cette règle est-elle respectée&nbsp;? {id="crit-10-3"}
 
 **[Test 10.3.1](#test-10-3-1)&nbsp;:** Dans chaque écran, chaque élément recevant le focus vérifie-t-il une de ces conditions&nbsp;? {id="test-10-3-1"}
 - Il est possible d’atteindre l’élément suivant ou précédent pouvant recevoir le focus avec le clavier&nbsp;;
 - L’utilisateur est informé d’un mécanisme fonctionnel permettant d’atteindre au clavier l’élément suivant ou précédent pouvant recevoir le focus.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1867,7 +1969,8 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.1.1 Clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#keyboard), [2.1.2 Pas de piège au clavier (A)](https://www.w3.org/Translations/WCAG21-fr/#no-keyboard-trap). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*{lang=en}. 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.1.1.1 Keyboard (A), 11.2.1.2 No Keyboard Trap (A)*{lang=en}. 
+- APPT&nbsp;: [Keyboard](https://appt.org/en/guidelines/wcag/success-criterion-2-1-1){lang=en}, [No Keyboard Trap](https://appt.org/en/guidelines/wcag/success-criterion-2-1-2){lang=en}.
 
 #### [Critère 10.4](#crit-10-4) [A] Dans chaque écran, les [raccourcis clavier](glossaire.md#raccourci-clavier) n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur&nbsp;?  {id="crit-10-4"}
 
@@ -1881,7 +1984,7 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ###### iOS et Android
 
 1. Connecter un **clavier externe** (et [paramétrer la navigation au clavier](methodologie.md#clavier-externe)).
-1. Depuis l’application, appuyer successivement sur chacune des touches de caractère imprimable (les lettres minuscules a-z, les majuscules A-Z, les chiffres 0-9, tous les symboles comme $,\*,%,! etc. à partir du moment où ils peuvent être inscrits à l’écran).
+1. Depuis l’application, appuyer successivement sur chacune des touches de caractère imprimable (les lettres minuscules a-z, les majuscules A-Z, les chiffres 0-9, tous les symboles comme $, \*, %, ! etc. à partir du moment où ils peuvent être inscrits à l’écran).
 1. Si le raccourci clavier est associé à un seul composant isolé de l’écran, vérifier qu’il ne peut être activé que si le focus clavier est à l’intérieur de ce composant.
 1. Sinon, si une action est déclenchée, vérifier la présence dans l’application d’un élément de configuration permettant&nbsp;:
 	- de désactiver ces raccourcis clavier à touche unique&nbsp;;
@@ -1891,7 +1994,8 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.1.4 Raccourcis clavier utilisant des caractères (A)](https://www.w3.org/Translations/WCAG21-fr/#character-key-shortcuts). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.1.4.1 Character Key Shortcuts (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.1.4.1 Character Key Shortcuts (A)*{lang=en}.
+- APPT&nbsp;: [Character Key Shortcuts](https://appt.org/en/guidelines/wcag/success-criterion-2-1-4){lang=en}.
 
 ### [Thématique 11](#topic-11)&nbsp;: Consultation {id="topic-11"}
 
@@ -1906,6 +2010,10 @@ Le test sur le piège au clavier se limite alors à vérifier que le composant p
 ##### Cas particuliers
 
 Le critère est non applicable lorsque la limite de temps est essentielle, notamment lorsqu’elle ne pourrait pas être supprimée sans changer fondamentalement le contenu ou les fonctionnalités liées au contenu.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -1922,7 +2030,8 @@ Le critère est non applicable lorsque la limite de temps est essentielle, notam
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.2.1 Réglage du délai (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Mettre en pause, arrêter, masquer (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}.
+- APPT&nbsp;: [Timing adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1){lang=en}, [Pause, Stop, Hide](https://appt.org/en/guidelines/wcag/success-criterion-2-2-2){lang=en}.
 
 #### [Critère 11.2](#crit-11-2) [A] Pour chaque écran, chaque procédé limitant le temps d’une session peut-il être arrêté ou supprimé (hors cas particuliers)&nbsp;? {id="crit-11-2"}
 
@@ -1949,7 +2058,8 @@ Le critère est non applicable lorsque la limite de temps est essentielle, notam
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.2.1 Réglage du délai (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing adjustable*{lang=en}.
+- APPT&nbsp;: [Timing adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1){lang=en}.
 
 #### [Critère 11.3](#crit-11-3) [A] Dans chaque écran, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une [version accessible](glossaire.md#version-accessible) (hors cas particuliers)&nbsp;? {id="crit-11-3"}
 
@@ -1971,18 +2081,18 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 1. Si l’alternative est proposée dans un format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier de l’alternative proposée&nbsp;; 
 	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
-	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
 1. Si l’alternative est proposée dans l’application, vérifier que le contenu est conforme au présent référentiel.
 1. Sinon, pour les documents au format bureautique (pdf, odt, doc, docx, EPUB/DAISY)&nbsp;: 
 	- télécharger le fichier&nbsp;; 
 	- si ce fichier est au format PDF, vérifier qu’il est conforme au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
-	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.	
+	- si ce fichier est dans un autre format, vérifier qu’il est conforme aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.	
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Contourner des blocs (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Langue de la page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: tous les critères de la section 10 *Non-web documents*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: tous les critères de la section 10 *Non-web documents*{lang=en}.
 
 #### [Critère 11.4](#crit-11-4) [A] Pour chaque document bureautique ayant une [version accessible](glossaire.md#version-accessible), cette version offre-t-elle la même information (hors cas particuliers)&nbsp;? {id="crit-11-4"}
 
@@ -2000,7 +2110,7 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content), [1.3.1 Information et relations (A)](https://www.w3.org/Translations/WCAG21-fr/#info-and-relationships), [1.3.2 Ordre séquentiel logique (A)](https://www.w3.org/Translations/WCAG21-fr/#meaningful-sequence), [2.4.1 Contourner des blocs (A)](https://www.w3.org/Translations/WCAG21-fr/#bypass-blocks), [2.4.3 Parcours du focus (A)](https://www.w3.org/Translations/WCAG21-fr/#focus-order), [3.1.1 Langue de la page (A)](https://www.w3.org/Translations/WCAG21-fr/#language-of-page), [4.1.2 Nom, rôle et valeur (A)](https://www.w3.org/Translations/WCAG21-fr/#name-role-value). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;:  tous les critères de la section 10 *Non-web documents*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: tous les critères de la section 10 *Non-web documents*{lang=en}.
 
 #### [Critère 11.5](#crit-11-5) [A] Dans chaque écran, chaque contenu cryptique (art ASCII, émoticon, syntaxe cryptique) a-t-il une alternative&nbsp;? {id="crit-11-5"}
 
@@ -2017,7 +2127,8 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content (A)*{lang=en}. 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content (A)*{lang=en}.
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 11.6](#crit-11-6) [A] Dans chaque écran, pour chaque contenu cryptique (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente&nbsp;? {id="crit-11-6"}
 
@@ -2031,13 +2142,18 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.1.1 Contenu non textuel (A)](https://www.w3.org/Translations/WCAG21-fr/#non-text-content). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content (A)*{lang=en}. 
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.1.1.1 Non-text Content (A)*{lang=en}. 
+- APPT&nbsp;: [Non-text Content](https://appt.org/en/guidelines/wcag/success-criterion-1-1-1){lang=en}.
 
 #### [Critère 11.7](#crit-11-7) [A] Dans chaque écran, les [changements brusques de luminosité ou les effets de flash](glossaire.md#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés&nbsp;? {id="crit-11-7"}
 
 **[Test 11.7.1](#test-11-7-1)&nbsp;:** Les changements brusques de luminosité ou les effets de flash vérifient-ils une de ces conditions&nbsp;? {id="test-11-7-1"}
-- La fréquence de l’effet est inférieure à 3 par seconde&nbsp;;
+- La fréquence de l’effet est inférieure ou égale à 3 par seconde&nbsp;;
 - La surface totale cumulée des effets est inférieure ou égale à 21 824 pixels.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2045,7 +2161,7 @@ Le critère est non applicable lorsque les documents bureautiques (ex&nbsp;: PDF
 
 1. Repérer dans l’écran les contenus clignotants ou qui provoquent des effets de flash&nbsp;: élément graphique animé, vidéo ou animation, effet de mise en forme.
 1. Vérifier&nbsp;:
-	- que la fréquence de l’effet est inférieure à 3 flashs par seconde&nbsp;;
+	- que la fréquence de l’effet est inférieure ou égale à 3 flashs par seconde&nbsp;;
 	- ou que la surface cumulée est inférieure à 21824 pixels.
 1. Si c’est le cas, le critère est validé.
 
@@ -2054,7 +2170,8 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.3.1 Pas plus de trois flashs ou sous le seuil critique (A)](https://www.w3.org/Translations/WCAG21-fr/#three-flashes-or-below-threshold).
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.3.1 Three Flashes or Below Threshold (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.3.1 Three Flashes or Below Threshold (A)*{lang=en}.
+- APPT&nbsp;: [Three Flashes or Below Threshold](https://appt.org/en/guidelines/wcag/success-criterion-2-3-1){lang=en}.
 
 #### [Critère 11.8](#crit-11-8) [A] Dans chaque écran, chaque contenu en mouvement ou clignotant est-il [contrôlable](glossaire.md#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur&nbsp;? {id="crit-11-8"}
 
@@ -2063,6 +2180,10 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 - L’utilisateur peut arrêter et relancer le mouvement ou le clignotement&nbsp;;
 - L’utilisateur peut afficher et masquer le contenu en mouvement ou clignotant&nbsp;;
 - L’utilisateur peut afficher la totalité de l’information sans le mouvement ou le clignotement.
+
+##### Note
+
+Ce critère est soumis au [principe de non-interférence](methodologie.md#principe-de-non-interference).
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2077,19 +2198,20 @@ Note&nbsp;: L’outil [PEAT](https://trace.umd.edu/peat/) permet d’analyser le
 1. Si c’est le cas, le critère est validé.
 
 **Note&nbsp;:**
-- l’arrêt ou la mise en pause d’un contenu en mouvement ou clignotant via la prise de focus (l’effet est suspendu uniquement pendant la prise de focus mais reprend une fois la prise de focus perdue) ou au toucher sur le contenu en mouvement (l’effet est suspendu uniquement pendant qu’une pression est effectuée sur le contenu, mais reprend une fois la pression relâchée) ne sont pas considérés comme des procédés conformes.
-- dans certains cas, le mouvement ne peut pas être arrêté, par exemple, une barre de progression, dans ce cas, le critère est non applicable.
+- L’arrêt ou la mise en pause d’un contenu en mouvement ou clignotant via la prise de focus (l’effet est suspendu uniquement pendant la prise de focus mais reprend une fois la prise de focus perdue) ou au toucher sur le contenu en mouvement (l’effet est suspendu uniquement pendant qu’une pression est effectuée sur le contenu, mais reprend une fois la pression relâchée) ne sont pas considérés comme des procédés conformes.
+- Dans certains cas, le mouvement ne peut pas être arrêté, par exemple, une barre de progression, dans ce cas, le critère est non applicable.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.2.1 Réglage du délai (A)](https://www.w3.org/Translations/WCAG21-fr/#timing-adjustable), [2.2.2 Mettre en pause, arrêter, masquer (A)](https://www.w3.org/Translations/WCAG21-fr/#pause-stop-hide)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.2.1 Timing Adjustable (A), 11.2.2.2 Pause, Stop, Hide (A)*{lang=en}.
+- APPT&nbsp;: [Timing Adjustable](https://appt.org/en/guidelines/wcag/success-criterion-2-2-1){lang=en}, [Pause, Stop, Hide](https://appt.org/en/guidelines/wcag/success-criterion-2-2-2){lang=en}.
 
 #### [Critère 11.9](#crit-11-9) [AA] Dans chaque écran, le contenu proposé est-il consultable quelle que soit l’orientation de l’écran (portrait ou paysage) (hors cas particuliers)&nbsp;? {id="crit-11-9"}
 
 **[Test 11.9.1](#test-11-9-1)&nbsp;:** Dans chaque écran, chaque contenu vérifie-t-il ces conditions&nbsp;? {id="test-11-9-1"}
-- La consultation est possible quel que soit le mode d’orientation de l’écran&nbsp;;
-- Le contenu proposé reste le même quel que soit le mode d’orientation de l’écran même si sa présentation et le moyen d’y accéder peuvent différer.
+- La consultation est possible, quel que soit le mode d’orientation de l’écran&nbsp;;
+- Le contenu proposé reste le même, quel que soit le mode d’orientation de l’écran même si sa présentation et le moyen d’y accéder peuvent différer.
 
 ##### Cas particuliers
 
@@ -2121,7 +2243,8 @@ Si l’interface est le seul moyen d’accéder au service proposé, une alterna
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [1.3.4 Orientation (AA)](https://www.w3.org/Translations/WCAG21-fr/#orientation)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.1.3.4 Orientation*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.1.3.4 Orientation*{lang=en}.
+- APPT&nbsp;: [Orientation](https://appt.org/en/guidelines/wcag/success-criterion-1-3-4){lang=en}.
 
 #### [Critère 11.10](#crit-11-10) [A] Dans chaque écran, les fonctionnalités activables au moyen d’un [geste complexe](glossaire.md#gestes-complexes-et-gestes-simples) sont-elles activables au moyen d’un [geste simple](glossaire.md#gestes-complexes-et-gestes-simples) (hors cas particuliers)&nbsp;? {id="crit-11-10"}
 
@@ -2144,7 +2267,8 @@ Le critère est non applicable pour les éléments suivants&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.1 Gestes pour le contrôle du pointeur (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-gestures). 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 5.9 Simultaneous user actions, 11.2.5.1 Pointer Gestures*{lang=en}.
+- APPT&nbsp;: [Pointer Gestures](https://appt.org/en/guidelines/wcag/success-criterion-2-5-1){lang=en}.
 
 #### [Critère 11.11](#crit-11-11) [A] Dans chaque écran, les fonctionnalités activables par la réalisation d’actions simultanées sont-elles activables au moyen d’une action unique. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-11-11"}
 
@@ -2165,13 +2289,13 @@ Le critère est non applicable pour les actions requises par la plateforme.
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.9 Simultaneous user actions*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.9 Simultaneous user actions*{lang=en}.
 
 #### [Critère 11.12](#crit-11-12) [A] Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers)&nbsp;? {id="crit-11-12"}
 
 **[Test 11.12.1](#test-11-12-1)&nbsp;:** Dans chaque écran, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran vérifient-elles l’une de ces conditions (hors cas particuliers)&nbsp;? {id="test-11-12-1"}
-- L’action est déclenchée au moment où le dispositif de pointage est relâché ou relevé&nbsp;;
-- L’action est déclenchée au moment où le dispositif de pointage est pressé ou posé puis annulée lorsque le dispositif de pointage est relâché ou relevé&nbsp;;
+- L’action est déclenchée au moment où le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve)&nbsp;;
+- L’action est déclenchée au moment où le dispositif de pointage est [pressé ou posé](glossaire.md#presse-ou-pose) puis annulée lorsque le dispositif de pointage est [relâché ou relevé](glossaire.md#relache-ou-releve)&nbsp;;
 - L’[action est complexe](glossaire.md#action-complexe) et un mécanisme est disponible pour abandonner (avant achèvement de l’action) ou annuler (après achèvement) l’exécution de l’action.
 
 ##### Cas particuliers
@@ -2190,7 +2314,8 @@ Le critère est non applicable lorsque la fonctionnalité nécessite que le comp
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.2 Annulation de l’action du pointeur (A)](https://www.w3.org/Translations/WCAG21-fr/#pointer-cancellation) 
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.2.5.2 Pointer Cancellation (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.2.5.2 Pointer Cancellation (A)*{lang=en}.
+- APPT&nbsp;: [Pointer Cancellation](https://appt.org/en/guidelines/wcag/success-criterion-2-5-2){lang=en}.
 
 #### [Critère 11.13](#crit-11-13) [A] Dans chaque écran, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers)&nbsp;? {id="crit-11-13"}
 
@@ -2217,7 +2342,8 @@ Le critère est non applicable lorsque&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: [2.5.4 Activation par le mouvement (A)](https://www.w3.org/Translations/WCAG21-fr/#motion-actuation)
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.5.1 Means of operation, 11.2.5.4 Motion Actuation (A)*{lang=en}.
+- APPT&nbsp;: [Motion Actuation](https://appt.org/en/guidelines/wcag/success-criterion-2-5-4){lang=en}.
 
 #### [Critère 11.14](#crit-11-14) [AA] Pour chaque fonctionnalité de conversion d’un document, les [informations relatives à l’accessibilité](glossaire.md#information-d-accessibilite) disponibles dans le document source sont-elles conservées dans le document de destination (hors cas particuliers)&nbsp;? {id="crit-11-14"}
 
@@ -2239,28 +2365,30 @@ Le critère est non applicable lorsque le format de conversion ne dispose pas de
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.4 Preservation of accessibility information during conversion*{lang=en}.
 
-#### [Critère 11.15](#crit-11-15) [A] Chaque fonctionnalité d’identification ou de contrôle de l’application qui repose sur l’utilisation de [caractéristique biologique](glossaire.md#caracteristique-biologique) de l’utilisateur, dispose-t-elle d’une méthode alternative&nbsp;? {id="crit-11-15"}
+#### [Critère 11.15](#crit-11-15) [A] Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de [caractéristiques biologiques](glossaire.md#caracteristique-biologique) de l’utilisateur dispose-t-elle d’une méthode alternative&nbsp;? {id="crit-11-15"}
 
-**[Test 11.15.1](#test-11-15-1)&nbsp;:** Chaque fonctionnalité d’identification ou de contrôle de l’application qui repose sur l’utilisation de caractéristique biologique de l’utilisateur respecte-t-elle une de ces conditions&nbsp;? {id="test-11-15-1"}
-- Il existe une alternative qui ne repose pas sur une caractéristique biologique de l’utilisateur&nbsp;;
-- Il existe une alternative qui repose sur une caractéristique biologique de l’utilisateur qui soit suffisamment différente.
+**[Test 11.15.1](#test-11-15-1)&nbsp;:** Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de [caractéristiques biologiques](glossaire.md#caracteristique-biologique) de l’utilisateur respecte-t-elle une de ces conditions&nbsp;? {id="test-11-15-1"}
+- Il existe une alternative qui ne repose pas sur une caractéristique biologique de l’utilisateur.
+- Il existe une alternative qui repose sur une caractéristique biologique de l’utilisateur qui est suffisamment différente de la caractéristique biologique initialement demandée.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer dans l’écran les fonctionnalités d’identification (authentification) et de contrôle qui reposent sur l’utilisation de caractéristiques biologiques (par exemple reconnaissance vocale, empreinte digitale, reconnaissance faciale). 
-1. Vérifier qu’il existe une méthode alternative pour réaliser l’action, par exemple&nbsp;: 
-	- pour une fonctionnalité d’authentification qui passe par une reconnaissance d’empreinte digitale, un bouton est disponible sur l’écran de connexion pour accéder à la saisie d’un mot de passe à la place.
-	- pour une fonctionnalité d’authentification qui passe par une reconnaissance vocale, l’application propose également une reconnaissance d’empreinte digitale (si la méthode alternative repose également sur une caractéristique biologique, il est souhaitable qu’elle n’implique pas une caractéristique biologique similaire. Par exemple, si la méthode initiale implique la voix, la méthode alternative ne devrait pas impliquer la voix.) 
+1. Vérifier qu’il existe une méthode alternative pour réaliser l’action&nbsp;: 
+	- Pour une fonctionnalité d’authentification qui passe par une reconnaissance d’empreinte digitale, un bouton est disponible sur l’écran de connexion pour accéder à la saisie d’un mot de passe.
+	- Pour une fonctionnalité d’authentification qui passe par une reconnaissance vocale, l’application propose également une reconnaissance d’empreinte digitale.
 1. Si c’est le cas, le critère est validé.
+
+Si la méthode alternative repose également sur une caractéristique biologique, il est indispensable qu’elle n’implique pas une caractéristique biologique similaire. Par exemple, si la méthode initiale implique la voix, la méthode alternative ne doit pas utiliser la voix.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.3 Biometrics*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.3 Biometrics*{lang=en}.
 
 #### [Critère 11.16](#crit-11-16) [A] Pour chaque application qui intègre une fonctionnalité de [répétition des touches](glossaire.md#repetition-des-touches), la répétition est-elle ajustable (hors cas particuliers)&nbsp;? {id="crit-11-16"}
 
@@ -2270,9 +2398,9 @@ Le critère est non applicable lorsque le format de conversion ne dispose pas de
 
 ##### Cas particuliers
 
-Le critère est non applicable&nbsp;: 
-- Pour les répétitions de touches gérées au niveau de la plateforme&nbsp;;
-- Pour les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches.
+Le critère est non applicable pour&nbsp;: 
+- les répétitions de touches gérées au niveau de la plateforme&nbsp;;
+- les applications qui disposent d’une méthode permettant de désactiver la fonctionnalité de répétition des touches.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2290,43 +2418,36 @@ Le critère est non applicable&nbsp;:
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.7 Key repeat*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.7 Key repeat*{lang=en}.
 
 ### [Thématique 12](#topic-12)&nbsp;: Documentation et fonctionnalités d’accessibilité {id="topic-12"}
 
-#### [Critère 12.1](#crit-12-1) [AA] La documentation de l’application décrit-elle les [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application et leur utilisation&nbsp;? {id="crit-12-1"}
+#### [Critère 12.1](#crit-12-1) [AA] La [documentation](glossaire.md#documentation) de l’application décrit-elle les [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) disponibles et les informations relatives à la compatibilité avec l’accessibilité&nbsp;? {id="crit-12-1"}
 
-**[Test 12.1.1](#test-12-1-1)&nbsp;:** La documentation de l’application inclut-elle les éléments suivants au moins&nbsp;? {id="test-12-1-1"}
-- Une description des fonctionnalités d’accessibilité de l’application&nbsp;;
-- Une explication de l’utilisation des fonctionnalités d’accessibilité de l’application&nbsp;; 
-- Des informations concernant l’accessibilité de la plateforme et sa compatibilité avec les technologies d’assistance.
+**[Test 12.1.1](#test-12-1-1)&nbsp;:** La [documentation](glossaire.md#documentation) de l’application inclut-elle les éléments suivants au moins&nbsp;? {id="test-12-1-1"}
+- Une description des [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) proposées par l’application.
+- Un guide d’utilisation des [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) proposées par l’application.
+- Une description des composants qui présentent des défauts de compatibilité avec les technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
-	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
-	- tout autre contenu qui fait office de documentation.
+1. Repérer dans l’application la présence d’une documentation.
 1. Repérer dans l’application la présence de fonctionnalités d’accessibilité.
 1. Vérifier la présence dans la documentation&nbsp;: 
-	- de la description des fonctionnalités d’accessibilité de l’application, par exemple&nbsp;: 
-		- des paramètres d’accessibilité intégrés dans l’application comme la gestion des couleurs, des tailles de polices, la gestion des animations&nbsp;;
-		- un rotor personnalisé sur certains écrans (le rotor est une fonctionnalité des lecteurs d’écran qui permet une navigation rapide entre des types d’éléments d’un écran, certaines plateformes permettent de définir des éléments de navigation rapide spécifique à une application dans ce rotor. [Voir une démonstration](https://developer.apple.com/videos/play/wwdc2020/10116/))&nbsp;; 
-		- des gestes ou mouvements d’appareil qui déclenchent des fonctionnalités&nbsp;;  
-		- des raccourcis clavier spéciaux disponibles pour certaines technologies d’assistance.
-	- de la description des composants complexes pour lesquels il est mis en place une gestion particulière selon les technologies d’assistance&nbsp;;
+	- de la description des fonctionnalités d’accessibilité de l’application&nbsp;;
 	- d’explications sur les modalités d’utilisation de ces fonctionnalités (leur localisation, les méthodes pour les activer)&nbsp;; 
+	- de la description des composants complexes pour lesquels il est mis en place une gestion particulière selon les technologies d’assistance&nbsp;;
 	- de la description des éléments non conformes ou non compatibles avec certaines technologies d’assistance, et de la présence d’alternatives le cas échéant.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.1 Accessibility and compatibility features*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *12.1.1 Accessibility and compatibility features*{lang=en}.
 
-#### [Critère 12.2](#crit-12-2) [A] Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la documentation, l’ensemble du parcours qui permet de l’activer répond aux besoins d’accessibilité des utilisateurs qui en ont besoin. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-12-2"}
+#### [Critère 12.2](#crit-12-2) [A] Pour chaque [fonctionnalité d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) décrite dans la [documentation](glossaire.md#documentation), le [mécanisme qui permet de l’activer](glossaire.md#mecanisme-qui-permet-d-activer-une-fonctionnalite-d-accessibilite) répond aux besoins d’accessibilité des utilisateurs concernés. Cette règle est-elle respectée (hors cas particuliers)&nbsp;? {id="crit-12-2"}
 
 ##### Cas particuliers
 
@@ -2336,18 +2457,19 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### iOS et Android
 
-1. Repérer dans l’application les fonctionnalités d’accessibilité décrites dans la documentation. Par exemple&nbsp;: 
-	- une fonctionnalité qui permet d’accéder à une version en langage simplifié de l’application&nbsp;;
-	- une fonctionnalité qui permet de verrouiller l’orientation d’un écran.
-1. Vérifier qu’il est possible pour les utilisateurs qui ont besoin&nbsp;:
-	- de percevoir la présence de cette fonctionnalité dans l’interface&nbsp;;
-	- d’activer cette fonctionnalité, par exemple, une fonctionnalité est disponible qui permet d’accéder à une version en langage simplifié de l’application, alors tous les composants qui composent le parcours permettant d’atteindre la fonctionnalité doivent être en langage simplifié.
+1. Repérer les fonctionnalités d’accessibilité décrites dans la documentation. Par exemple&nbsp;: 
+	- accéder à une version du contenu en langage simplifié&nbsp;;
+	- agrandir la taille du texte.
+1. Vérifier que les utilisateurs concernés par chaque fonctionnalité d’accessibilité sont en mesure d’y accéder. Par exemple&nbsp;:
+	- Version alternative en langage simplifié&nbsp;: le mécanisme ou l’ensemble des mécanismes qui permettent d’activer la fonctionnalité doit être compréhensible et identifiable par une personne qui bénéficie du langage simplifié (par exemple, l’emploi du [logo « Facile à lire »](https://www.inclusion-europe.eu/easy-to-read/) pour identifier le mécanisme est une solution conforme).
+	- Agrandissement de la taille des caractères&nbsp;: si le mécanisme contient du texte, alors le texte doit être affiché par défaut avec une taille de police équivalent à 200% de la taille de police initiale.
+1. Vérifier qu’il est possible d’activer cette fonctionnalité.
 1. Si c’est le cas, le critère est validé. 
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *5.2 Activation of accessibility features*{lang=en}.
 
 #### [Critère 12.3](#crit-12-3) [A] L’application ne perturbe pas les fonctionnalités d’accessibilité de la plateforme. Cette règle est-elle respectée&nbsp;? {id="crit-12-3"}
 
@@ -2355,7 +2477,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### iOS
 
-1. Identifier dans la documentation de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par iOS](https://www.apple.com/fr/accessibility/?afid=p238%7CsfxtLHWp4-dc_mtid_2092576239937_pcrid_483515907294_pgrid_110868765821_&cid=wwa-fr-kwgo-features--slid---productid---Accessibility-Accessibility-)).
+1. Identifier dans la [documentation](glossaire.md#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par iOS](https://www.apple.com/fr/accessibility/)).
 1. Vérifier que l’application n’empêche pas leur utilisation, par exemple&nbsp;:
 	- si l’application implémente des interactions qui déclenchent des fonctionnalités, ces interactions n’empêchent pas le bon fonctionnement des fonctionnalités d’accessibilité de la plateforme comme le lecteur d’écran ou les autres fonctionnalités basées sur le toucher&nbsp;;
 	- si l’application embarque une reconnaissance vocale, alors l’utilisation de la commande vocale intégrée à la plateforme n’est pas perturbée&nbsp;; 
@@ -2365,7 +2487,7 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 
 ###### Android
 
-1. Identifier dans la documentation de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par Android](https://support.google.com/accessibility/android/answer/6006564?hl=fr)).
+1. Identifier dans la [documentation](glossaire.md#documentation) de la plateforme les fonctionnalités d’accessibilité mises à disposition des utilisateurs (voir la [documentation concernant les fonctionnalités d’accessibilité fournie par Android](https://support.google.com/accessibility/android/answer/6006564?hl=fr)).
 1. Vérifier que l’application n’empêche pas leur utilisation, par exemple&nbsp;:
 	- si l’application implémente des interactions qui déclenchent des fonctionnalités, ces interactions n’empêchent pas le bon fonctionnement des fonctionnalités d’accessibilité de la plateforme comme le lecteur d’écran ou les autres fonctionnalités basées sur le toucher&nbsp;;
 	- si l’application embarque une reconnaissance vocale, alors l’utilisation de la commande vocale intégrée à la plateforme n’est pas perturbée&nbsp;;
@@ -2376,40 +2498,60 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.6.2 No disruption of accessibility features*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.6.2 No disruption of accessibility features*{lang=en}.
 
-#### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle accessible&nbsp;? {id="crit-12-4"}
+#### [Critère 12.4](#crit-12-4) [A] La documentation de l’application est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-12-4"}
+
+- **[Test 12.4.1](#test-12-4-1)&nbsp;:** La [documentation](glossaire.md#documentation) mise à disposition au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-12-4-1"}
+- **[Test 12.4.2](#test-12-4-2)&nbsp;:** La documentation mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-12-4-2"}
+- **[Test 12.4.3](#test-12-4-3)&nbsp;:** La documentation mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-12-4-3"}
+- **[Test 12.4.4](#test-12-4-4)&nbsp;:** La documentation mise à disposition dans une application mobile est-elle conforme au RAAM&nbsp;? {id="test-12-4-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
-	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
-	- tout autre contenu qui fait office de documentation (cela peut être un document pdf, une page HTML externe lisible dans un navigateur web).
-1. Si c’est le cas, vérifier pour chaque élément de documentation&nbsp;: 
-	- s’il s’agit d’une page web, qu’il respecte le [RAWeb1](../raweb1/criteres.html)&nbsp;; 
-	- s’il s’agit d’un document bureautique au format PDF, qu’il respecte le [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
-	- s’il s’agit d’un document bureautique dans un autre format, qu’il respecte les critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1&nbsp;;
-	- s’il s’agit d’un écran de l’application, que le présent référentiel est respecté (la page **[Obligations](../obligations.html)** détaille par ailleurs que les écrans relatifs à la documentation doivent être inclus dans l’échantillon d’évaluation).
+1. Repérer la présence d’une documentation dans l’application ou accessible depuis l’application.
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
+1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
 1. Si c’est le cas, le critère est validé.
+
+Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *12.1.2 Accessible documentation, 12.2.4 Accessible documentation*{lang=en}.
 
 ### [Thématique 13](#topic-13)&nbsp;: Outils d’édition {id="topic-13"}
 
-#### [Critère 13.1](#crit-13-1) [A] L’[outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme&nbsp;? {id="crit-13-1"}
+#### [Critère 13.1](#crit-13-1) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-13-1"}
+
+- **[Test 13.1.1](#test-13-1-1)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format web (HTML, CSS) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAWeb](../raweb1/index.html)&nbsp;?  {id="test-13-1-1"}
+- **[Test 13.1.2](#test-13-1-2)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html)&nbsp;? {id="test-13-1-2"}
+- **[Test 13.1.3](#test-13-1-3)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-13-1-3"}
+- **[Test 13.1.4](#test-13-1-4)&nbsp;:** Chaque [outil d’édition](glossaire.md#outil-d-edition) qui crée du contenu diffusé dans une application mobile permet-il de définir les [informations d’accessibilité](glossaire.md#information-d-accessibilite) nécessaires pour créer un contenu conforme au RAAM&nbsp;? {id="test-13-1-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés).
-1. Vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au RAWeb. Par exemple&nbsp;: 
+1. Repérer dans l’outil les fonctionnalités d’édition (par exemple, un éditeur de texte, mais cela peut être une médiathèque ou toute autre interface qui permet de saisir du texte ou définir des propriétés).  
+1. Pour les fonctionnalités qui permettent de créer du contenu au format web (HTML, CSS), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAWeb](../raweb1/index.html). Par exemple&nbsp;: 
+	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
+	 - définir un intitulé de lien&nbsp;;
+	 - etc.
+1. Pour les fonctionnalités qui permettent de créer du contenu au format PDF, vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme au [RAPDF](../rapdf1/index.html). Par exemple&nbsp;: 
+	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
+	 - définir un intitulé de lien&nbsp;;
+	 - etc.
+1. Pour les fonctionnalités qui permettent de créer du contenu au format non web (hors PDF), vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1. Par exemple&nbsp;: 
+	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
+	 - définir un intitulé de lien&nbsp;;
+	 - etc.
+1. Pour les fonctionnalités qui permettent de créer du contenu diffusé dans une application mobile, vérifier qu’il est possible de définir les informations d’accessibilité nécessaires pour rendre le contenu conforme aux critères du RAAM. Par exemple&nbsp;: 
 	 - définir l’alternative textuelle d’une image depuis l’éditeur de texte ou une médiathèque&nbsp;;
 	 - définir un intitulé de lien&nbsp;;
 	 - etc.
@@ -2418,27 +2560,28 @@ Le critère est non applicable pour les fonctionnalités intégrées à la plate
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
-#### [Critère 13.2](#crit-13-2) [A] L’[outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des aides à la création de contenus accessibles&nbsp;? {id="crit-13-2"}
+#### [Critère 13.2](#crit-13-2) [A] Chaque [outil d’édition](glossaire.md#outil-d-edition) met-il à disposition des [aides à la création de contenus conformes](glossaire.md#aide-a-la-creation-de-contenus-accessibles) aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-13-2"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer dans l’outil la présence d’aides à la création de contenus accessibles. Cela peut être&nbsp;: 
-	- une documentation utilisateur qui explique comment définir les propriétés d’accessibilité pour chaque élément de contenu&nbsp;; 
-	- des tests automatiques ou semi-automatiques disponibles depuis les fonctionnalités d’édition&nbsp;; 
-	- des tests manuels disponibles depuis les fonctionnalités d’édition pour guider les auteurs dans la détection d’erreurs.
-1. Vérifier que les aides à la création de contenus accessibles sont pertinentes, c’est-à-dire qu’elles permettent de créer un contenu accessible.
+	- des tests automatiques ou semi-automatiques disponibles depuis les fonctionnalités d’édition&nbsp;;
+    - d’autres outils automatiques (un <i lang="en">chatbot</i> par exemple)&nbsp;;
+    - une documentation qui explique comment définir les propriétés d’accessibilité pour chaque élément de contenu&nbsp;;
+    - des tests manuels disponibles depuis les fonctionnalités d’édition pour guider les auteurs dans la détection d’erreurs.
+1. Vérifier que les aides à la création de contenus accessibles sont pertinentes, c’est-à-dire que les résultats ou les indications qu’elles donnent permettent de créer un contenu conforme aux règles d’accessibilité numérique.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.2 Accessible content creation*{lang=en}.
 
-#### [Critère 13.3](#crit-13-3) [A] Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il accessible (hors cas particuliers)&nbsp;? {id="crit-13-3"}
+#### [Critère 13.3](#crit-13-3) [A] Le contenu généré par chaque [transformation](glossaire.md#transformation) des contenus est-il conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) (hors cas particuliers)&nbsp;? {id="crit-13-3"}
 
 ##### Cas particuliers
 
@@ -2452,98 +2595,108 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 1. Enregistrer les saisies.
 1. Consulter le contenu généré&nbsp;: 
 	- dans la fonctionnalité d’édition (par exemple, dans l’éditeur de texte)&nbsp;; 
-	- dans l’interface de publication des contenus (par exemple, la page web de publication).
-1. Vérifier&nbsp;: 
-	- que les informations d’accessibilité (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
-	- que la technologie prend en charge les informations d’accessibilité pour la forme restructurée de l’information (vérifier que la transformation des informations est compatible avec la technologie, notamment pour s’assurer que ces informations pourront être exploitées par les technologies d’assistance).
+	- et dans l’interface de publication des contenus (par exemple, la page web de publication).
+1. Pour chaque contenu au format web (HTML, CSS), vérifier&nbsp;: 
+	- que les informations nécessaires pour qu’il soit conforme au [RAWeb](../raweb1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
+	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau HTML et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
+1. Pour chaque contenu au format PDF, vérifier&nbsp;:
+	- que les informations nécessaires pour qu’il soit conforme au [RAPDF](../rapdf1/index.html) (par exemple l’alternative d’une image, les niveaux de titres) sont préservées dans le contenu généré&nbsp;;
+	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
+1. Pour chaque contenu au format non web qui n’est pas du PDF, vérifier&nbsp;:
+	- que les informations nécessaires pour qu’il soit conforme à la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1 sont préservées dans le contenu généré&nbsp;;
+	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
+1. Pour chaque contenu diffusé dans une application mobile, vérifier&nbsp;:
+	- que les informations nécessaires pour qu’il soit conforme au RAAM (par exemple l’alternative d’une image, l’identification des titres) sont préservées dans le contenu généré&nbsp;;
+	- que l’information, si elle est restructurée, reste compatible avec les technologies d’assistance (par exemple, si l’auteur saisit un tableau HTML et qu’après l’enregistrement, l’outil linéarise le tableau, l’information ainsi restructurée doit être compréhensible pour les utilisateurs de technologies d’assistance comme elle l’aurait été dans sa forme initiale).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.3 Preservation of accessibility information in transformations*{lang=en}.
 
-#### [Critère 13.4](#crit-13-4) [AA] Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’outil d’édition fournit-il des suggestions de réparation&nbsp;? {id="crit-13-4"}
+#### [Critère 13.4](#crit-13-4) [AA] Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’[outil d’édition](glossaire.md#outil-d-edition) fournit-il des suggestions de réparation&nbsp;? {id="crit-13-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer dans l’outil la présence de fonctionnalités de tests automatiques ou semi-automatiques.
-1. Modifier les valeurs ou contenus dans les zones d’édition afin de créer des erreurs d’accessibilité dans le contenu généré (web et non web).
+1. Générer du contenu (web et non-web) avec l’outil d’édition avec des erreurs d’accessibilité.
 1. Activer les fonctionnalités de tests.
 1. Vérifier&nbsp;: 
-	- que l’outil répare automatiquement l’erreur&nbsp;;
-    - ou que l’outil met à disposition de l’auteur des suggestions de réparations.
-1. Dans le cas d’un test semi-automatique, vérifier : 
-	- l’outil met à disposition une aide à la décision et des suggestions de réparations&nbsp;;
-    - ou que l’outil met à disposition de l’auteur des explications lui permettant d’effectuer la réparation.
+	- que l’outil répare automatiquement l’erreur (test automatique)&nbsp;;
+    - ou que l’outil met à disposition de l’auteur des suggestions de réparations (test semi-automatique).
+1. Dans le cas d’un test semi-automatique, vérifier&nbsp;: 
+	- que l’outil met à disposition une aide à la décision et des suggestions de réparations&nbsp;;
+    - ou que l’outil met à disposition de l’auteur des explications pour effectuer la réparation.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.4 Repair Assistance*{lang=en}.
 
-#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux exigences du [RAWeb](../raweb1/criteres.html). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
+#### [Critère 13.5](#crit-13-5) [A] Pour chaque ensemble de [gabarits](glossaire.md#gabarit), un gabarit au moins permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique). Cette règle est-elle respectée&nbsp;? {id="crit-13-5"}
+
+- **[Test 13.5.1](#test-13-5-1)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format web (HTML, CSS), un gabarit au moins est conforme au [RAWeb](../raweb1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-1"}
+- **[Test 13.5.2](#test-13-5-2)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée&nbsp;? {id="test-13-5-2"}
+- **[Test 13.5.3](#test-13-5-3)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1. Cette règle est-elle respectée&nbsp;? {id="test-13-5-3"}
+- **[Test 13.5.4](#test-13-5-4)&nbsp;:** Pour chaque ensemble de [gabarits](glossaire.md#gabarit) permettant de diffuser des contenus dans une application mobile, un gabarit au moins est conforme aux critères du RAAM. Cette règle est-elle respectée&nbsp;? {id="test-13-5-4"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer la présence de gabarits mis à disposition par l’outil d’édition.
-1. Tester le respect des critères du [RAWeb](../raweb1/criteres.html) et vérifier qu’au moins un des gabarits est totalement conforme.
+1. Pour les gabarits au format web (HTML, CSS), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAWeb](../raweb1/index.html).
+1. Pour les gabarits au format PDF, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du [RAPDF](../rapdf1/index.html).
+1. Pour les gabarits au format non-web (hors PDF), vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1.
+1. Pour les gabarits permettant de diffuser des contenus dans une application mobile, vérifier qu’au moins un gabarit permet de respecter l’ensemble des critères du RAAM.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
-#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux exigences du RAWeb est-il clairement identifiable&nbsp;? {id="crit-13-6"}
+#### [Critère 13.6](#crit-13-6) [A] Chaque [gabarit](glossaire.md#gabarit) qui permet de répondre aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique) est-il clairement identifiable&nbsp;? {id="crit-13-6"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
-1. Repérer la présence de gabarits totalement conformes au [RAWeb](../raweb1/criteres.html) mis à disposition par l’outil d’édition.
+1. Repérer la présence de gabarits totalement conformes aux règles d’accessibilité numérique mis à disposition par l’outil d’édition.
 1. Vérifier la présence d’une mention explicite permettant de les identifier. Par exemple, depuis la liste des gabarits, les gabarits conformes possèdent une étiquette &laquo;&nbsp;gabarit accessible&nbsp;&raquo;.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *11.8.1 Content technology, 11.8.5 Templates*{lang=en}.
 
 ### [Thématique 14](#topic-14)&nbsp;: Services d’assistance {id="topic-14"}
 
-#### [Critère 14.1](#crit-14-1) [AA] Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) de l’application décrites dans la documentation&nbsp;? {id="crit-14-1"}
+#### [Critère 14.1](#crit-14-1) [AA] Chaque [service d’assistance](glossaire.md#service-d-assistance) fournit-il des informations relatives aux [fonctionnalités d’accessibilité](glossaire.md#fonctionnalite-d-accessibilite) et à la compatibilité avec l’accessibilité, décrites dans la [documentation](glossaire.md#documentation)&nbsp;? {id="crit-14-1"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Repérer la mise à disposition d’un service d’assistance depuis l’application.
-1. Si c’est le cas, repérer dans l’application la présence d’une documentation, par exemple&nbsp;: 
-	- un écran d’aide&nbsp;;
-	- une [déclaration d’accessibilité](../obligations.html#déclaration-daccessibilité)&nbsp;; 
-	- tout autre contenu qui fait office de documentation.
+1. Si c’est le cas, repérer dans l’application la présence d’une documentation.
 1. Repérer la présence dans la documentation&nbsp;: 
-	- de la description des fonctionnalités d’accessibilité de l’application, par exemple&nbsp;: 
-		- des paramètres d’accessibilité intégrés dans l’application comme la gestion des couleurs, des tailles de polices, la gestion des animations&nbsp;;
-		- un rotor personnalisé sur certains écrans (le rotor est une fonctionnalité des lecteurs d’écran qui permet une navigation rapide entre des types d’éléments d’un écran, certaines plateformes permettent de définir des éléments de navigation rapide spécifique à une application dans ce rotor. [Voir une démonstration](https://developer.apple.com/videos/play/wwdc2020/10116/))&nbsp;; 
-		- des gestes ou mouvements d’appareil qui déclenchent des fonctionnalités&nbsp;;  
-		- des raccourcis clavier spéciaux disponibles pour certaines technologies d’assistance.
+	- de la description des fonctionnalités d’accessibilité proposées par l’application&nbsp;;
 	- de la description des composants complexes pour lesquels il est mis en place une gestion particulière selon les technologies d’assistance&nbsp;;
 	- d’explications sur les modalités d’utilisation de ces fonctionnalités (leur localisation, les méthodes pour les activer)&nbsp;; 
 	- de la description des éléments non conformes ou non compatibles avec certaines technologies d’assistance, et de la présence d’alternatives le cas échéant.
-1. Vérifier que le service support propose des informations concernant ces fonctionnalités. 
+1. Vérifier que le service d’assistance propose des informations concernant ces fonctionnalités. 
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.2.2 Information on accessibility and compatibility features*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *12.2.2 Information on accessibility and compatibility features*{lang=en}.
 
 #### [Critère 14.2](#crit-14-2) [A] Le [service d’assistance](glossaire.md#service-d-assistance) répond aux besoins de communication des personnes handicapées directement ou par [l’intermédiaire d’un service de relais](glossaire.md#service-de-relais). Cette règle est-elle respectée&nbsp;? {id="crit-14-2"}
 
@@ -2552,15 +2705,41 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 ###### iOS et Android
 
 1. Repérer la présence dans l’application d’un service d’assistance.
-1. Si c’est le cas, vérifier que le service d’assistance peut être utilisé par toutes les personnes en situation de handicap. Il peut être utile de rechercher dans la documentation de l’application pour trouver ces informations. Par exemple, si le service d’assistance est disponible depuis un numéro de téléphone, vérifier qu’il existe des moyens alternatifs pour les utilisateurs qui ne peuvent pas s’exprimer à l’oral (personnes sourdes ou malentendantes) ou qui ne peuvent pas utiliser le langage verbal (personnes aphasiques). Par exemple&nbsp;: 
-	- une messagerie instantanée qui fournit un service équivalent (dialogue en temps réel avec un opérateur humain)&nbsp;; 
+1. Si c’est le cas, vérifier que le service d’assistance peut être utilisé par toutes les personnes en situation de handicap. Il peut être utile de rechercher dans la [documentation](glossaire.md#documentation) de l’application pour trouver ces informations. Par exemple, si le service d’assistance est disponible depuis un numéro de téléphone, vérifier qu’il existe des moyens alternatifs pour les utilisateurs qui n’accèdent pas ou peu au langage oral (personnes sourdes ou malentendantes) ou qui ne peuvent pas utiliser le langage verbal (personnes aphasiques). Par exemple&nbsp;: 
+	- une adresse mail ou un formulaire en ligne&nbsp;;
+	- une messagerie instantanée&nbsp;; 
 	- la mise à disposition d’une traduction écrite simultanée ou visuelle des informations orales ou sonores, ou la mise à disposition d’un interprète en langue des signes (utilisation d’un service de relais).
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *12.2.3 Effective communication*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *12.2.3 Effective communication*{lang=en}.
+
+#### [Critère 14.3](#crit-14-3) [A] La [documentation](glossaire.md#documentation) fournie par le [service d’assistance](glossaire.md#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](glossaire.md#regles-d-accessibilite-numerique)&nbsp;? {id="crit-14-3"}
+
+- **[Test 14.3.1](#test-14-3-1)&nbsp;:** La [documentation](glossaire.md#documentation) fournie par le service d’assistance au format web (HTML, CSS) est-elle conforme au [RAWeb](../raweb1/criteres.html)&nbsp;?  {id="test-14-3-1"}
+- **[Test 14.3.2](#test-14-3-2)&nbsp;:** La documentation fournie par le service d’assistance au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html)&nbsp;?  {id="test-14-3-2"}
+- **[Test 14.3.3](#test-14-3-3)&nbsp;:** La documentation fournie par le service d’assistance dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;?  {id="test-14-3-3"}
+- **[Test 14.3.4](#test-14-3-4)&nbsp;:** La documentation fournie par le service d’assistance dans une application mobile est-elle conforme au RAAM&nbsp;?  {id="test-14-3-4"}
+
+##### Méthodologie d’évaluation {class="disclosure methodo"}
+
+###### iOS et Android
+
+1. Repérer la présence d’une documentation fournie par le service d’assistance.
+1. Pour une documentation au format web (HTML, CSS), vérifier qu’elle respecte les critères du [RAWeb](../raweb1/criteres.html).
+1. Pour une documentation au format PDF, vérifier qu’elle respecte les critères du [RAPDF](../rapdf1/index.html).
+1. Pour une documentation au format non web (hors PDF), vérifier qu’elle respecte les critères la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN&nbsp;301&nbsp;549 v3.2.1&nbsp;;
+1. Pour une documentation fournie dans une application mobile, vérifier qu’elle respecte les critères du RAAM.
+1. Si c’est le cas, le critère est validé.
+
+Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur sera identifiée au regard des critères cibles, et ce, même si l’erreur fait partie des éléments de gabarits (menu, pied de page) et non pas uniquement du contenu de la documentation isolée.
+
+##### Correspondances {class="disclosure mapping"}
+
+- WCAG 2.1&nbsp;: N/A
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *12.2.4 Accessible documentation*{lang=en}.
 
 ### [Thématique 15](#topic-15)&nbsp;: Communication en temps réel {id="topic-15"}
 
@@ -2570,20 +2749,23 @@ Le critère est non applicable lorsque le format de destination ne permet pas de
 
 ###### iOS et Android
 
-La façon la plus sûre d’évaluer ce critère est de faire une recherche soit dans l’interface soit dans la documentation de l’application pour obtenir cette information. Il est également recommandé de demander à l’éditeur de l’application de fournir cette information. 
+1. Activer l’application et lancer un appel entre les deux terminaux.
+1. Vérifier que la qualité de l’activité orale avec l’application web est au moins équivalente à la qualité de l’activité orale lors d’un appel avec un téléphone fixe.
+1. Si le test n’est pas satisfaisant (par exemple, mauvaise compréhension de certains mots énoncés par l’interlocuteur, présence de bruits parasites, etc.), vérifier dans la documentation de l’application&nbsp;:
+	- la présence d’une référence à l’implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T-REC-G.722/fr)&nbsp;;
+	- ou la présence d’une référence à l’utilisation du [codec opus de l’API WebRTC](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs)&nbsp;;
+	- ou la présence d’une référence à l’utilisation d’un encodage et décodage dont la fréquence est supérieure ou égale à 7 000 Hz.
+1. Sinon, il est recommandé de demander à l’éditeur de l’application de fournir ces détails techniques, notamment en demandant si l’application web implémente par exemple la recommandation UIT-T G.722 ou utilise le codec opus de l’API WebRTC.
+1. Si c’est le cas, le test est validé.
 
-Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T-REC-G.722/fr) par exemple semble être une solution optimale.
+Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.1 Audio bandwidth for speech*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.1 Audio bandwidth for speech*{lang=en}.
 
 #### [Critère 15.2](#crit-15-2) [A] Chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) dispose-t-elle d’une fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel)&nbsp;? {id="crit-15-2"}
-
-**[Test 15.2.1](#test-15-2-1)&nbsp;:** Chaque application qui permet une communication orale bidirectionnelle respecte-t-elle une de ces conditions&nbsp;?  {id="test-15-2-1"}
-- L’application dispose d’une fonctionnalité intégrée de communication écrite en temps réel&nbsp;;
-- L’application peut être connectée à un terminal qui intègre une fonctionnalité de communication écrite en temps réel. 
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
@@ -2591,13 +2773,14 @@ Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T
 
 1. Vérifier que l’application permet la communication orale bidirectionnelle.
 1. Si c’est le cas, vérifier la présence d’une fonctionnalité de communication écrite en temps réel (il peut être parfois nécessaire d’activer un paramètre dédié dans l’application pour permettre la communication écrite en temps réel).
-1. Sinon, vérifier si l’application peut se connecter à un terminal intégrant une fonctionnalité de communication écrite en temps réel (cette évaluation peut être complexe à mener sans la mise à disposition d’un terminal de communication en temps réel ou si le réseau utilisé par le terminal ne supporte pas les protocoles de texte en temps réel. Une première étape peut être de rechercher dans la documentation ou de questionner directement l’éditeur de l’application.)
 1. Si c’est le cas, le critère est validé.
+
+ Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.1 RTT communication*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.1.1 RTT communication*{lang=en}.
 
 #### [Critère 15.3](#crit-15-3) [A] Pour chaque application qui permet une [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) et [écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les deux modes sont-ils utilisables simultanément&nbsp;? {id="crit-15-3"}
 
@@ -2607,47 +2790,41 @@ Une implémentation de la [recommandation UIT-T G.722](https://www.itu.int/rec/T
 
 1. Vérifier que l’application permet la communication orale bidirectionnelle.
 1. Si c’est le cas, vérifier la présence d’une fonctionnalité de communication écrite en temps réel.
-1. Si c’est le cas, vérifier qu’il est possible d’utiliser les deux modes de communications en même temps, c’est-à-dire que des utilisateurs peuvent envoyer des messages écrits en temps réels au même moment que d’autres utilisateurs parlent par exemple.
+1. Si c’est le cas, vérifier qu’il est possible d’utiliser les deux modes de communications en même temps, c’est-à-dire qu’il est possible pour un même utilisateur de parler et d’utiliser simultanément le système de communication écrite en temps réel.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.1.2 Concurrent voice and text*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.1.2 Concurrent voice and text*{lang=en}.
 
 #### [Critère 15.4](#crit-15-4) [A] Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages peuvent-ils être identifiés (hors cas particuliers)&nbsp;? {id="crit-15-4"}
 
-**[Test 15.4.1](#test-15-4-1)&nbsp;:** Pour chaque fonctionnalité de communication écrite en temps réel, les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-1"}
-- Les messages reçus et envoyés sont séparés dans la présentation&nbsp;;
-- La présentation permet d’identifier la nature du message (reçu ou envoyé)&nbsp;;
-- La présentation permet d’identifier les auteurs des messages&nbsp;;
-- La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance&nbsp;;
-- L’identification de l’auteur du message est accessible aux technologies d’assistance.
-
-##### Cas particuliers
-
-Le critère est non applicable lorsque la fonctionnalité de communication orale bidirectionnelle ne permet pas d’identifier les participants, il n’est alors pas requis que la fonctionnalité de communication écrite en temps réel identifie les auteurs des messages.
+- **[Test 15.4.1](#test-15-4-1)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-1"}
+	- Les messages reçus et envoyés sont séparés dans la présentation&nbsp;;
+	- La présentation permet d’identifier la nature du message (reçu ou envoyé)&nbsp;;
+	- La nature du message (reçu ou envoyé) est accessible aux technologies d’assistance&nbsp;;
+- **[Test 15.4.2](#test-15-4-2)&nbsp;:** Pour chaque fonctionnalité de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) utilisée avec une fonctionnalité de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui identifie les intervenants, les messages respectent-ils ces conditions&nbsp;? {id="test-15-4-2"}
+	- La présentation permet d’identifier les auteurs des messages&nbsp;;
+	- L’identification de l’auteur du message est accessible aux technologies d’assistance.
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Activer l’application et la fonctionnalité de communication écrite en temps réel de l’application sur deux terminaux et les connecter à une même session.
-1. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages avec des statuts différents (envoyé et reçus).
+1. Envoyer un message écrit depuis les deux terminaux pour obtenir des messages avec des statuts différents (envoyé et reçu) et avec des auteurs différents.
 1. Vérifier&nbsp;: 
 	- que les messages envoyés et reçus sont visuellement séparés (par exemple, les messages envoyés sont dans une fenêtre et les messages reçus dans une autre, ou il y a un saut de ligne entre chaque message reçu et envoyé s’ils sont présentés dans une même fenêtre)&nbsp;;
-	- qu’il est possible visuellement de distinguer les messages envoyés et les messages reçus (par exemple, repérer la mention &laquo;&nbsp;Envoyé&nbsp;&raquo; à proximité d’un message envoyé ou &laquo;&nbsp;Reçu&nbsp;&raquo; à proximité d’un message reçu)&nbsp;;
-	- si l’identification de l’interlocuteur est disponible pour le mode de communication oral (par exemple, mise en avant de l’avatar de la personne ayant la parole), que les auteurs des messages écrits sont identifiés également (par exemple, la présence d’un nom ou un identifiant précédant le message).
-1. Activer le **lecteur d’écran** et naviguer dans les messages.
-1. Vérifier que le lecteur d’écran restitue&nbsp;:
-	- l’information du statut envoyé ou reçu de chaque message&nbsp;; 
-	- l’identification de l’auteur du message.
+	- qu’il est possible visuellement de distinguer les messages envoyés et les messages reçus. Par exemple, par une mise en forme ou une couleur qui les différencie ou par une annotation textuelle visible (repérer la mention &laquo;&nbsp;Envoyé&nbsp;&raquo; à proximité d’un message envoyé ou &laquo;&nbsp;Reçu&nbsp;&raquo; à proximité d’un message reçu)&nbsp;;
+	- que l’information de la nature du message (reçu ou envoyé) est accessible aux technologies d’assistance (une information textuelle est disponible pour apporter cette information)&nbsp;;
+	- que les auteurs des messages écrits sont identifiés (par exemple, la présence d’un nom ou un identifiant précédant le message).
 1. Si c’est le cas, le critère est validé. 
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.1 Visually distinguishable display, 6.2.2.2 Programmatically determinable send and receive direction, 6.2.2.3 Speaker identification*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.2.1 Visually distinguishable display, 6.2.2.2 Programmatically determinable send and receive direction, 6.2.2.3 Speaker identification*{lang=en}.
 
 #### [Critère 15.5](#crit-15-5) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle), un indicateur visuel de l’activité orale est-il présent&nbsp;? {id="crit-15-5"} 
 
@@ -2658,7 +2835,7 @@ Le critère est non applicable lorsque la fonctionnalité de communication orale
 
 ###### iOS et Android
 
-1. Vérifier que l’application permet la communication orale bidirectionnelle et la communication écrite en temps réel ou la diffusion de la vidéo en temps réel.
+1. Vérifier que l’application  permet la communication orale bidirectionnelle et la communication écrite en temps réel ou la diffusion de la vidéo en temps réel.
 1. Si c’est le cas, activer l’application sur deux terminaux et les connecter à une même session.
 1. Faire parler un utilisateur depuis un des terminaux.
 1. Vérifier sur l’interface l’apparition d’un indicateur visuel permettant d’identifier qu’une personne est en train de parler. Il n’est pas nécessaire pour ce critère d’identifier qui parle, mais simplement d’identifier qu’il y a une personne qui est en train de parler. Par exemple, un halo autour ou une icône à proximité de l’avatar de la personne qui parle.
@@ -2667,7 +2844,7 @@ Le critère est non applicable lorsque la fonctionnalité de communication orale
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.2.4 Visual indicator of Audio with RTT, 6.5.5 Visual indicator of audio with video*{lang=en}.
 
 #### [Critère 15.6](#crit-15-6) [A] Chaque application de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) qui peut interagir avec d’autres applications de [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel) respecte-t-elle les règles d’interopérabilité en vigueur&nbsp;? {id="crit-15-6"}
 
@@ -2675,14 +2852,18 @@ Le critère est non applicable lorsque la fonctionnalité de communication orale
 
 ###### iOS et Android
 
-Il n’est pas proposé de méthode d’évaluation pour ce critère.
+Ce critère est très complexe à évaluer et demande une certaine maîtrise de l’ensemble des concepts et normes d’interopérabilité. 
 
-**Note importante&nbsp;:** Ce critère est très complexe à évaluer et demande une certaine maîtrise de l’ensemble des concepts et normes d’interopérabilité. Si l’application que vous évaluez ou développez doit couvrir ce critère, nous vous renvoyons à la lecture intégrale du critère *6.2.3 Interoperability*{lang=en} dans la norme EN 301 549.
+Il est recommandé de demander à l’éditeur de l’application de vérifier que l’ensemble des exigences décrites dans le critère *6.2.3 Interoperability*{lang=en} de la norme EN&nbsp;301&nbsp;549 sont respectées. 
+
+Il est également conseillé de rechercher dans la documentation ou de questionner directement l’éditeur de l’application.
+
+Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.3 Interoperability*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.3 Interoperability*{lang=en}.
 
 #### [Critère 15.7](#crit-15-7) [AA] Pour chaque application qui permet une [communication écrite en temps réel](glossaire.md#communication-ecrite-en-temps-reel), le délai de transmission de chaque [unité de saisie](glossaire.md#unite-de-saisie) est de 500ms ou moins. Cette règle est-elle respectée&nbsp;? {id="crit-15-7"}
 
@@ -2692,13 +2873,13 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 
 1. Vérifier que l’application permet la communication écrite en temps réel.
 1. Si c’est le cas, activer l’application et la fonctionnalité de communication écrite sur deux terminaux distincts et les connecter à une même session.
-1. Saisir du texte sur le premier terminal et observer son apparition sur le second terminal. L’apparition sur le second terminal doit être instantanée (inférieure à une demi-seconde). Selon le fonctionnement de la fonctionnalité, chaque caractère n’est pas envoyé individuellement. En effet, si la fonctionnalité de communication écrite en temps réel implémente une prédiction de mots, c’est lorsque le mot désiré sera sélectionné qu’il sera envoyé, pas lors de la saisie des premiers caractères servant à déclencher l’affichage de suggestion. Un test par observation simple peut être suffisant pour constater l’apparition instantanée sur le terminal qui reçoit le message écrit. 
+1. Saisir du texte sur le premier terminal et observer son apparition sur le second terminal. L’apparition sur le second terminal doit être instantanée (inférieure à une demi-seconde). Selon le paramétrage de la fonctionnalité, chaque caractère n’est pas envoyé individuellement. En effet, si la fonctionnalité de communication écrite en temps réel implémente une prédiction de mots, c’est lorsque le mot désiré sera sélectionné qu’il sera envoyé, et non pas lors de la saisie des premiers caractères servant à déclencher l’affichage de suggestion. Un test par observation simple peut être suffisant pour constater l’apparition instantanée sur le terminal qui reçoit le message écrit. 
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.2.4 RTT Responsiveness*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.2.4 RTT Responsiveness*{lang=en}.
 
 #### [Critère 15.8](#crit-15-8) [A] Pour chaque application de télécommunication, l’identification de l’interlocuteur qui initie un appel est-elle accessible&nbsp;? {id="crit-15-8"}
 
@@ -2710,32 +2891,37 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 
 ###### iOS et Android
 
-1. Activer le **lecteur d’écran** depuis un terminal.
+1. Activer l’application et le **lecteur d’écran** depuis un terminal.
 1. Depuis un second terminal, lancer un appel vers le premier terminal.
 1. Lorsque l’appel entrant apparaît, vérifier&nbsp;:
-	- que l’identification de l’interlocuteur est disponible sous format texte visible (par exemple, un nom ou un numéro de téléphone)&nbsp;;
-	- et que cette identification est correctement restituée par **le lecteur d’écran**.
+	- que l’identification de l’interlocuteur est disponible visuellement sous la forme d’un texte dont la nature est compréhensible (par exemple, un nom ou un numéro de téléphone)&nbsp;;
+	- que cette identification est correctement restituée par **le lecteur d’écran**.
 1. Si c’est le cas, le critère est validé. 
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.3 Caller ID*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.3 Caller ID*{lang=en}.
 
-#### [Critère 15.9](#crit-15-9) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui fournit l’identification de l’interlocuteur, existe-t-il un moyen de présenter cette identification pour les utilisateurs de langue des signes&nbsp;? {id="crit-15-9"}
+#### [Critère 15.9](#crit-15-9) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui permet d’identifier l’activité d’un interlocuteur oralisant, il est possible d’identifier l’activité d’un interlocuteur signant. Cette règle est-elle respectée&nbsp;? {id="crit-15-9"}
 
 ##### Méthodologie d’évaluation {class="disclosure methodo"}
 
 ###### iOS et Android
 
 1. Activer l’application et lancer un appel vidéo entre les deux terminaux.
-1. Vérifier la présence sur le terminal recevant l’appel d’une méthode permettant aux utilisateurs de langue des signes d’identifier l’interlocuteur. 
-1. Si c’est le cas, le critère est validé. 
+1. Initier une activité orale, et vérifier la présence sur le second terminal d’une information permettant d’identifier cette activité (par exemple, la présence d’un halo de couleur autour de la vignette de l’interlocuteur en activité).
+1. Si c’est le cas&nbsp;:
+	- repérer la présence d’un mécanisme manuel (par exemple, un bouton) qui permettrait à l’interlocuteur signant d’indiquer qu’il est en train de signer&nbsp;;
+	- sinon, réaliser des gestes devant la caméra (voir note) et vérifier l’affichage automatique d’une information permettant d’identifier cette activité visuelle.
+1. Si c’est le cas, le test est validé. 
+
+Note&nbsp;: dans les applications de communication, l’identification d’une activité orale ne repose pas sur l’identification d’un message verbal intelligible (mot ou phrase par exemple), mais uniquement sur l’identification d’un son (un bruit par exemple). Ainsi, une activité visuelle, même si elle ne correspond pas à un élément compréhensible en langue des signes, pourrait être détectée automatiquement par cette application et servirait donc comme mécanisme pour identifier l’activité d’une personne signante. Il est donc possible de tester en réalisant des gestes même s’ils ne correspondent pas à un élément de sens en langue des signes.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.6 Speaker identification with video (sign language) communication*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.5.6 Speaker identification with video (sign language) communication*{lang=en}.
 
 #### [Critère 15.10](#crit-15-10) [A] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui dispose de [fonctionnalités vocales](glossaire.md#fonctionnalites-vocales), celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler&nbsp;? {id="crit-15-10"}
 
@@ -2743,19 +2929,19 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 
 ###### iOS et Android
 
-1. Repérer les fonctionnalités disponibles (en dehors de la fonctionnalité de communication orale) qui se basent sur l’écoute d’information ou l’énonciation de commande, par exemple&nbsp;:
+1. Repérer dans l’application les fonctionnalités disponibles (en dehors de la fonctionnalité de communication orale) qui se basent sur l’écoute d’information ou l’énonciation de commande, par exemple&nbsp;:
 	- une messagerie vocale&nbsp;; 
 	- un standard téléphonique automatique (par exemple, qui demande d’énoncer un chiffre entre 1 et 4 pour être redirigé vers un service)&nbsp;;
 	- ou tout autre serveur vocal interactif.
 1. Vérifier&nbsp;: 
-	- que l’information est disponible sans devoir écouter ou parler&nbsp;; 
+	- que l’information est disponible sans devoir écouter ou parler (par exemple grâce à une transcription textuelle ou un système de chat)&nbsp;; 
 	- que les actions peuvent être réalisées sans devoir écouter ou parler ou qu’il existe une alternative à la fonctionnalité qui peut être utilisée sans devoir écouter ou parler.
 1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.4 Alternatives to voice-based services*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.4 Alternatives to voice-based services*{lang=en}.
 
 #### [Critère 15.11](#crit-15-11) [AA] Pour chaque application de [communication orale bidirectionnelle](glossaire.md#application-de-communication-orale-bidirectionnelle) qui dispose d’une vidéo en temps réel, la qualité de la vidéo est-elle suffisante&nbsp;? {id="crit-15-11"}
 
@@ -2768,15 +2954,17 @@ Il n’est pas proposé de méthode d’évaluation pour ce critère.
 
 ###### iOS et Android
 
-Pour les conditions concernant la résolution et la fréquence des images, la façon la plus sûre d’évaluer ce critère est de faire une recherche soit dans l’interface soit dans la documentation de l’application pour obtenir ces informations. Il est également recommandé de demander à l’éditeur de l’application de fournir ces détails techniques.
+Pour les conditions concernant la résolution et la fréquence des images, la façon la plus sûre d’évaluer ce critère est de faire une recherche soit dans l’interface soit dans la documentation de l’application pour obtenir ces informations. Il est également recommandé de demander à l’éditeur de l’application de fournir ces détails techniques. 
+
+Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, ces conditions ne pouvant être validées, le critère sera considéré non conforme.
 
 Pour la dernière condition concernant le décalage entre la vidéo et l’audio, le test peut s’établir sur une simple observation&nbsp;:
 1. Activer l’application sur deux terminaux.
 1. Établir une connexion d’appel vidéo entre les deux terminaux.
 1. Vérifier la synchronisation entre les paroles et la vidéo (synchronisation labiale, mouvement des lèvres).
-1. Si c’est le cas, le critère est validé.
+1. Si c’est le cas, le test est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
 - WCAG 2.1&nbsp;: N/A
-- EN 301 549 V3.2.1 (2021-03)&nbsp;: *6.5.2 Resolution, 6.5.3 Frame rate, 6.5.4 Synchronization between audio and video*{lang=en}.
+- EN&nbsp;301&nbsp;549 V3.2.1 (2021-03)&nbsp;: *6.5.2 Resolution, 6.5.3 Frame rate, 6.5.4 Synchronization between audio and video*{lang=en}.

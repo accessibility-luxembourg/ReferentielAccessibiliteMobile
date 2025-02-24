@@ -337,7 +337,7 @@
               "1": [
                 "Does each synchronised pre-recorded time-based media meet one of these conditions?",
                 "The audio description is relevant and correctly synchronised;",
-                "The text transcription is relevant."
+                "The text transcript is relevant."
               ]
             },
             "number": 6,
@@ -356,16 +356,25 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Does each pre-recorded time-based media have, if necessary, synchronised captions (excluding special cases)?"
+              ],
+              "2": [
+                "Does each live time-based media have, if necessary, synchronised captions (excluding special cases)?"
+              ]
+            },
             "number": 7,
-            "title": "Does each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where appropriate, [synchronised captions](glossaire.md#synchronised-captions-media-object) (excluding special cases)?",
+            "title": "Does each synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) have, where appropriate, [synchronised captions](glossaire.md#synchronised-captions-media-object) (excluding special cases)?",
             "level": "A",
             "references": {
               "wcag": [
-                "1.2.2 Captions (prerecorded) (A)"
+                "1.2.2 Captions (prerecorded) (A)",
+                "1.2.4 Captions (live) (AA)"
               ],
               "norm": [
-                "11.1.2.2 Captions (Prerecorded)"
+                "11.1.2.2 Captions (Prerecorded)",
+                "11.1.2.4 Captions (live)"
               ]
             }
           }
@@ -373,22 +382,20 @@
         {
           "criterium": {
             "tests": {
-              "1": [
-                "For each pre-recorded synchronised time-based media with synchronised captions, do the captions meet these conditions?",
-                "Captions are relevant;",
-                "Captions are correctly synchronised."
-              ]
+              "2": []
             },
             "number": 8,
-            "title": "For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant?",
+            "title": "For each synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with [synchronised captions](glossaire.md#synchronised-captions-media-object), are these relevant (excluding special cases)?",
             "level": "A",
             "references": {
               "wcag": [
-                "1.2.2 Captions (prerecorded) (A)"
+                "1.2.2 Captions (prerecorded) (A)",
+                "1.2.4 Sous-titres (en direct) (AA)"
               ],
               "norm": [
                 "7.1.2 Captioning synchronization",
-                "11.1.2.2 Captions (Prerecorded)"
+                "11.1.2.2 Captions (Prerecorded)",
+                "11.1.2.4 Captions (live)"
               ]
             }
           }
@@ -473,12 +480,14 @@
             "level": "A",
             "references": {
               "wcag": [
-                "2.1.1 Keyboard (A)"
+                "2.1.1 Keyboard (A)",
+                "2.1.2 No Keyboard Trap (A)"
               ],
               "norm": [
                 "7.1.1 Captioning playback",
                 "7.2.1 Audio description playback",
-                "11.2.1.1.1 Keyboard"
+                "11.2.1.1.1 Keyboard",
+                "11.2.1.2 No Keyboard Trap"
               ]
             }
           }
@@ -487,13 +496,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "For each time-based media, do the alternative control features meet these conditions?",
-                "For each time-based media, the functionality that enables captions to be activated and deactivated is presented at the same level as the other primary control features;",
-                "For each time-based media, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other primary control features."
+                "For each pre-recorded synchronised time-based media, that has synchronised captions or audio description, are the control features of these alternatives presented at the same level as the main features?",
+                "For each time-based media, the functionality that enables captions to be activated and deactivated is presented at the same level as the other main control features;",
+                "For each time-based media, the functionality enabling audio description to be activated and deactivated is presented at the same level as the other main control features."
               ]
             },
             "number": 14,
-            "title": "For each [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), are alternative control features presented at the same level as other [primary control](glossaire.md#primary-control-of-a-time-based-media) features?",
+            "title": "For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), that has [synchronised captions](glossaire.md#synchronised-captions-media-object) or [audio description](glossaire.md#audio-description-time-based-media), are the control features for these alternatives presented at the same level as other [primary features](glossaire.md#primary-features-of-a-time-based-media)?",
             "level": "AA",
             "references": {
               "norm": [
@@ -506,7 +515,7 @@
           "criterium": {
             "tests": {
               "1": [
-                "For each feature that transmits, converts or records a video that has a captions track, at the end of the process, do the captions respect these conditions?",
+                "For each feature that transmits, converts or records a pre-recorded synchronised time-based media that has a captions track, at the end of the process, do the captions respect these conditions?",
                 "The captions are present;",
                 "The captions can be displayed;",
                 "The captions are correctly synchronised;",
@@ -514,7 +523,7 @@
               ]
             },
             "number": 15,
-            "title": "For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has a captions track, at the end of the process, are the captions correctly preserved?",
+            "title": "For each feature that transmits, converts or records pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has a [synchronised captions track](glossaire.md#synchronised-captions-media-object), at the end of the process, are the captions correctly preserved?",
             "level": "AA",
             "references": {
               "norm": [
@@ -528,14 +537,14 @@
           "criterium": {
             "tests": {
               "1": [
-                "For each feature that transmits, converts or records pre-recorded time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions?",
+                "For each feature that transmits, converts or records pre-recorded synchronised time-based media with synchronised audio description, at the end of the process does the audio description meet these conditions?",
                 "The audio description is present;",
                 "The audio description can be activated;",
                 "The audio description is correctly synchronised."
               ]
             },
             "number": 16,
-            "title": "For each feature that transmits, converts or records a [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) pre-recorded with a [synchronised audio description](glossaire.md#audio-description-time-based-media), at the end of the process, is the audio description correctly preserved?",
+            "title": "For each feature that transmits, converts or records a pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) with a [synchronised audio description](glossaire.md#audio-description-time-based-media), at the end of the process, is the audio description correctly preserved?",
             "level": "AA",
             "references": {
               "norm": [
@@ -547,9 +556,15 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "For each pre-recorded time-based media, does the presentation of captions meet one of these conditions?",
+                "User-defined caption presentation system settings apply to captions.",
+                "There is a feature on the screen that allows the user to change the presentation settings for captions."
+              ]
+            },
             "number": 17,
-            "title": "For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), is the presentation of captions controllable by the user (excluding special cases)?",
+            "title": "For each pre-recorded [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised), is the presentation of [captions](glossaire.md#synchronised-captions-media-object) controllable by the user (excluding special cases)?",
             "level": "AA",
             "references": {
               "norm": [
@@ -563,13 +578,15 @@
           "criterium": {
             "tests": {
               "1": [
-                "Does each pre-recorded synchronised time-based media with synchronised subtitles meet one of these conditions?",
-                "The subtitles are in a standardised format;",
-                "There is an additional audio track containing the subtitles."
+                "Does each pre-recorded synchronised time-based media with subtitles meet one of these conditions?",
+                "The user can activate a soundtrack containing vocalisations of all subtitles.",
+                "A function is available to vocalise subtitles.",
+                "Subtitles can be vocalised by assistive technologies.",
+                "There is an alternative version with all vocalised subtitles, accessible via an adjacent link or button."
               ]
             },
             "number": 18,
-            "title": "For each [pre-recorded synchronised time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [synchronised subtitles](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)?",
+            "title": "For each pre-recorded synchronised [time-based media](glossaire.md#time-based-media-audio-video-and-synchronised) that has [subtitles](glossaire.md#synchronised-captions-media-object), can these be, if necessary, vocalised (excluding special cases)?",
             "level": "AA",
             "references": {
               "norm": [
@@ -685,7 +702,7 @@
               "2": [
                 "Does each user interface component meet these conditions (excluding special cases)?",
                 "The component has a relevant name;",
-                "The accessible name of the component contains at least the visible label;",
+                "The accessible name of the component contains at least the [visible text](glossaire.md#visible-text);",
                 "The component has a relevant role;",
                 "The component has a relevant value;",
                 "The component has a relevant state."
@@ -1128,7 +1145,7 @@
               "1": [
                 "Does each form button meet these conditions?",
                 "The label of the button accessible to assistive technologies is relevant;",
-                "The visible text of the button is contained in the label accessible to assistive technologies."
+                "The [visible text](glossaire.md#visible-text) of the button is contained in the label accessible to assistive technologies."
               ]
             },
             "number": 5,
@@ -1198,13 +1215,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "Does each mandatory form field meet these conditions?",
+                "Does each form field expecting a specific data type and/or format meet these conditions?",
                 "The data type and/or format is visible;",
                 "The data type and/or format is accessible to assistive technologies."
               ]
             },
             "number": 8,
-            "title": "For each mandatory form field, is the expected data type and/or format available?",
+            "title": "For each form field expecting a specific [data type and/or format](glossaire.md#data-type-and-format), is the related information available?",
             "level": "A",
             "references": {
               "wcag": [
@@ -1527,7 +1544,7 @@
             "tests": {
               "1": [
                 "Do sudden changes in brightness or blinking effects meet any of these conditions?",
-                "The effect frequency is less than 3 per second;",
+                "The effect frequency is less than or equal to 3 per second;",
                 "The total cumulative area of the effects is less than or equal to 21,824 pixels."
               ]
             },
@@ -1572,8 +1589,8 @@
             "tests": {
               "1": [
                 "On each screen, does all content meet these conditions?",
-                "Consultation is possible regardless of the screen orientation;",
-                "The content offered remains the same whatever the screen orientation, even though its presentation and the means of accessing it may differ."
+                "Consultation is possible, regardless of the screen orientation;",
+                "The content offered remains the same, whatever the screen orientation, even though its presentation and the means of accessing it may differ."
               ]
             },
             "number": 9,
@@ -1622,8 +1639,8 @@
             "tests": {
               "1": [
                 "On each screen, do actions triggered using a pointing device on a single point on the screen meet one of these conditions (excluding special cases)?",
-                "The action is triggered when the pointing device is released;",
-                "The action is triggered when the pointing device is pressed (down-event) and then cancelled when the pointing device is released (up-event);",
+                "The action is triggered when the pointing device is [released](glossaire.md#released);",
+                "The action is triggered when the pointing device is [pressed](glossaire.md#pressed) (down-event) and then cancelled when the pointing device is [released](glossaire.md#released) (up-event);",
                 "The [action is complex](glossaire.md#complex-action) and a mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action."
               ]
             },
@@ -1680,13 +1697,13 @@
           "criterium": {
             "tests": {
               "1": [
-                "Does each identification or control functionality of the application that relies on the use of a user's biological characteristics meet one of these conditions?",
-                "There is an alternative that does not rely on a user's biological characteristics;",
-                "There is an alternative that relies on a biological characteristic of the user that is sufficiently different."
+                "Does each identification or control functionality that relies on the use of a user's [biological characteristics](glossaire.md#biological-characteristics) meet one of these conditions?",
+                "There is an alternative that does not rely on a user's biological characteristics.",
+                "There is an alternative that relies on a biological characteristic of the user that is sufficiently different from the biological characteristic initially requested."
               ]
             },
             "number": 15,
-            "title": "Is an alternative method available for each identification or control functionality of the application that relies on the use of [biological characteristics](glossaire.md#biological-characteristics) of the user?",
+            "title": "Is an alternative method available for each identification or control functionality that relies on the use of [biological characteristics](glossaire.md#biological-characteristics) of the user?",
             "level": "A",
             "references": {
               "norm": [
@@ -1723,14 +1740,14 @@
           "criterium": {
             "tests": {
               "1": [
-                "Does the application documentation include at least the following elements?",
-                "A description of the application's accessibility features;",
-                "An explanation of how the application's accessibility features are used;",
-                "Information about the accessibility of the platform and its compatibility with assistive technologies."
+                "Does the application [documentation](glossaire.md#documentation) include at least the following elements?",
+                "A description of the [accessibility features](glossaire.md#accessibility-feature) offered by the application;",
+                "A user guide to the [accessibility features](glossaire.md#accessibility-feature) offered by the application;",
+                "A description of components that are not compatible with assistive technologies."
               ]
             },
             "number": 1,
-            "title": "Does the application documentation describe the [accessibility features](glossaire.md#accessibility-feature) of the application and their use?",
+            "title": "Does the application [documentation](glossaire.md#documentation) describe the [accessibility features](glossaire.md#accessibility-feature) available and information on accessibility compatibility?",
             "level": "AA",
             "references": {
               "norm": [
@@ -1743,7 +1760,7 @@
           "criterium": {
             "tests": {},
             "number": 2,
-            "title": "For each [accessibility feature](glossaire.md#accessibility-feature) described in the documentation, the entire path that enables it to be activated meets the accessibility needs of the users who require it. Is this rule respected (excluding special cases)?",
+            "title": "For each [accessibility feature](glossaire.md#accessibility-feature) described in the [documentation](glossaire.md#documentation), the [mechanism used to activate it](glossaire.md#mechanism-enabling-to-activate-an-accessibility-feature) meets the accessibility needs of the users concerned. Is this rule respected (excluding special cases)?",
             "level": "A",
             "references": {
               "norm": [
@@ -1767,9 +1784,22 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Does the [documentation](glossaire.md#documentation) made available in web format (HTML, CSS) comply with the [RAWeb](../raweb1/criteres.html)?"
+              ],
+              "2": [
+                "Does the [documentation](glossaire.md#documentation) made available in PDF format comply with the [RAPDF](../rapdf1/index.html)?"
+              ],
+              "3": [
+                "Does the documentation made available in a non-web format (other than PDF) comply with the criteria of the [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of the European standard EN 301 549 v3.2.1?"
+              ],
+              "4": [
+                "Does the documentation made available in a mobile application comply with the RAAM?"
+              ]
+            },
             "number": 4,
-            "title": "Is the application documentation accessible?",
+            "title": "Does the application documentation comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules)?",
             "level": "A",
             "references": {
               "norm": [
@@ -1786,9 +1816,22 @@
       "criteria": [
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "Can each [editing tool](glossaire.md#editing-tool) that creates content in web format (HTML, CSS) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAWeb](../raweb1/index.html)?"
+              ],
+              "2": [
+                "Can each [editing tool](glossaire.md#editing-tool) that creates content in PDF format be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with the [RAPDF](../rapdf1/index.html)?"
+              ],
+              "3": [
+                "Can each [editing tool](glossaire.md#editing-tool) that creates content in non-web format (other than PDF) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) criteria of the European standard EN 301 549 v3.2.1?"
+              ],
+              "4": [
+                "Can each [editing tool](glossaire.md#editing-tool) that creates content that is delivered in a mobile application have the ability to define the [accessibility information](glossaire.md#accessibility-information) needed to create content compliant with the RAAM?"
+              ]
+            },
             "number": 1,
-            "title": "Can the [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) required to create compliant content?",
+            "title": "Can each [editing tool](glossaire.md#editing-tool) be used to define the [accessibility information](glossaire.md#accessibility-information) needed to create content that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules)?",
             "level": "A",
             "references": {
               "norm": [
@@ -1802,7 +1845,7 @@
           "criterium": {
             "tests": {},
             "number": 2,
-            "title": "Does the [editing tool](glossaire.md#editing-tool) provide help with creating accessible content?",
+            "title": "Does each [editing tool](glossaire.md#editing-tool) provide [help with creating accessible content](glossaire.md#help-with-creating-accessible-content) compliant with [digital accessibility rules](glossaire.md#digital-accessibility-rules)?",
             "level": "A",
             "references": {
               "norm": [
@@ -1816,7 +1859,7 @@
           "criterium": {
             "tests": {},
             "number": 3,
-            "title": "Is the content generated by each content [transformation](glossaire.md#transformation) accessible (excluding special cases)?",
+            "title": "Does the content generated by each content [transformation](glossaire.md#transformation) comply with [digital accessibility rules](glossaire.md#digital-accessibility-rules) (excluding special cases)?",
             "level": "A",
             "references": {
               "norm": [
@@ -1830,7 +1873,7 @@
           "criterium": {
             "tests": {},
             "number": 4,
-            "title": "For each accessibility error identified by an automatic or semi-automatic accessibility test, does the editing tool provide suggestions for repair?",
+            "title": "For each accessibility error identified by an automatic or semi-automatic accessibility test, does the [editing tool](glossaire.md#editing-tool) provide suggestions for repair?",
             "level": "AA",
             "references": {
               "norm": [
@@ -1842,9 +1885,22 @@
         },
         {
           "criterium": {
-            "tests": {},
+            "tests": {
+              "1": [
+                "For each set of [templates](glossaire.md#template) in web format (HTML, CSS), at least one template complies with the [RAWeb](../raweb1/index.html). Is this rule respected?"
+              ],
+              "2": [
+                "For each set of [templates](glossaire.md#template) in PDF format, at least one template complies with the [RAPDF](../rapdf1/index.html). Is this rule respected?"
+              ],
+              "3": [
+                "For each set of [templates](glossaire.md#template) in non-web format (other than PDF), at least one template complies with the criteria in section [10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1. Is this rule respected?"
+              ],
+              "4": [
+                "For each set of [templates](glossaire.md#template) used to deliver content in a mobile application, at least one template complies with the RAAM criteria. Is this rule respected?"
+              ]
+            },
             "number": 5,
-            "title": "For each set of [templates](glossaire.md#template), at least one template meets the requirements of the [RAWeb](../raweb1/criteres.html). Is this rule respected?",
+            "title": "For each set of [templates](glossaire.md#template), at least one template meets the requirements of [digital accessibility rules](glossaire.md#digital-accessibility-rules). Is this rule respected?",
             "level": "A",
             "references": {
               "norm": [
@@ -1858,7 +1914,7 @@
           "criterium": {
             "tests": {},
             "number": 6,
-            "title": "Is each [template](glossaire.md#template) that enables the RAWeb requirements to be met clearly identifiable?",
+            "title": "Is each [template](glossaire.md#template) that complies with [digital accessibility rules](glossaire.md#digital-accessibility-rules) clearly identifiable?",
             "level": "A",
             "references": {
               "norm": [
@@ -1877,7 +1933,7 @@
           "criterium": {
             "tests": {},
             "number": 1,
-            "title": "Does each [support service](glossaire.md#support-services) provide information relating to the [accessibility features](glossaire.md#accessibility-feature) of the application described in the documentation?",
+            "title": "Does each [support service](glossaire.md#support-services) provide information relating to [accessibility features](glossaire.md#accessibility-feature) and accessibility compatibility, described in the [documentation](glossaire.md#documentation)?",
             "level": "AA",
             "references": {
               "norm": [
@@ -1895,6 +1951,32 @@
             "references": {
               "norm": [
                 "12.2.3 Effective communication"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "tests": {
+              "1": [
+                "Does the [documentation](glossaire.md#documentation) provided by the support service in web format (HTML, CSS) comply with the [RAWeb](../raweb1/index.html)?"
+              ],
+              "2": [
+                "Does the [documentation](glossaire.md#documentation) provided by the support service in PDF format comply with the [RAPDF](../rapdf1/index.html)?"
+              ],
+              "3": [
+                "Does the [documentation](glossaire.md#documentation) provided by the support service in a non-web format (other than PDF) comply with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1?"
+              ],
+              "4": [
+                "Does the [documentation](glossaire.md#documentation) provided by the support service in a mobile application comply with the RAAM?"
+              ]
+            },
+            "number": 3,
+            "title": "Does the [documentation](glossaire.md#documentation) provided by the [support service](glossaire.md#support-services) comply with the [digital accessibility rules](glossaire.md#digital-accessibility-rules)?",
+            "level": "A",
+            "references": {
+              "norm": [
+                "12.2.4 Accessible documentation"
               ]
             }
           }
@@ -1919,13 +2001,7 @@
         },
         {
           "criterium": {
-            "tests": {
-              "1": [
-                "Does each application that enables two-way voice communication meet one of these conditions?",
-                "The application has built-in real-time text (RTT) functionality;",
-                "The application can be connected to a terminal with built-in real-time text functionality."
-              ]
-            },
+            "tests": {},
             "number": 2,
             "title": "Does each application that supports [two-way voice communication](glossaire.md#two-way-voice-communication-application) have [real-time text communication](glossaire.md#real-time-text-communication) functionality?",
             "level": "A",
@@ -1953,11 +2029,14 @@
           "criterium": {
             "tests": {
               "1": [
-                "For each real-time text (RTT) functionality, do the messages respect these conditions?",
+                "For each [real-time text communication](glossaire.md#real-time-text-communication) functionality, do the messages respect these conditions?",
                 "Messages received and sent are separated in the presentation;",
                 "The presentation can be used to identify the nature of the message (received or sent);",
-                "The presentation is used to identify the authors of the messages;",
-                "The nature of the message (received or sent) is accessible to assistive technologies;",
+                "The nature of the message (received or sent) is accessible to assistive technologies."
+              ],
+              "2": [
+                "For each [real-time text communication](glossaire.md#real-time-text-communication) functionality used with a [two-way voice communication](glossaire.md#two-way-voice-communication-application) feature that identifies the speakers, do the messages meet these conditions?",
+                "The presentation allows the authors of the messages to be identified;",
                 "Identification of the author of the message is accessible to assistive technologies."
               ]
             },
@@ -2043,7 +2122,7 @@
           "criterium": {
             "tests": {},
             "number": 9,
-            "title": "For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that provides caller identification, is there a way to present this identification for sign language users?",
+            "title": "For each [two-way voice communication](glossaire.md#two-way-voice-communication-application) application that makes it possible to identify the activity of a speaking interlocutor, it is possible to identify the activity of a signing interlocutor. Is this rule respected?",
             "level": "A",
             "references": {
               "norm": [

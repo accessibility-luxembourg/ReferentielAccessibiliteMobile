@@ -37,6 +37,19 @@ Une action complexe est une action pour laquelle l’action descendante et remon
 
 L’élément est mis à disposition de manière adjacente à l’objet identifié par le critère dans la représentation graphique et dans l’ordre de navigation au clavier. Si besoin, l’élément peut être disponible ailleurs dans le logiciel et être accessible avec une fonctionnalité (un bouton par exemple) adjacente à l’objet identifié dans le critère, explicite et clairement identifiable (l’intitulé de la fonctionnalité est explicite).
 
+#### Aide à la création de contenus accessibles
+
+Tout dispositif disponible depuis une interface d’édition de contenu, quel que soit le format de destination, qui accompagne l’auteur des contenus dans la prise en compte des règles d’accessibilité numérique.
+
+Une aide à la création de contenus accessibles peut être un outil d’aide automatique ou une documentation. 
+
+On compte parmi les aides à la création de contenus&nbsp;:
+
+- des tests automatiques ou semi-automatiques disponibles depuis les fonctionnalités d’édition&nbsp;;
+- d’autres outils automatiques (un chatbot par exemple)&nbsp;;
+- une documentation qui explique comment définir les propriétés d’accessibilité pour chaque élément de contenu&nbsp;;
+- des tests manuels disponibles depuis les fonctionnalités d’édition pour guider les auteurs dans la détection d’erreurs.
+
 #### Application de communication orale bidirectionnelle
 
 Les applications de communication orale bidirectionnelles sont des applications qui permettent à 2 interlocuteurs ou plus de parler simultanément. Les applications de visioconférence qui permettent de parler en même temps en sont un exemple.
@@ -61,7 +74,7 @@ Le W3C fournit une documentation complète sur l’accessibilité de ce type de 
 
 #### Caractéristique biologique
 
-Les méthodes d’identification des utilisateurs ou de contrôle reposant sur des caractéristiques biologiques utilisables peuvent être&nbsp;: 
+Les méthodes d’identification des utilisateurs ou de contrôle reposant sur des caractéristiques biologiques utilisables peuvent être, par exemple&nbsp;: 
 - la reconnaissance d’empreintes digitales&nbsp;; 
 - la reconnaissance faciale&nbsp;; 
 - la reconnaissance vocale.
@@ -103,7 +116,9 @@ Changements majeurs dans le contenu d’un écran qui, s’ils sont faits sans q
 
 #### Communication écrite en temps réel
 
-La communication écrite en temps réel (*Real-time text*{lang=en}, RTT) est un mode de communication écrite qui permet aux interlocuteurs de lire le texte en train d’être écrit par l’expéditeur, sans attendre que l’expéditeur valide (par exemple avec la touche entrée).
+La communication écrite en temps réel (*Real-time text*{lang=en}, RTT) est un mode de communication écrite qui permet aux interlocuteurs de lire le texte en train d’être écrit par l’expéditeur, sans attendre que l’expéditeur valide (par exemple avec la touche <kbd>entrée</kbd>).
+
+Les outils d’éditions collaboratifs (par exemple, les suites bureautiques en ligne) sont un exemple du principe de fonctionnement de la communication écrite en temps réel&nbsp;: les différents intervenants peuvent voir les textes écrits et modifiés par chacun au moment même de l’application des modifications aux textes. Ce fonctionnement est très différent d’un système de conversation en ligne courant (comme les messageries instantanées), qui ne transmet un message écrit aux interlocuteurs qu’à l’activation d’une touche ou d’un bouton (par exemple, la touche <kbd>entrée</kbd>).
 
 Exemple de communication écrite en temps réel intégrée à une plateforme&nbsp;: [Answer or make RTT or TTY calls from iPhone](https://support.apple.com/en-us/HT207033){lang=en}
 
@@ -118,6 +133,8 @@ Cela concerne, à la fois, la technologie, ses fonctionnalités et ses usages&nb
 #### Composant d’interface
 
 Un composant d’interface est un élément avec lequel l’utilisateur peut interagir, par exemple un bouton, un lien, une zone de saisie. Certains composants peuvent être plus complexes comme un menu, une fenêtre de dialogue, un système d’onglets. Enfin un composant d’interface peut être basé sur des éléments natifs du langage de la plateforme ou développés de toutes pièces.
+
+Note&nbsp;: Les composants d’interface natifs HTML ne se retrouvent pas tous dans les langages de développement d’applications mobiles. Par exemple, les boutons radio ou les cases à cocher n’existent pas en tant que tels pour les applications développées pour iOS. Il s’agira alors pour les développeurs d’utiliser les composants les plus adaptés disponibles dans les langages de développement pour remplir une fonction similaire. Pour reproduire ce qui serait une liste de boutons radio, il est possible par exemple d’utiliser des listes de boutons associés à un état sélectionné ou non sélectionné. Ainsi, lors des tests qui seront réalisés au lecteur d’écran, il est possible que le rôle annoncé ne corresponde pas au rôle figuré par l’interface (par exemple, un bouton qui aurait l’apparence d’un bouton radio). Néanmoins, si le rôle et l’état du composant sont pertinents et accessibles aux technologies d’assistance, alors le critère sera considéré conforme pour ce composant.
 
 #### Composant dont la nature n’est pas évidente
 
@@ -141,7 +158,7 @@ et RsRGB, GsRGB et BsRGB sont définis par&nbsp;:
 
 Le caractère «&nbsp;^&nbsp;» est l’opérateur de puissance.
 
-**Note&nbsp;:** la mesure de contraste concerne le texte, le contenu dans les éléments graphiques, le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos. Les textes présents dans les éléments d’un élément graphique ou d’une vidéo (par exemple un écriteau, une affiche etc.) ne sont pas concernés.
+**Note&nbsp;:** la mesure de contraste concerne le texte, le contenu dans les éléments graphiques, le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos. Les textes présents dans les éléments d’un élément graphique ou d’une vidéo (par exemple un écriteau, une affiche, etc.) ne sont pas concernés.
 
 **Source&nbsp;:** [Procédure de calcul de contraste des WCAG (en anglais)](https://www.w3.org/WAI/WCAG21/Techniques/general/G18#procedure).
 
@@ -149,9 +166,9 @@ Le caractère «&nbsp;^&nbsp;» est l’opérateur de puissance.
 
 La norme distingue plusieurs tailles de textes à évaluer, chaque taille relevant d’un seuil de contraste. Ces tailles sont évaluées en pixel ou en point. Plus un texte est grand (supérieur à 18,5px avec effet de graisse ou 24px sans effet de graisse) moins le rapport requis est élevé (3:1).
 
-Compte tenu de la difficulté à évaluer les tailles de polices sur mobile, tous les textes devraient être considérés en taille normale sauf pour des textes significativement très grands.
-
-Par exemple, on pourrait considérer un texte &laquo;&nbsp;significativement très grand&nbsp;&raquo; si les lettres qui le composent ont une hauteur et/ou largeur au moins égales à 1,5&nbsp;cm.
+Dans le référentiel&nbsp;:
+- un texte en taille normale est un texte d’une taille calculée de moins de 24px sans effet de graisse ou de moins de 18,5px avec effet de graisse&nbsp;;
+- un texte de grande taille est un texte d’une taille calculée de 24px ou plus sans effet de graisse ou de moins 18,5px ou plus avec effet de graisse.
 
 #### Contrôle (contenu en mouvement ou clignotant)
 
@@ -207,21 +224,17 @@ Ensemble des processus qui permettent de prévenir l’utilisateur&nbsp;:
 
 Les plateformes disposent de contrôles natifs, par exemple un *color picker*{lang=en} natif pour la sélection de couleur, un calendrier ou un champ spécifique contenant le contrôle du format pour la sélection de dates, etc. Les champs de formulaires qui attendent des formats particuliers (comme une date par exemple) devraient utiliser les contrôles natifs de la plateforme pour assurer un maximum de compatibilité avec les technologies d’assistance.
 
-#### Contrôle primaire (d’un média temporel)
-
-Les fonctionnalités de contrôle primaires sont les fonctionnalités de base d’un lecteur multimédia&nbsp;: lecture, pause, stop, contrôle du son.
-
 #### Couleur adjacente
 
 Couleur directement en contact avec les couleurs du composant ou de l’élément graphique, cela peut être la couleur d’arrière-plan ou toute autre couleur en jonction directe.
 
-**Exemple&nbsp;:** dans un panneau de «&nbsp;sens interdit&nbsp;» le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.
+**Exemple&nbsp;:** dans un panneau de «&nbsp;sens interdit&nbsp;», le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.
 
 Il est important de comprendre que le [critère 2.3](referentiel-technique.md#crit-2-3) sur les contrastes des composants d’interfaces et des éléments graphiques évalue uniquement les éléments **non textuels**. Dès qu’il s’agira d’évaluer le contraste d’un texte, même s’il est présent dans un composant d’interface, c’est le [critère 2.2](referentiel-technique.md#crit-2-2) qui s’applique.
 
 Toutes les couleurs d’un élément graphique ou d’un composant d’interface ne sont pas à évaluer. Il est essentiel d’évaluer&nbsp;: 
 - **Les mises en couleur porteuses d’information** (toutes les mises en couleur ne sont pas porteuses d’information)&nbsp;: 
-	- Par exemple, dans le panneau de navigation d’une application, les boutons de navigation ont une couleur de fond grise, mais le bouton de l’écran actif a une couleur de fond verte. Il est nécessaire de vérifier que la couleur verte en jonction directe avec la couleur de fond grise, a un rapport de contraste de 3:1 au moins.
+	- Par exemple, dans le panneau de navigation d’une application, les boutons de navigation ont une couleur de fond grise, mais le bouton de l’écran actif a une couleur de fond verte. Il est nécessaire de vérifier que la couleur verte en jonction directe avec la couleur de fond grise a un rapport de contraste de 3:1 au moins.
 - **Les mises en couleur permettant d’identifier la localisation d’un élément ou les zones interactives**, par exemple&nbsp;: 
 	- La bordure d’un champ de formulaire, si celle-ci est le seul moyen d’identifier la localisation de l’interaction, doit avoir une couleur qui présente un rapport de contraste de 3:1 au moins avec la couleur adjacente, généralement la couleur de fond&nbsp;;
 	- Les bordures des cases à cocher et boutons radio, ainsi que leur état (sélectionné ou non). Il est essentiel ici d’évaluer le rapport de contraste de la bordure de ces composants avec les couleurs adjacentes (généralement la couleur de fond) mais également d’évaluer le rapport de contraste de ces composants lorsqu’ils sont sélectionnés. Il faut évaluer si l’élément visuel utilisé pour signifier la sélection a un rapport de contraste suffisant.
@@ -239,6 +252,13 @@ La couleur de fond d’un bouton d’envoi de formulaire par exemple (&laquo;&nb
 #### Description détaillée
 
 Contenu associé à un [élément graphique](#element-graphique) en complément de son alternative textuelle afin de décrire en totalité l’information véhiculée par l’élément.
+
+#### Documentation 
+
+La documentation d’une application ou d’un [service d’assistance](#service-d-assistance) peut être&nbsp;:
+- un écran d’aide&nbsp;;
+- une [déclaration d’accessibilité](../obligations.html#déclaration-d’accessibilité)&nbsp;;
+- tout autre contenu qui fait office de documentation (document PDF, page HTML externe lisible dans un navigateur web).
 
 #### Donnée personnelle de l’utilisateur
 
@@ -270,18 +290,6 @@ De manière générale, selon la méthode de développement, il est également p
 
 Il n’est pas essentiel que le rôle &laquo;&nbsp;Image&nbsp;&raquo; soit restitué dans la majeure partie des cas. Sauf cas particuliers où l’identification du rôle est essentiel, l’absence de rôle restitué ne peut pas constituer une non-conformité.
 
-#### Élément graphique légendé
-
-Lorsqu’un texte, adjacent à un élément graphique, contient des informations sur l’élément graphique (par exemple un copyright, une date, un auteur…) ou est destiné à compléter les informations apportées par l’élément graphique (par exemple un texte associé à une image dans une galerie d’images), on parle d’élément graphique légendé.
-
-Lorsqu’un élément graphique est légendé, il est nécessaire d’associer la légende à l’élément graphique, de telle sorte que les technologies d’assistance puissent traiter l’élément graphique et sa légende comme un ensemble unique.
-
-#### Élément graphique texte
-
-[Élément graphique](#element-graphique) affichant du texte.
-
-Il n’est pas recommandé d’utiliser des éléments graphiques contenant du texte. Lorsqu’il est possible de reproduire les mêmes effets avec la technologie dans laquelle est développée l’interface, le [critère 1.8](referentiel-technique.html#crit-1-8) impose que le texte soit reproduit dans ce format ou qu’un mécanisme de remplacement permette à l’utilisateur de remplacer ces éléments graphiques par du texte stylé.
-
 #### Élément graphique de décoration
 
 [Élément graphique](#element-graphique) n’ayant aucune fonction et ne véhiculant aucune information particulière par rapport au contenu auquel il est associé. Exemples&nbsp;:
@@ -289,13 +297,25 @@ Il n’est pas recommandé d’utiliser des éléments graphiques contenant du t
 - Un élément graphique présent à côté d’un intitulé de bouton servant juste d’agrément graphique (une icône, une mise en forme).
 - Un élément graphique n’apportant aucune information nécessaire à la compréhension du texte auquel il est associé (une image décorative).
 
+#### Élément graphique de test
+
+[Élément graphique](#element-graphique) servant dans un test, un CAPTCHA ou un élément graphique servant de test dans un quiz ou un jeu. Exemple&nbsp;: une série d’éléments graphiques présente un détail issu de tableaux célèbres, il faut reconnaître le titre et le peintre de chaque tableau. Dans cette situation, il n’est pas possible de donner une alternative pertinente (par exemple le nom du tableau et/ou du peintre) sans rendre le test inutilisable. L’alternative doit alors se contenter de donner la possibilité d’identifier l’élément graphique, par exemple «&nbsp;image 1 du test&nbsp;».
+
+#### Élément graphique légendé
+
+Lorsqu’un texte, adjacent à un élément graphique, contient des informations sur l’élément graphique (par exemple un copyright, une date, un auteur…) ou est destiné à compléter les informations apportées par l’élément graphique (par exemple un texte associé à une image dans une galerie d’images), on parle d’élément graphique légendé.
+
+Lorsqu’un élément graphique est légendé, il est nécessaire d’associer la légende à l’élément graphique, de telle sorte que les technologies d’assistance puissent traiter l’élément graphique et sa légende comme un ensemble unique.
+
 #### Élément graphique porteur d’information
 
 [Élément graphique](#element-graphique) qui véhicule une information nécessaire à la compréhension du contenu auquel il est associé.
 
-#### Élément graphique de test
+#### Élément graphique texte
 
-[Élément graphique](#element-graphique) servant dans un test, un CAPTCHA ou un élément graphique servant de test dans un quiz ou un jeu. Exemple&nbsp;: une série d’éléments graphiques présente un détail issu de tableaux célèbres, il faut reconnaître le titre et le peintre de chaque tableau. Dans cette situation, il n’est pas possible de donner une alternative pertinente (par exemple le nom du tableau et/ou du peintre) sans rendre le test inutilisable. L’alternative doit alors se contenter de donner la possibilité d’identifier l’élément graphique, par exemple «&nbsp;image 1 du test&nbsp;».
+[Élément graphique](#element-graphique) affichant du texte.
+
+Il n’est pas recommandé d’utiliser des éléments graphiques contenant du texte. Lorsqu’il est possible de reproduire les mêmes effets avec la technologie dans laquelle est développée l’interface, le [critère 1.8](referentiel-technique.html#crit-1-8) impose que le texte soit reproduit dans ce format ou qu’un mécanisme de remplacement permette à l’utilisateur de remplacer ces éléments graphiques par du texte stylé.
 
 ### F
 
@@ -304,7 +324,14 @@ Il n’est pas recommandé d’utiliser des éléments graphiques contenant du t
 Exemple de fonctionnalité d’accessibilité&nbsp;: 
 - un dispositif permettant de charger une palette de couleurs plus contrastées pour les utilisateurs&nbsp;;
 - un dispositif d’agrandissement de taille des caractères&nbsp;; 
-- un composant permettant d’accéder à une version en langage simplifié.
+- un composant permettant d’accéder à une version en langage simplifié&nbsp;;
+- des raccourcis clavier spéciaux disponibles pour certaines technologies d’assistance&nbsp;;
+- des gestes ou mouvements d’appareil qui déclenchent des fonctionnalités&nbsp;;
+- un rotor personnalisé sur certains écrans (le rotor est une fonctionnalité des lecteurs d’écran qui permet une navigation rapide entre des types d’éléments d’un écran, certaines plateformes permettent de définir des éléments de navigation rapide spécifique à une application dans ce rotor. [Voir une démonstration](https://developer.apple.com/videos/play/wwdc2020/10116/)).
+
+#### Fonctionnalités principales (d’un média temporel)
+
+Les fonctionnalités de contrôle principales sont les fonctionnalités de base d’un lecteur multimédia&nbsp;: lecture, pause, stop, contrôle du son.
 
 #### Fonctionnalités vocales
 
@@ -319,12 +346,20 @@ Dans un système de communication orale (téléphonie par exemple), des fonction
 
 Un gabarit est un format de document qui possède des paramètres prédéfinis. Il est utilisé pour insérer les contenus édités par l’auteur. Un gabarit possède des paramètres de présentation, d’utilisation ou encore des paramètres techniques non perceptibles.
 
-Un gabarit peut concerner une page entière ou un écran entier (gabarit de page d’accueil, etc.) ou des types de contenus particuliers (formulaires, vidéos…)
+Un gabarit peut concerner une page entière ou un écran entier (gabarit de page d’accueil, etc.) ou des types de contenus particuliers (formulaires, images, vidéos…)
 
 Un ensemble de gabarits est un groupe de gabarits qui permettent des mises en forme différentes d’un même élément. Par exemple&nbsp;:
 - gabarits pour l’écran d’accueil de l’application&nbsp;;
 - gabarits pour les écrans contenant des éléments interactifs&nbsp;;
 - gabarits pour la création d’un PDF.
+
+#### Gestes complexes et gestes simples
+
+Un geste simple avec un écran implique un contact en un point unique de l’écran. Il peut s’agir d’une pression ou d’un clic simple, d’une double pression ou d’un double-clic, d’une pression prolongée. 
+
+Un geste complexe peut être&nbsp;:
+- un geste impliquant plusieurs points de contact sur l’écran (exemple&nbsp;: un geste avec deux doigts sur l’écran pour zoomer ou dézoomer une carte)&nbsp;; 
+- un geste basé sur le suivi d’une trajectoire sur l’écran (exemple&nbsp;: fonction permettant de détecter le déplacement d’un doigt vers la gauche ou droite sur une surface tactile pour déclencher le passage à l’item précédent / suivant d’un carrousel).
 
 ### H
 
@@ -346,15 +381,11 @@ La restitution d’éléments comme des éléments graphiques de décoration qui
 
 Il est donc important de pouvoir empêcher la restitution de ces éléments. La plupart des API d’accessibilité possèdent des propriétés ou des méthodes permettant d’empêcher la restitution de ce type d’élément.
 
-#### Information donnée par la couleur
+ #### Indication de champ obligatoire
 
-Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, le bouton actif dans une liste de boutons, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.
+Indication textuelle ou graphique (icône) permettant à l’utilisateur de savoir que la saisie d’un champ est obligatoire préalablement à la saisie.
 
-L’indication donnée uniquement par la couleur doit être accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas et perçoivent mal les couleurs ou leurs associations.
-
-L’indication donnée par la couleur doit être fournie&nbsp;: 
-- par une mise en forme pour les utilisateurs qui perçoivent mal les couleurs&nbsp;;
-- et par une information descriptive (non visible) présente sur l’élément afin que les lecteurs d’écran restituent l’information aux utilisateurs qui ne voient pas.
+Note&nbsp;: Dans le cas où cette indication n’est pas réalisée de manière textuelle explicite (icône, «&nbsp;\*&nbsp;», «&nbsp;!&nbsp;», etc.), l’explication de la signification de cette indication doit se situer, visuellement et dans l’ordre de lecture, avant la première utilisation de l’indication.
 
 #### Information d’accessibilité
 
@@ -362,12 +393,23 @@ Les informations d’accessibilité sont toutes les informations (attributs, rel
 
 Par exemple, en HTML, l’attribut `alt` d’une image est une information d’accessibilité.
 
-Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible&nbsp;: 
+Un outil d’édition devrait disposer de fonctionnalités qui permettent de définir toutes les informations nécessaires à la création d’un contenu accessible, par exemple&nbsp;: 
 - pouvoir définir l’alternative d’une image ou au contraire pouvoir la déclarer décorative&nbsp;;
 - pouvoir définir des titres de section&nbsp;;
+- pouvoir définir la langue d’un passage de texte&nbsp;;
 - pouvoir définir des étiquettes aux champs de formulaires.
 
-Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du RAWeb de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
+Tous les critères d’accessibilité relatifs à la technologie de contenu visée sont concernés. Par exemple, pour une page en HTML, ce sont tous les critères du [RAWeb](../raweb1/criteres.html) de niveau A et AA qui doivent pouvoir être respectés. Pour la création d’un document au format PDF, ce sont tous les critères du référentiel d’évaluation de l’accessibilité des documents au format PDF ([RAPDF](../rapdf1/index.html)) de niveau A et AA qui doivent pouvoir être respectés. Pour une application, ce sont tous les critères du présent référentiel qui doivent pouvoir être respectés.
+
+#### Information donnée par la couleur
+
+Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, le bouton actif dans une liste de boutons, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.
+
+L’indication donnée uniquement par la couleur doit être accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas ou perçoivent mal les couleurs ou leurs associations.
+
+L’indication donnée par la couleur doit être fournie&nbsp;: 
+- par un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) ou un autre style typographique (gras, italique, taille de texte, autre police, etc) pour les utilisateurs qui perçoivent mal les couleurs&nbsp;;
+- et par une information descriptive (non visible) présente sur l’élément afin que les lecteurs d’écran restituent l’information aux utilisateurs qui ne voient pas.
 
 #### Indication donnée par la forme, la taille ou la position
 
@@ -377,15 +419,29 @@ Il peut s’agir, par exemple&nbsp;:
 - d’une modification de la taille de police dans un nuage de tags (indication donnée par la taille).
 - Ou tout autre effet graphique similaire.
 
+#### Intitulé visible
+
+Texte affiché faisant office d’intitulé visible à l’écran au sein d’un bouton ou d’un lien.
+
+Texte affiché faisant office d’étiquette pour un champ formulaire.
+
+Ce texte peut être constitué de texte ou d’une image contenant du texte.
+
+### L
+
+#### Listes
+
+Suite d’éléments pouvant être regroupés sous la forme d’une liste structurée. Par exemple la suite des liens d’un menu de navigation est une liste de liens, les différentes étapes d’une procédure sont une liste d’éléments.
+
+La notion de « regroupés visuellement sous forme de liste » se caractérise par&nbsp;:
+
+- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste non ordonnée par exemple -, •, \*, etc.&nbsp;;
+- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste ordonnée par exemple un chiffre, une lettre grecque, etc.&nbsp;;
+- La présence d’une série d’éléments se suivant visuellement les uns les autres, avec une forme visuelle, une nature et un fonctionnement identique, mais sans avoir directement de marqueur visuel de liste, par exemple un menu de navigation.
+
+Attention cependant toutes les listes ne nécessitent pas obligatoirement une structure de liste, par exemple une série de termes séparés par une virgule.
+
 ### M
-
-#### Gestes complexes et gestes simples
-
-Un geste simple avec un écran implique un contact en un point unique de l’écran. Il peut s’agir d’une pression ou d’un clic simple, d’une double pression ou d’un double-clic, d’une pression prolongée. 
-
-Un geste complexe peut être&nbsp;:
-- un geste impliquant plusieurs points de contact sur l’écran (exemple&nbsp;: un geste avec deux doigts sur l’écran pour zoomer ou dézoomer une carte)&nbsp;; 
-- un geste basé sur le suivi d’une trajectoire sur l’écran (exemple&nbsp;: fonction permettant de détecter le déplacement d’un doigt vers la gauche ou droite sur une surface tactile pour déclencher le passage à l’item précédent / suivant d’un carrousel).
 
 #### Mécanisme de remplacement
 
@@ -400,9 +456,9 @@ Les plateformes proposent aux utilisateurs plusieurs mécanismes de remplacement
 - **Augmenter le contraste**&nbsp;: L’option est disponible depuis le chemin&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Augmenter le contraste*. Lorsqu’elle est activée, cette option permet de charger des styles différents qui auraient été définis par l’auteur pour cette option précise afin d’offrir une version plus contrastée aux utilisateurs qui en auraient besoin. De plus, cette option permet d’augmenter le contraste des composants natifs d’iOS comme les boutons *switch*{lang=en}.
 - **Différencier sans couleur**&nbsp;: L’option est disponible depuis le chemin&nbsp;: *Réglages > Accessibilité > Affichage et taille du texte > Différencier sans couleur*. Lorsqu’elle est activée, cette option permet de charger des informations visuelles supplémentaires autres que la couleur (par exemple, forme ou taille) qui auraient été définies par l’auteur pour cette option précise afin de mettre en évidence un élément graphique dont la mise en couleur est porteuse d’information (un bouton actif par exemple).
 
-##### Mécanismes de remplacement disponibles sur Android
+##### Mécanismes de remplacement disponibles dans Android
 
-Il n’existe pas de mécanisme de remplacement dans Android équivalent à ceux d’iOS, ou qui soient suffisamment robuste.
+Il n’existe pas de mécanisme de remplacement dans Android équivalent à ceux d’iOS, ou qui soit suffisamment robuste.
 
 Le mécanisme de remplacement disponible sur Android (&laquo;&nbsp;**Texte avec contraste élevé**&nbsp;&raquo;) est encore expérimental. Son utilisation n’est pour l’instant pas recommandée.
 
@@ -410,25 +466,29 @@ Le mécanisme de remplacement disponible sur Android (&laquo;&nbsp;**Texte avec 
 
 Lorsque la plateforme ne propose pas de mécanisme de remplacement pour certains paramètres, l’application peut en proposer depuis son interface.
 
-#### Mécanisme de l’application qui permet d’afficher un rapport de contraste conforme
+#### Mécanisme qui permet d’activer une fonctionnalité d’accessibilité
 
-Composant d’interface mis à disposition par l’auteur de l’application dont l’activation permet de modifier l’apparence de l’écran.
+Composant d’interface ou ensemble de composants d’interface permettant d’activer une fonctionnalité qui prend en compte un ou des besoins d’adaptation de l’interface. Par exemple&nbsp;: un bouton permettant d’afficher un écran avec des contrastes conformes ou un bouton permettant d’augmenter l’interlignage des paragraphes.
 
-Cela peut être par exemple un mécanisme de remplacement permettant d’afficher les contenus avec un rapport de contraste suffisant. L’apparence de ce composant d’interface devra être conforme au [critère 2.2](referentiel-technique.md#crit-2-2) et au [critère 2.3](referentiel-technique.md#crit-2-3) sans avoir recours lui-même à un mécanisme permettant d’afficher un rapport de contraste conforme. 
-
-Un mécanisme de remplacement permettant de remplacer les éléments graphiques textes par du texte stylé en est un autre exemple.
+On parle également d’**ensemble de composants** lorsque dans certaines interfaces, le composant qui permet d’activer la fonctionnalité n’est rendu disponible que depuis l’activation nécessaire préalable d’un ou plusieurs autres composants. Par exemple&nbsp;: un bouton permet d’afficher une fenêtre modale qui elle-même contient un bouton qui permet d’afficher un écran avec des contrastes conformes. Dans ce cas, le bouton qui affiche la fenêtre modale **et** le bouton permettant d’activer l’affichage des contrastes conformes constituent à eux deux le mécanisme.
 
 Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités de l’application ou de l’écran qu’il modifie.
 
+#### Mécanisme qui permet d’afficher un rapport de contraste conforme
+
+Composant d’interface dont l’activation permet de modifier l’apparence du site ou de la page de manière à afficher les contenus avec un ratio de contraste suffisant. Le design de ce composant d’interface devra être conforme au [critère 2.2](referentiel-technique.md#crit-2-2) et au [critère 2.3](referentiel-technique.md#crit-2-3) sans avoir recours lui-même à un mécanisme permettant d’afficher un rapport de contraste conforme. Ce mécanisme doit conserver à l’identique les contenus et les fonctionnalités du site ou de la page qu’il modifie.
+
 #### Média temporel (type son, vidéo et synchronisé)
 
-- Média temporel seulement audio&nbsp;: contenu sonore (*wave*{lang=en}, MP3…).
+- Média temporel seulement audio&nbsp;: contenu sonore (Wav, MP3…).
 - Média temporel seulement vidéo&nbsp;: images ou photos en mouvement ou en séquence.
 - Média temporel synchronisé&nbsp;: flux audio ou vidéo synchronisé avec un autre format pour présenter de l’information et/ou comportant des composants temporels interactifs. Un média temporel peut être consulté de 2 manières différentes&nbsp;:
 	- fichier à télécharger consultable avec un logiciel externe&nbsp;;
 	- contenu embarqué dans le logiciel et consultable depuis l’interface.
 
 Un média temporel peut être diffusé en temps réel ou être proposé en lecture de manière asynchrone (média préenregistré).
+
+**Note 1&nbsp;:** les gif animés, les animations d’images par un script dans l’application ne sont pas considérés comme étant des médias temporels.
 
 #### Message de statut
 
@@ -441,6 +501,12 @@ Un message de statut peut informer sur&nbsp;:
 - L’existence d’erreur.
 
 Un message de statut n’est pas nécessairement visible à l’écran, mais il doit toujours être accessible aux technologies d’assistance.
+
+#### Modifier ou annuler les données et les actions effectuées
+
+Procédés par lesquels un utilisateur peut modifier les données qu’il a saisies, faire annuler sa saisie ou faire annuler les actions découlant de sa saisie par exemple annuler une commande ou un virement bancaire.
+
+Note&nbsp;: L’écran contenant un formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou un examen, ou dont la validation a des conséquences financières ou juridiques, doit indiquer explicitement la durée pendant laquelle l’utilisateur peut demander l’annulation de sa saisie. Elle devra également contenir la procédure à effectuer pour annuler cette saisie. Cette procédure n’a pas à être obligatoirement réalisable en ligne même si cela reste recommandé.
 
 ### N
 
@@ -464,9 +530,15 @@ L’auditeur doit également vérifier que, lorsqu’ils sont présents, ces par
 
 ### O
 
+#### Ordre de tabulation
+
+Ordre dans lequel le focus du clavier se déplace (vers un élément suivant ou vers un élément précédent). 
+
+**Attention&nbsp;:** lorsqu’un élément initie un changement dans l’écran (changement de contexte, gestion de zones cachées, ajout de contenu, gestion de champs de formulaire…) il est nécessaire d’activer l’élément qui initie le changement pour tester la cohérence de l’ordre de tabulation.
+
 #### Outil d’édition
 
-Application permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
+Application ou composant d’édition présent dans une application permettant de créer ou modifier du contenu destiné à être diffusé pour d’autres utilisateurs. Un outil d’édition peut être utilisé par un ou plusieurs utilisateurs travaillant en collaboration.
 
 Un outil d’édition peut être&nbsp;:
 - l’outil tel qu’il est délivré par l’éditeur&nbsp;;
@@ -475,12 +547,13 @@ Un outil d’édition peut être&nbsp;:
 
 Exemples d’outils d’édition&nbsp;:
 - application permettant d’éditer et de contrôler le contenu de sites web ou application, par exemple, les CMS (*Content Management System*{lang=en}), LMS (*Learning Management System*{lang=en}), LCMS (*Learning Content Management System*{lang="en"}), agrégateur de contenus&nbsp;;
+- application permettant de créer des documents bureautiques (par exemple pour une diffusion au format PDF)&nbsp;;
 - outils d’édition multimédia&nbsp;;
 - application permettant la création d’applications web&nbsp;;
 - application permettant l’édition de code&nbsp;;
 - application permettant d’exporter au format d’une technologie web (par exemple, un logiciel qui permet de sauvegarder en HTML)&nbsp;;
-- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande etc.&nbsp;;
-- application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, wiki et forums)&nbsp;;
+- application qui génère du contenu sur la base de gabarits, scripts, ligne de commande, etc.&nbsp;;
+- application ou fonctionnalité d’une application permettant d’éditer des portions de pages web ou d’applications (typiquement, les systèmes de blog, les fonctionnalités de commentaires sur les sites web, les forums ou encore les systèmes wiki)&nbsp;;
 - application mail permettant d’envoyer des *e-mails*{lang=en}.
 
 Exemples d’outils d’édition qui ne sont pas inclus dans le champ d’application&nbsp;:
@@ -488,11 +561,7 @@ Exemples d’outils d’édition qui ne sont pas inclus dans le champ d’applic
 - Les formulaires à destination des utilisateurs. Par exemple, un formulaire de commande d’une application e-commerce. Bien que les formulaires permettent d’éditer des contenus, ces contenus ne sont pas mis à disposition d’autres utilisateurs.
 - Les outils de contrôles d’accessibilité indépendants&nbsp;: ces outils ne modifient pas le contenu qu’ils contrôlent.
 
-#### Ordre de tabulation
-
-Ordre dans lequel le focus du clavier se déplace (vers un élément suivant ou vers un élément précédent). 
-
-**Attention&nbsp;:** lorsqu’un élément initie un changement dans l’écran (changement de contexte, gestion de zones cachées, ajout de contenu, gestion de champs de formulaire…) il est nécessaire d’activer l’élément qui initie le changement pour tester la cohérence de l’ordre de tabulation.
+Les outils d’édition ne sont pas à intégrer systématiquement dans l’échantillon. Par exemple, lors de l’audit d’une application d’actualités, le RAAM ne réclame pas à ce que l’outil d’édition (par exemple un CMS) qui permet de créer les contenus, soit lui-même audité. Si l’objet de l’audit est d’évaluer l’interface publique de consultation, l’échantillon ne doit contenir que les écrans publics représentatifs, mais pas l’outil de gestion des contenus. 
 
 ### P
 
@@ -502,9 +571,9 @@ On parle de piège au clavier lorsqu’un utilisateur qui navigue au clavier, de
 
 Il existe des cas particuliers pour lesquels il est nécessaire de capturer le focus du clavier et d’empêcher l’utilisateur d’atteindre les éléments suivants ou précédents l’élément en cours de consultation. Par exemple, dans une fenêtre modale il est impératif que l’utilisateur qui navigue au clavier ne puisse pas atteindre les composants en dehors de la fenêtre modale tant que cette dernière est active.
 
-#### Procédé de rafraîchissement
+#### Pressé ou posé
 
-Technique visant à modifier le contenu d’un ou de plusieurs éléments de l’écran. L’utilisateur doit pouvoir contrôler chaque procédé de rafraîchissement de manière indépendante.
+Correspond aux gestionnaires d’événement considérés comme des événements descendants. Par exemple *ACTION_DOWN*{lang=en} sur Android ou *UITouch.Phase.began*{lang=en} sur iOS.
 
 #### Prise de focus 
 
@@ -513,7 +582,9 @@ La prise de focus est l’état renvoyé par un élément qui reçoit l’attent
 - en atteignant l’élément par une touche d’un clavier externe (tabulation, flèche de direction)&nbsp;;
 - en atteignant l’élément en utilisant un commutateur externe (*switch*{lang=en}, *joystick*{lang=en}).
 
-La prise de focus sur environnement mobile doit s’évaluer avec les technologies d’assistance et les paramètres adéquats activés. En effet, le simple fait de connecter un contacteur externe (clavier, *switch*{lang=en} par exemple) n’est pas suffisant pour que la gestion au clavier soit pleinement fonctionnelle. Ainsi, la visibilité de la prise de focus ne devrait être évaluée que lorsque ces éléments sont activés et paramétrés. La page [**Méthodologie**](methodologie.md) décrit les procédures nécessaires à la [configuration d’un clavier externe](methodologie.md#clavier-externe). 
+#### Procédé de rafraîchissement
+
+Technique visant à modifier le contenu d’un ou de plusieurs éléments de l’écran. L’utilisateur doit pouvoir contrôler chaque procédé de rafraîchissement de manière indépendante.
 
 ### Q
 
@@ -527,9 +598,21 @@ La résolution QVGA (*Quarter Video Graphics Array*{lang=en}) est une norme d’
 
 Un moyen de déclencher une action associée à un composant de l’interface utilisateur en appuyant sur une ou plusieurs touches d’un clavier.
 
+#### Règles d’accessibilité numérique
+
+La dénomination générique «&nbsp;règles d’accessibilité numérique&nbsp;» désigne le [RAWeb](../raweb1/index.html), le [RAAM](../raam1.1/index.html), le [RAPDF](../rapdf1/index.html) ou encore la norme [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) selon le contexte d’utilisation.
+
+#### Relâché ou relevé
+
+Correspond aux gestionnaires d’événement considérés comme des événements ascendants (*mouseup, touchend*{lang=en} par exemple). Par exemple *ACTION_UP*{lang=en} sur Android ou *UITouch.Phase.ended*{lang=en} sur iOS.
+
 #### Répétition des touches
 
-Fonctionnalité qui consiste à imprimer (à l’écran, dans une zone de saisie par exemple) un caractère plusieurs fois tant que la touche correspondante sur le clavier (visuel ou physique) est activée.
+Fonctionnalité qui consiste à imprimer (à l’écran, dans une zone de saisie par exemple) un caractère plusieurs fois tant que la touche correspondante sur le clavier (visuel ou physique) est activée. 
+
+Lorsque les touches sont associées à des fonctionnalités dans une application, ce n’est plus le caractère qui est imprimé plusieurs fois, mais la fonctionnalité qui peut alors être répétée plusieurs fois.
+
+Le délai de déclenchement et le délai entre deux répétitions de touches est un paramètre qui peut se définir au niveau de la plateforme, mais une application pourrait permettre de configurer également ce paramètre. Voir [les paramètres de configuration possible sur iOS](https://support.apple.com/fr-fr/guide/iphone/ipha7c3927eb/ios) par exemple.
 
 #### Résumé (de tableau)
 
@@ -539,20 +622,27 @@ Un résumé est un passage de texte associé à un tableau de données complexe.
 
 ### S
 
-#### Service de relais
-
-Les services de relais permettent aux utilisateurs, quel que soit leur mode de communication (le texte, les signes, la parole) d’interagir à distance au cours d’une communication en temps réel avec d’autres participants, en fournissant une conversion entre les modes de communication. 
-
-Par exemple, il existe des relais permettant à un utilisateur qui communique avec la langue des signes de communiquer avec un interlocuteur ne la pratiquant pas, par le biais d’un service qui fournit un service d’interprétariat en direct.
-
 #### Service d’assistance
 
-Un service d’assistance peut être un&nbsp;: 
-- *help desk*{lang=en}, 
+Un service d’assistance peut être&nbsp;: 
+- le mécanisme de retour d’information identifié dans la déclaration d’accessibilité de l’application,
+- un *help desk*{lang=en}, 
 - un centre d’appel, 
 - un support technique,
 - un [service de relais](#service-de-relais),
 - un service de formation.
+
+#### Service de relais
+
+Les services de relais permettent aux utilisateurs, quel que soit leur mode de communication (le texte, les signes, la parole) d’interagir au cours d’une communication en temps réel à distance avec d’autres participants, en fournissant une conversion entre les modes de communication. 
+
+Par exemple&nbsp;: un utilisateur qui communique avec la langue des signes veut échanger avec un interlocuteur ne la pratiquant pas, un service de relais va fournir un interprétariat en direct pour qu’ils puissent communiquer.
+
+#### Sous-titres de traduction
+
+Les sous-titres de traduction sont des sous-titres dans une langue différente de la langue de la vidéo.
+
+Les sous-titres de traduction (*subtitles*{lang=en}) sont différents des [sous-titres pour sourds et malentendants](#sous-titres-synchronises-objet-multimedia) (*captions*{lang=en}).
 
 #### Sous-titres synchronisés (objet multimédia)
 
@@ -590,9 +680,19 @@ Ces informations textuelles doivent être présentées dans l’ordre chronologi
 
 #### Transformation
 
-Procédé géré automatiquement par l’outil. On distingue deux types de transformation&nbsp;: 
+Procédé géré automatiquement par l’outil d’édition. On distingue deux types de transformation&nbsp;: 
 - des restructurations de contenus&nbsp;: transformation pendant laquelle la technologie d’entrée (ex. HTML, XML…) n’est pas modifiée en sortie, la restructuration modifie seulement des éléments du balisage. Par exemple&nbsp;: la linéarisation de tableau, le découpage d’un document en plusieurs pages.
 - des recodages de contenu&nbsp;: transformation pendant laquelle la technologie d’entrée est modifiée en sortie (ex. HTML vers XHTML, HTML vers PDF). Ceci concerne notamment les zones d’édition qui utilisent une syntaxe différente de celle qui sera utilisée pour l’affichage public.
+
+#### Type et format de données
+
+Indication textuelle permettant à l’utilisateur de savoir quel est le type de donnée et/ou le format de saisie requis par un champ, préalablement à son renseignement. Par exemple&nbsp;:
+
+- Date (jj/mm/aaaa)&nbsp;;
+- Montant en euros&nbsp;;
+- Code postal (4 chiffres&nbsp;: ex. L-2450).
+
+Note&nbsp;: lorsque le type de champ de formulaire propose un masque de saisie, notamment par l’affichage d’un contrôle natif (par exemple, le composant natif de choix de date), l’indication de format n’est pas nécessaire.
 
 ### U
 
@@ -618,7 +718,7 @@ Les documents en téléchargement dont les types de formats sont reconnus compat
 - Adobe PDF&nbsp;;
 - ePub/Daisy.
 
-Les documents PDF doivent être conformes au [référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
+Les documents PDF doivent être conformes au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF 1)](../rapdf1/index.html).
 Les autres types de contenus doivent être conformes aux critères de la [section 10 <span lang="en">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1.
 
 **Note&nbsp;:** le format TXT ne peut pas être utilisé pour produire une version accessible pour un document en téléchargement.

@@ -1,9 +1,9 @@
-# Mobile App Accessibility Assessment Framework (RAAM 1) version 1.0
+# Mobile App Accessibility Assessment Framework (RAAM 1) version 1.1
 
 TheMobile App Accessibility Assessment Framework has been developed to serve as a basis for assessment and implementation for all public sector bodies covered by the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 It is available at this address:
-[https://accessibilite.public.lu/en/raam1/](https://accessibilite.public.lu/en/raam1/)
+[https://accessibilite.public.lu/en/raam1.1/](https://accessibilite.public.lu/en/raam1.1/)
 
 RAAM 1 is made up of the following documents:
 

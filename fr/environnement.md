@@ -13,12 +13,12 @@ Lorsque l’application est destinée à un public dont l’équipement est maî
 <table>
 	<caption>Environnement de test Terminal mobile</caption>
 	<tr>
-		<th scope="col">iOS (dernière version)</th>
-		<th scope="col">Android (dernière version)</th>
+		<th scope="col">iOS (dernière version ou version précédente)</th>
+		<th scope="col">Android (dernière version ou version précédente)</th>
 	</tr>
 	<tr>
-		<td>VoiceOver (dernière version)</td>
-		<td>TalkBack (dernière version)</td>
+		<td>VoiceOver</td>
+		<td>TalkBack</td>
 	</tr>
 </table>
 
