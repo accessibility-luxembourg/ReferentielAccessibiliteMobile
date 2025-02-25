@@ -2360,7 +2360,7 @@ Le critère est non applicable lorsque le format de conversion ne dispose pas de
 1. Repérer dans l’écran les fonctionnalités de conversion de document (par exemple exportation en PDF, en .odt, HTML etc.)
 1. Repérer dans le contenu original les informations d’accessibilité présentes (par exemple, une alternative d’un élément graphique, des niveaux de titres, une table des matières).
 1. Vérifier que dans le document résultant de la conversion, les informations d’accessibilité sont toujours présentes (sauf si le format de conversion choisi ne possède pas de support pour les informations d’accessibilité du document source).
-1. Si c’est le cas, le test est validé.
+1. Si c’est le cas, le critère est validé.
 
 ##### Correspondances {class="disclosure mapping"}
 
@@ -2756,7 +2756,7 @@ Note&nbsp;: la documentation sera considérée non conforme dès qu’une erreur
 	- ou la présence d’une référence à l’utilisation du [codec opus de l’API WebRTC](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs)&nbsp;;
 	- ou la présence d’une référence à l’utilisation d’un encodage et décodage dont la fréquence est supérieure ou égale à 7 000 Hz.
 1. Sinon, il est recommandé de demander à l’éditeur de l’application de fournir ces détails techniques, notamment en demandant si l’application web implémente par exemple la recommandation UIT-T G.722 ou utilise le codec opus de l’API WebRTC.
-1. Si c’est le cas, le test est validé.
+1. Si c’est le cas, le critère est validé.
 
 Si l’information ne peut être trouvée dans l’interface ou sa documentation, et que l’éditeur de l’application n’est pas en mesure de répondre sur cette caractéristique technique, le critère sera considéré non conforme.
 
@@ -2914,7 +2914,7 @@ Si l’information ne peut être trouvée dans l’interface ou sa documentation
 1. Si c’est le cas&nbsp;:
 	- repérer la présence d’un mécanisme manuel (par exemple, un bouton) qui permettrait à l’interlocuteur signant d’indiquer qu’il est en train de signer&nbsp;;
 	- sinon, réaliser des gestes devant la caméra (voir note) et vérifier l’affichage automatique d’une information permettant d’identifier cette activité visuelle.
-1. Si c’est le cas, le test est validé. 
+1. Si c’est le cas, le critère est validé. 
 
 Note&nbsp;: dans les applications de communication, l’identification d’une activité orale ne repose pas sur l’identification d’un message verbal intelligible (mot ou phrase par exemple), mais uniquement sur l’identification d’un son (un bruit par exemple). Ainsi, une activité visuelle, même si elle ne correspond pas à un élément compréhensible en langue des signes, pourrait être détectée automatiquement par cette application et servirait donc comme mécanisme pour identifier l’activité d’une personne signante. Il est donc possible de tester en réalisant des gestes même s’ils ne correspondent pas à un élément de sens en langue des signes.
 

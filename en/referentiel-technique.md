@@ -2358,7 +2358,7 @@ The criterion is not applicable when the conversion format does not have the nec
 1. Identify document conversion functions on the screen (e.g. export to PDF, .odt, HTML etc.)
 1. Identify accessibility information in the original content (e.g. an alternative graphic element, headings levels, table of contents).
 1. Check that the accessibility information is still present in the converted document (unless the conversion format chosen does not support the accessibility information in the source document).
-1. If this is the case, the test is validated.
+1. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -2754,7 +2754,7 @@ Note: the documentation will be considered non-compliant as soon as an error is 
 	- or the presence of a reference to the use of the [WebRTC API opus codec](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs);
 	- or the presence of a reference to the use of encoding and decoding with a frequency greater than or equal to 7,000 Hz.
 1. Otherwise, it is recommended that you ask the application publisher to provide these technical details, in particular by asking whether the web application implements, for example, ITU-T Recommendation G.722 or uses the WebRTC API opus codec.
-1. If this is the case, the test is validated.
+1. If this is the case, the criterion is validated.
 
 If the information cannot be found in the interface or its documentation, and the editor of the application is unable to answer about this technical characteristic, the criterion will be considered non-compliant.
 
