@@ -142,6 +142,7 @@
           }
         }
       ],
+      "topic": "Graphic elements",
       "number": 1
     },
     {
@@ -231,6 +232,7 @@
           }
         }
       ],
+      "topic": "Colours",
       "number": 2
     },
     {
@@ -596,6 +598,7 @@
           }
         }
       ],
+      "topic": "Multimedia",
       "number": 3
     },
     {
@@ -687,6 +690,7 @@
           }
         }
       ],
+      "topic": "Tables",
       "number": 4
     },
     {
@@ -824,6 +828,7 @@
           }
         }
       ],
+      "topic": "Interactive components",
       "number": 5
     },
     {
@@ -858,6 +863,7 @@
           }
         }
       ],
+      "topic": "Mandatory elements",
       "number": 6
     },
     {
@@ -910,6 +916,7 @@
           }
         }
       ],
+      "topic": "Information structure",
       "number": 7
     },
     {
@@ -1053,6 +1060,7 @@
           }
         }
       ],
+      "topic": "Presentation of information",
       "number": 8
     },
     {
@@ -1316,6 +1324,7 @@
           }
         }
       ],
+      "topic": "Forms",
       "number": 9
     },
     {
@@ -1403,6 +1412,7 @@
           }
         }
       ],
+      "topic": "Navigation",
       "number": 10
     },
     {
@@ -1732,6 +1742,7 @@
           }
         }
       ],
+      "topic": "Consultation",
       "number": 11
     },
     {
@@ -1810,6 +1821,7 @@
           }
         }
       ],
+      "topic": "Documentation and accessibility features",
       "number": 12
     },
     {
@@ -1925,6 +1937,7 @@
           }
         }
       ],
+      "topic": "Editing tools",
       "number": 13
     },
     {
@@ -1982,6 +1995,7 @@
           }
         }
       ],
+      "topic": "Support services",
       "number": 14
     },
     {
@@ -2167,6 +2181,7 @@
           }
         }
       ],
+      "topic": "Real-time communication",
       "number": 15
     }
   ]
