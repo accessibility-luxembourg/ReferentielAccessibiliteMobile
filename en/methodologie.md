@@ -295,7 +295,7 @@ Generally speaking, regardless of the mobile platform or the desktop environment
 There may then be specific methods depending on the platforms:
 - From iOS to macOS: the [AirDrop](https://support.apple.com/fr-fr/119857) functionality.
 - From iOS to macOS and Windows: the [iCloud](https://support.apple.com/fr-fr/guide/photos/phtf5e48489c/mac) solution. This method works with both macOS and [Windows](https://support.apple.com/en-us/103232).
-- From Android to macOS: the [MacDroid](https://www.macdroid.app/en-us/) solution.
+- From Android to macOS: the [MacDroid](https://www.macdroid.app) solution.
 - From Android or iOS to Windows: [direct USB connection](https://support.microsoft.com/en-us/windows/importing-photos-and-videos-aed09800-f826-4d40-a243-7640de229d9d).
 
 Other utilities may be suitable, this list is not exhaustive.

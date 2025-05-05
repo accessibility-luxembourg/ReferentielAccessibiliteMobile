@@ -134,16 +134,17 @@ A complex action is one in which the downward and upward actions of the pointer 
 
 #### Changes of context
 
-Major changes in the content of a screen which, if made without the user being aware of them, can disorientate the user who cannot see the whole screen at the same time. change of contexts include changes to:
+Major changes in the content of a screen that, if made without user awareness, can disorient users who are not able to view the entire screen simultaneously. 
+Changes in context include changes of:
 - application;
 - user agent;
-- rendition space;
+- viewport;
 - focus;
-- content that modifies the meaning of the screen.
+- content that changes the meaning of the screen.
 
-**Note:** a change in content is not always a change in context. A change in content, such as the expansion of a tree structure, a dynamic menu or moving a tab, does not necessarily change the context, unless it also changes one of the elements listed above (the focus, for example).
+**Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
 
-**Example:** opening in another user agent, moving the focus to a different component or significantly reorganising the screen content are all examples of a change of context.
+**Example:** Opening in another user agent, moving focus to a different component or significantly re-arranging the screen content are all examples of a change of context.
 
 #### Compatible with assistive technologies
 
